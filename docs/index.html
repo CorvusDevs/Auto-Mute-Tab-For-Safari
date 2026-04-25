@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Mute Tab for Safari — Silence Background Tabs Automatically</title>
+    <meta name="description" content="Auto Mute Tab automatically mutes all background tabs in Safari so only the tab you're focused on plays audio. Supports PiP, keyboard shortcuts, and 15 languages.">
+    <meta name="keywords" content="Safari extension, mute tabs, auto mute, background tabs, Safari audio, tab muting, macOS Safari, browser extension, PiP audio, keyboard shortcut mute">
+    <link rel="canonical" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/">
+    <link rel="alternate" hreflang="en" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/">
+    <link rel="alternate" hreflang="es" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/?lang=es">
+    <link rel="alternate" hreflang="fr" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/?lang=fr">
+    <link rel="alternate" hreflang="de" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/?lang=de">
+    <link rel="alternate" hreflang="pt" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/?lang=pt">
+    <link rel="alternate" hreflang="it" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/?lang=it">
+    <link rel="alternate" hreflang="ja" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/?lang=ja">
+    <link rel="alternate" hreflang="ko" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/?lang=ko">
+    <link rel="alternate" hreflang="ru" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/?lang=ru">
+    <link rel="alternate" hreflang="x-default" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/">
+    <meta property="og:title" content="Auto Mute Tab for Safari — Silence Background Tabs">
+    <meta property="og:description" content="Automatically mutes all background tabs in Safari so only the tab you're focused on plays audio. PiP support, keyboard shortcuts, and 15 languages.">
+    <meta property="og:image" content="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/icon.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Auto Mute Tab for Safari — Silence Background Tabs">
+    <meta name="twitter:description" content="Automatically mutes all background tabs in Safari. PiP support, keyboard shortcuts, and 15 languages.">
+    <meta name="twitter:image" content="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/icon.png">
+    <meta name="twitter:image:alt" content="Auto Mute Tab for Safari app icon">
+    <meta name="robots" content="index, follow">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Auto Mute Tab for Safari",
+        "description": "Automatically mutes all background tabs in Safari so only the tab you're focused on plays audio. Supports PiP, keyboard shortcuts, domain whitelist, and 15 languages.",
+        "operatingSystem": "macOS 14.0+",
+        "applicationCategory": "UtilitiesApplication",
+        "applicationSubCategory": "Browser Extension",
+        "downloadUrl": "https://apps.apple.com/app/id6761746627",
+        "screenshot": "https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/icon.png",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Organization", "name": "CorvusDevs", "url": "https://corvusdevs.github.io" }
+    }
+    </script>
+    <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="icon.png">
+    <style>
+        :root {
+            --bg: #0a0a0c;
+            --surface: #111114;
+            --surface-2: #19191e;
+            --border: #252530;
+            --text: #e8e8ed;
+            --text-secondary: #7c7c84;
+            --accent: #ff3b30;
+            --accent-light: #ff6961;
+            --accent-dim: rgba(255, 59, 48, 0.1);
+            --accent-glow: rgba(255, 59, 48, 0.06);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* FROSTED GLASS NAV */
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            padding: 16px 32px; display: flex; justify-content: space-between; align-items: center;
+            background: rgba(0, 0, 0, 0.72);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+        }
+        .nav-brand {
+            font-size: 18px; font-weight: 700; color: var(--text); text-decoration: none;
+            letter-spacing: -0.3px; display: flex; align-items: center; gap: 10px;
+        }
+        .nav-brand img { width: 32px; height: 32px; border-radius: 8px; display: block; }
+        .nav-brand span { color: var(--accent); }
+        .nav-links { display: flex; gap: 28px; list-style: none; }
+        .nav-links a { font-size: 14px; color: var(--text-secondary); text-decoration: none; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--text); }
+
+        .lang-wrap { position: relative; margin-left: 16px; flex-shrink: 0; }
+        .lang-btn {
+            background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+            padding: 6px 28px 6px 12px; color: var(--text); font-size: 13px; cursor: pointer; white-space: nowrap;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%237c7c84' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: right 10px center;
+        }
+        .lang-menu {
+            display: none; position: absolute; top: calc(100% + 6px); right: 0; z-index: 300;
+            background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+            padding: 6px 0; min-width: 160px; box-shadow: 0 8px 32px rgba(0,0,0,0.5);
+        }
+        .lang-menu.open { display: block; }
+        .lang-menu button {
+            display: block; width: 100%; padding: 8px 16px; background: none; border: none;
+            color: var(--text); font-size: 13px; cursor: pointer; text-align: left; white-space: nowrap;
+        }
+        .lang-menu button:hover { background: rgba(255,255,255,0.08); }
+        .lang-menu button.active { color: var(--accent); }
+
+        /* HERO */
+        .hero { text-align: center; padding: 160px 24px 100px; position: relative; overflow: hidden; }
+        .hero::before {
+            content: ''; position: absolute; top: -300px; left: 50%; transform: translateX(-50%);
+            width: 800px; height: 800px;
+            background: radial-gradient(circle, var(--accent-glow) 0%, transparent 60%); pointer-events: none;
+        }
+        .hero-icon {
+            width: 160px; height: 160px; border-radius: 36px; margin: 0 auto 32px; position: relative; display: block;
+            border: 2px solid var(--border);
+            box-shadow: 0 0 60px 20px rgba(255,59,48,0.25), 0 0 120px 50px rgba(255,59,48,0.12), 0 0 200px 80px rgba(255,59,48,0.06);
+        }
+        /* HERO TITLE - 80px gradient text */
+        .hero h1 {
+            font-size: 80px; font-weight: 800; letter-spacing: -3px; line-height: 1.0; margin-bottom: 20px;
+            background: linear-gradient(180deg, #fff 0%, rgba(255,255,255,0.6) 100%);
+            -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent;
+        }
+        .hero .subtitle { font-size: 20px; color: var(--text-secondary); max-width: 560px; margin: 0 auto 48px; font-weight: 400; line-height: 1.6; }
+        .hero-cta {
+            display: inline-flex; align-items: center; gap: 10px; padding: 16px 36px;
+            background: var(--accent); color: #fff; font-size: 16px; font-weight: 600;
+            border-radius: 14px; text-decoration: none; transition: all 0.2s; border: none; cursor: pointer;
+        }
+        .hero-cta:hover { filter: brightness(1.15); transform: translateY(-1px); box-shadow: 0 8px 32px rgba(255,59,48,0.3); }
+        .hero-cta svg { width: 20px; height: 20px; }
+        .hero-req { display: block; margin-top: 14px; font-size: 14px; color: var(--text-secondary); }
+
+        /* GRADIENT TEXT utility */
+        .gradient-text {
+            background: linear-gradient(135deg, #ff3b30 0%, #ff6961 40%, #fff 100%);
+            -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;
+        }
+
+        /* SCROLL REVEAL */
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+        }
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        /* FEATURES SECTION - elevated */
+        .features {
+            background: var(--surface);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            padding: 80px 24px 100px;
+        }
+        .features-inner { max-width: 960px; margin: 0 auto; }
+        .section-label { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; color: var(--accent); text-align: center; margin-bottom: 12px; }
+        .section-title { font-size: 40px; font-weight: 700; text-align: center; letter-spacing: -1px; margin-bottom: 56px; }
+        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .feature-card {
+            background: var(--surface-2); border: 1px solid var(--border); border-radius: 16px; padding: 32px;
+            transition: border-color 0.3s;
+        }
+        .feature-card:hover { border-color: rgba(255,59,48,0.3); }
+
+        /* SVG FEATURE ICONS */
+        .feature-icon {
+            width: 48px; height: 48px; border-radius: 12px;
+            background: var(--accent-dim);
+            display: flex; align-items: center; justify-content: center;
+            margin-bottom: 16px;
+            box-shadow: 0 0 20px rgba(255,59,48,0.15);
+        }
+        .feature-icon svg { width: 24px; height: 24px; }
+
+        .feature-card h3 { font-size: 17px; font-weight: 600; margin-bottom: 8px; }
+        .feature-card p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+
+        .how-it-works { max-width: 960px; margin: 0 auto; padding: 80px 24px 100px; }
+        .steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; margin-top: 56px; }
+        .step { text-align: center; position: relative; }
+        .step-num {
+            width: 48px; height: 48px; border-radius: 14px;
+            background: var(--accent-dim); color: var(--accent);
+            font-size: 20px; font-weight: 700; display: flex; align-items: center; justify-content: center;
+            margin: 0 auto 18px; border: 1px solid rgba(255,59,48,0.2);
+        }
+        .step h3 { font-size: 18px; font-weight: 600; margin-bottom: 8px; }
+        .step p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+
+        .why { max-width: 960px; margin: 0 auto; padding: 0 24px 100px; }
+        .why-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .why-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 32px; }
+        .why-card h3 { font-size: 17px; font-weight: 600; margin-bottom: 10px; }
+        .why-card p { font-size: 14px; color: var(--text-secondary); line-height: 1.6; }
+
+        .req { text-align: center; padding: 0 24px 60px; font-size: 14px; color: var(--text-secondary); }
+
+        footer { max-width: 960px; margin: 0 auto; padding: 40px 24px 60px; border-top: 1px solid var(--border); }
+        .footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 40px; }
+        .footer-brand .logo { font-size: 18px; font-weight: 700; margin-bottom: 10px; }
+        .footer-brand .logo span { color: var(--accent); }
+        .footer-brand p { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
+        .footer-col h4 { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--text-secondary); margin-bottom: 14px; }
+        .footer-col a { display: block; font-size: 14px; color: var(--text); text-decoration: none; margin-bottom: 10px; transition: color 0.2s; }
+        .footer-col a:hover { color: var(--accent); }
+        .footer-bottom { margin-top: 40px; padding-top: 24px; border-top: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+        .footer-bottom p { font-size: 12px; color: var(--text-secondary); }
+        .footer-socials { display: flex; gap: 16px; }
+        .footer-socials a { color: var(--text-secondary); transition: color 0.2s; }
+        .footer-socials a:hover { color: var(--text); }
+        .footer-socials svg { width: 18px; height: 18px; }
+
+        @media (max-width: 900px) { .features-grid, .why-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 44px; letter-spacing: -2px; }
+            .hero .subtitle { font-size: 17px; }
+            .section-title { font-size: 30px; }
+            .features-grid, .steps, .why-grid { grid-template-columns: 1fr; }
+            .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+            .footer-bottom { flex-direction: column; gap: 12px; }
+            nav { padding: 14px 20px; }
+            .nav-links { gap: 16px; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="https://corvusdevs.github.io" class="nav-brand">
+            <img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="CorvusDevs">
+            Corvus<span>Devs</span>
+        </a>
+        <div style="display:flex;align-items:center;">
+            <ul class="nav-links">
+                <li><a href="#features" data-i18n="nav_features">Features</a></li>
+                <li><a href="#how" data-i18n="nav_how">How it works</a></li>
+                <li><a href="mailto:corvusdevs@outlook.com" data-i18n="nav_contact">Contact</a></li>
+            </ul>
+            <div class="lang-wrap" id="langWrap">
+                <button class="lang-btn" id="langBtn">English</button>
+                <div class="lang-menu" id="langMenu">
+                    <button data-lang="en">English</button>
+                    <button data-lang="es">Español</button>
+                    <button data-lang="fr">Français</button>
+                    <button data-lang="de">Deutsch</button>
+                    <button data-lang="pt">Português</button>
+                    <button data-lang="it">Italiano</button>
+                    <button data-lang="ja">日本語</button>
+                    <button data-lang="ko">한국어</button>
+                    <button data-lang="ru">Русский</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <img src="icon.png" alt="Auto Mute Tab" class="hero-icon">
+        <h1 data-i18n-html="hero_title">Auto Mute Tab<br>for Safari</h1>
+        <p class="subtitle" data-i18n="hero_sub">Automatically mutes every background tab so only the one you're focused on plays audio. No more competing sounds from forgotten tabs.</p>
+        <a href="https://apps.apple.com/app/id6761746627" class="hero-cta" id="storeBtn">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            <span data-i18n="hero_cta">Download on the App Store</span>
+        </a>
+        <span class="hero-req" data-i18n="hero_req">Requires macOS 14.0 or later</span>
+    </section>
+
+    <section class="features" id="features">
+        <div class="features-inner">
+            <div class="section-label reveal" data-i18n="sec_features">Features</div>
+            <h2 class="section-title gradient-text reveal" data-i18n="sec_features_title">Focus on what you're listening to</h2>
+            <div class="features-grid">
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <!-- Speaker mute / mute icon -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#ff3b30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                            <line x1="23" y1="9" x2="17" y2="15"/>
+                            <line x1="17" y1="9" x2="23" y2="15"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="f1_t">Smart Auto-Muting</h3>
+                    <p data-i18n="f1_d">Background tabs are automatically muted the moment you switch away. Only the active tab plays audio — no configuration needed.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <!-- Picture-in-Picture rectangle icon -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#ff3b30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="3" width="20" height="14" rx="2"/>
+                            <rect x="13" y="9" width="8" height="6" rx="1"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="f2_t">Picture-in-Picture Support</h3>
+                    <p data-i18n="f2_d">Videos in PiP mode keep playing audio even when their tab is in the background. Never lose your video's sound.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <!-- Keyboard / command icon -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#ff3b30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="2" y="6" width="20" height="12" rx="2"/>
+                            <path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M8 14h8"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="f3_t">Keyboard Shortcut</h3>
+                    <p data-i18n="f3_d">Toggle muting on or off instantly with Ctrl+Shift+M. Customize it in Safari's extension settings.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <!-- List / checklist icon -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#ff3b30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="8" y1="6" x2="21" y2="6"/>
+                            <line x1="8" y1="12" x2="21" y2="12"/>
+                            <line x1="8" y1="18" x2="21" y2="18"/>
+                            <polyline points="3 6 4 7 6 5"/>
+                            <polyline points="3 12 4 13 6 11"/>
+                            <polyline points="3 18 4 19 6 17"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="f4_t">Domain Whitelist</h3>
+                    <p data-i18n="f4_d">Keep specific sites unmuted at all times. Perfect for music players, video calls, or any site that should always have audio.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <!-- Windows / layers icon -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#ff3b30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="3" width="13" height="13" rx="2"/>
+                            <rect x="8" y="8" width="13" height="13" rx="2"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="f5_t">Cross-Window Muting</h3>
+                    <p data-i18n="f5_d">Switching between Safari windows automatically mutes the previous window's tabs. Audio follows your focus everywhere.</p>
+                </div>
+                <div class="feature-card reveal">
+                    <div class="feature-icon">
+                        <!-- Globe icon -->
+                        <svg viewBox="0 0 24 24" fill="none" stroke="#ff3b30" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <line x1="2" y1="12" x2="22" y2="12"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3 data-i18n="f6_t">15 Languages</h3>
+                    <p data-i18n="f6_d">Fully localized in English, Spanish, French, German, Italian, Portuguese, Japanese, Korean, Chinese, Arabic, Russian, Dutch, Turkish, and Thai.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="how-it-works" id="how">
+        <div class="section-label reveal" data-i18n="sec_how">How it works</div>
+        <h2 class="section-title gradient-text reveal" data-i18n="sec_how_title">Set it and forget it</h2>
+        <div class="steps">
+            <div class="step reveal">
+                <div class="step-num">1</div>
+                <h3 data-i18n="s1_t">Install from the App Store</h3>
+                <p data-i18n="s1_d">Download Auto Mute Tab from the Mac App Store. It's a lightweight Safari extension.</p>
+            </div>
+            <div class="step reveal">
+                <div class="step-num">2</div>
+                <h3 data-i18n="s2_t">Enable in Safari</h3>
+                <p data-i18n="s2_d">Open Safari Settings, go to Extensions, and enable Auto Mute Tab. Grant permission for all websites.</p>
+            </div>
+            <div class="step reveal">
+                <div class="step-num">3</div>
+                <h3 data-i18n="s3_t">Browse in peace</h3>
+                <p data-i18n="s3_d">That's it. Background tabs go silent automatically. Switch tabs and only the focused one plays audio.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="why">
+        <div class="section-label reveal" data-i18n="sec_why">Why Auto Mute Tab</div>
+        <h2 class="section-title gradient-text reveal" data-i18n="sec_why_title">The mute button Safari should have</h2>
+        <div class="why-grid">
+            <div class="why-card reveal">
+                <h3 data-i18n="w1_t">End the audio chaos</h3>
+                <p data-i18n="w1_d">Multiple tabs playing audio at the same time is distracting. Auto Mute Tab ensures only one tab is heard at a time, automatically and instantly.</p>
+            </div>
+            <div class="why-card reveal">
+                <h3 data-i18n="w2_t">Works everywhere</h3>
+                <p data-i18n="w2_d">Handles HTML5 video and audio, Web Audio API, autoplay videos, iframes, and dynamically loaded media. If it makes sound, Auto Mute Tab controls it.</p>
+            </div>
+            <div class="why-card reveal">
+                <h3 data-i18n="w3_t">Zero data collection</h3>
+                <p data-i18n="w3_d">No analytics, no tracking, no accounts, no servers. Everything runs locally in Safari. Your browsing stays completely private.</p>
+            </div>
+        </div>
+    </section>
+
+    <p class="req" data-i18n="req">Requires macOS 14.0 (Sonoma) or later. Works with Safari 17+.</p>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <div class="logo"><img src="https://avatars.githubusercontent.com/u/25494090?v=4" alt="" style="width:22px;height:22px;border-radius:5px;vertical-align:middle;margin-right:6px;">Corvus<span>Devs</span></div>
+                <p data-i18n="f_brand">Indie macOS software studio.<br>Building focused, privacy-first tools.</p>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="f_legal">Legal</h4>
+                <a href="privacy" data-i18n="f_privacy">Privacy Policy</a>
+                <a href="terms" data-i18n="f_terms">Terms of Service</a>
+            </div>
+            <div class="footer-col">
+                <h4 data-i18n="f_connect">Connect</h4>
+                <a href="mailto:corvusdevs@outlook.com">corvusdevs@outlook.com</a>
+                <a href="https://github.com/CorvusDevs">GitHub</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 CorvusDevs. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/CorvusDevs" aria-label="GitHub">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    // Scroll reveal via IntersectionObserver
+    (function() {
+        var observer = new IntersectionObserver(function(entries) {
+            entries.forEach(function(entry) {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.reveal').forEach(function(el) {
+            observer.observe(el);
+        });
+    })();
+
+    const T={en:{nav_features:"Features",nav_how:"How it works",nav_contact:"Contact",hero_title:"Auto Mute Tab<br>for Safari",hero_sub:"Automatically mutes every background tab so only the one you're focused on plays audio. No more competing sounds from forgotten tabs.",hero_cta:"Download on the App Store",hero_req:"Requires macOS 14.0 or later",sec_features:"Features",sec_features_title:"Focus on what you're listening to",f1_t:"Smart Auto-Muting",f1_d:"Background tabs are automatically muted the moment you switch away. Only the active tab plays audio — no configuration needed.",f2_t:"Picture-in-Picture Support",f2_d:"Videos in PiP mode keep playing audio even when their tab is in the background. Never lose your video's sound.",f3_t:"Keyboard Shortcut",f3_d:"Toggle muting on or off instantly with Ctrl+Shift+M. Customize it in Safari's extension settings.",f4_t:"Domain Whitelist",f4_d:"Keep specific sites unmuted at all times. Perfect for music players, video calls, or any site that should always have audio.",f5_t:"Cross-Window Muting",f5_d:"Switching between Safari windows automatically mutes the previous window's tabs. Audio follows your focus everywhere.",f6_t:"15 Languages",f6_d:"Fully localized in English, Spanish, French, German, Italian, Portuguese, Japanese, Korean, Chinese, Arabic, Russian, Dutch, Turkish, and Thai.",sec_how:"How it works",sec_how_title:"Set it and forget it",s1_t:"Install from the App Store",s1_d:"Download Auto Mute Tab from the Mac App Store. It's a lightweight Safari extension.",s2_t:"Enable in Safari",s2_d:"Open Safari Settings, go to Extensions, and enable Auto Mute Tab. Grant permission for all websites.",s3_t:"Browse in peace",s3_d:"That's it. Background tabs go silent automatically. Switch tabs and only the focused one plays audio.",sec_why:"Why Auto Mute Tab",sec_why_title:"The mute button Safari should have",w1_t:"End the audio chaos",w1_d:"Multiple tabs playing audio at the same time is distracting. Auto Mute Tab ensures only one tab is heard at a time, automatically and instantly.",w2_t:"Works everywhere",w2_d:"Handles HTML5 video and audio, Web Audio API, autoplay videos, iframes, and dynamically loaded media. If it makes sound, Auto Mute Tab controls it.",w3_t:"Zero data collection",w3_d:"No analytics, no tracking, no accounts, no servers. Everything runs locally in Safari. Your browsing stays completely private.",req:"Requires macOS 14.0 (Sonoma) or later. Works with Safari 17+.",f_brand:"Indie macOS software studio.<br>Building focused, privacy-first tools.",f_legal:"Legal",f_privacy:"Privacy Policy",f_terms:"Terms of Service",f_connect:"Connect"},
+es:{nav_features:"Funciones",nav_how:"Cómo funciona",nav_contact:"Contacto",hero_title:"Auto Mute Tab<br>para Safari",hero_sub:"Silencia automáticamente todas las pestañas en segundo plano. Solo la pestaña activa reproduce audio.",hero_cta:"Descargar en la App Store",hero_req:"Requiere macOS 14.0 o posterior",sec_features:"Funciones",sec_features_title:"Concéntrate en lo que escuchas",f1_t:"Silenciado automático",f1_d:"Las pestañas en segundo plano se silencian al cambiar. Solo la activa reproduce audio.",f2_t:"Soporte Picture-in-Picture",f2_d:"Los videos en PiP siguen reproduciendo audio aunque su pestaña esté en segundo plano.",f3_t:"Atajo de teclado",f3_d:"Activa o desactiva con Ctrl+Shift+M. Personalizable en los ajustes de Safari.",f4_t:"Lista blanca de dominios",f4_d:"Mantén sitios específicos siempre con audio. Ideal para música o videollamadas.",f5_t:"Silenciado entre ventanas",f5_d:"Al cambiar entre ventanas de Safari, las pestañas anteriores se silencian automáticamente.",f6_t:"15 idiomas",f6_d:"Completamente localizado en español, inglés, francés, alemán, italiano, portugués y 9 más.",sec_how:"Cómo funciona",sec_how_title:"Configura y olvida",s1_t:"Instala desde la App Store",s1_d:"Descarga Auto Mute Tab desde la Mac App Store.",s2_t:"Activa en Safari",s2_d:"Abre Ajustes de Safari, ve a Extensiones y activa Auto Mute Tab.",s3_t:"Navega en paz",s3_d:"Listo. Las pestañas en segundo plano se silencian solas.",sec_why:"Por qué Auto Mute Tab",sec_why_title:"El botón de silencio que Safari debería tener",w1_t:"Acaba con el caos sonoro",w1_d:"Varias pestañas reproduciendo audio a la vez es molesto. Auto Mute Tab asegura que solo una se escuche.",w2_t:"Funciona en todas partes",w2_d:"Maneja video y audio HTML5, Web Audio API, autoplay, iframes y medios dinámicos.",w3_t:"Cero recolección de datos",w3_d:"Sin analíticas, sin rastreo, sin cuentas. Todo funciona localmente en Safari.",req:"Requiere macOS 14.0 (Sonoma) o posterior. Funciona con Safari 17+.",f_brand:"Estudio indie de software para macOS.<br>Herramientas enfocadas y privadas.",f_legal:"Legal",f_privacy:"Política de Privacidad",f_terms:"Términos de Servicio",f_connect:"Contacto"},
+fr:{nav_features:"Fonctions",nav_how:"Comment ça marche",nav_contact:"Contact",hero_title:"Auto Mute Tab<br>pour Safari",hero_sub:"Coupe automatiquement le son de tous les onglets en arrière-plan. Seul l'onglet actif joue du son.",hero_cta:"Télécharger sur l'App Store",hero_req:"Nécessite macOS 14.0 ou ultérieur",sec_features:"Fonctions",sec_features_title:"Concentrez-vous sur ce que vous écoutez",f1_t:"Sourdine automatique",f1_d:"Les onglets en arrière-plan sont automatiquement coupés dès que vous changez d'onglet.",f2_t:"Support Picture-in-Picture",f2_d:"Les vidéos en PiP continuent de jouer le son même en arrière-plan.",f3_t:"Raccourci clavier",f3_d:"Activez ou désactivez avec Ctrl+Shift+M. Personnalisable dans les réglages Safari.",f4_t:"Liste blanche de domaines",f4_d:"Gardez certains sites toujours audibles. Idéal pour la musique ou les appels vidéo.",f5_t:"Sourdine entre fenêtres",f5_d:"Changer de fenêtre Safari coupe automatiquement les onglets de la fenêtre précédente.",f6_t:"15 langues",f6_d:"Entièrement localisé en français, anglais, espagnol, allemand, italien, portugais et 9 autres.",sec_how:"Comment ça marche",sec_how_title:"Installez et oubliez",s1_t:"Installez depuis l'App Store",s1_d:"Téléchargez Auto Mute Tab depuis le Mac App Store.",s2_t:"Activez dans Safari",s2_d:"Ouvrez les Réglages Safari, allez dans Extensions et activez Auto Mute Tab.",s3_t:"Naviguez en paix",s3_d:"C'est tout. Les onglets en arrière-plan se coupent automatiquement.",sec_why:"Pourquoi Auto Mute Tab",sec_why_title:"Le bouton muet que Safari devrait avoir",w1_t:"Finissez-en avec le chaos audio",w1_d:"Plusieurs onglets jouant du son en même temps, c'est distrayant. Auto Mute Tab n'en laisse qu'un à la fois.",w2_t:"Fonctionne partout",w2_d:"Gère vidéo et audio HTML5, Web Audio API, autoplay, iframes et médias dynamiques.",w3_t:"Zéro collecte de données",w3_d:"Aucune analytique, aucun suivi, aucun compte. Tout fonctionne localement.",req:"Nécessite macOS 14.0 (Sonoma) ou ultérieur. Fonctionne avec Safari 17+.",f_brand:"Studio indie de logiciels macOS.<br>Outils ciblés et respectueux de la vie privée.",f_legal:"Juridique",f_privacy:"Confidentialité",f_terms:"Conditions",f_connect:"Contact"},
+de:{nav_features:"Funktionen",nav_how:"So funktioniert's",nav_contact:"Kontakt",hero_title:"Auto Mute Tab<br>für Safari",hero_sub:"Schaltet automatisch alle Hintergrund-Tabs stumm. Nur der aktive Tab gibt Audio wieder.",hero_cta:"Im App Store laden",hero_req:"Erfordert macOS 14.0 oder neuer",sec_features:"Funktionen",sec_features_title:"Konzentrieren Sie sich auf das, was Sie hören",f1_t:"Intelligente Stummschaltung",f1_d:"Hintergrund-Tabs werden beim Wechsel automatisch stummgeschaltet. Nur der aktive Tab spielt Audio.",f2_t:"Bild-in-Bild-Unterstützung",f2_d:"Videos im PiP-Modus spielen weiter Audio, auch wenn ihr Tab im Hintergrund ist.",f3_t:"Tastaturkürzel",f3_d:"Stummschaltung mit Ctrl+Shift+M ein- oder ausschalten.",f4_t:"Domain-Whitelist",f4_d:"Bestimmte Websites immer hörbar halten. Ideal für Musikplayer oder Videoanrufe.",f5_t:"Fensterübergreifende Stummschaltung",f5_d:"Beim Wechsel zwischen Safari-Fenstern werden die Tabs des vorherigen Fensters stummgeschaltet.",f6_t:"15 Sprachen",f6_d:"Vollständig lokalisiert in Deutsch, Englisch, Spanisch, Französisch, Italienisch und 10 weiteren.",sec_how:"So funktioniert's",sec_how_title:"Einrichten und vergessen",s1_t:"Aus dem App Store laden",s1_d:"Laden Sie Auto Mute Tab aus dem Mac App Store herunter.",s2_t:"In Safari aktivieren",s2_d:"Öffnen Sie Safari-Einstellungen, gehen Sie zu Erweiterungen und aktivieren Sie Auto Mute Tab.",s3_t:"In Ruhe surfen",s3_d:"Das war's. Hintergrund-Tabs werden automatisch stummgeschaltet.",sec_why:"Warum Auto Mute Tab",sec_why_title:"Die Stummschalttaste, die Safari haben sollte",w1_t:"Schluss mit Audio-Chaos",w1_d:"Mehrere Tabs, die gleichzeitig Audio abspielen, sind störend.",w2_t:"Überall einsetzbar",w2_d:"Unterstützt HTML5, Web Audio API, Autoplay, iframes und dynamische Medien.",w3_t:"Keine Datenerhebung",w3_d:"Keine Analytik, kein Tracking, keine Konten. Alles läuft lokal in Safari.",req:"Erfordert macOS 14.0 (Sonoma) oder neuer. Funktioniert mit Safari 17+.",f_brand:"Indie macOS Software Studio.<br>Fokussierte, datenschutzfreundliche Tools.",f_legal:"Rechtliches",f_privacy:"Datenschutz",f_terms:"Nutzungsbedingungen",f_connect:"Kontakt"},
+pt:{nav_features:"Recursos",nav_how:"Como funciona",nav_contact:"Contato",hero_title:"Auto Mute Tab<br>para Safari",hero_sub:"Silencia automaticamente todas as abas em segundo plano. Apenas a aba ativa reproduz áudio.",hero_cta:"Baixar na App Store",hero_req:"Requer macOS 14.0 ou posterior",sec_features:"Recursos",sec_features_title:"Foque no que você está ouvindo",f1_t:"Silenciamento automático",f1_d:"Abas em segundo plano são silenciadas automaticamente ao trocar.",f2_t:"Suporte PiP",f2_d:"Vídeos em PiP continuam reproduzindo áudio em segundo plano.",f3_t:"Atalho de teclado",f3_d:"Ative ou desative com Ctrl+Shift+M.",f4_t:"Lista branca",f4_d:"Mantenha sites específicos sempre com áudio.",f5_t:"Silenciamento entre janelas",f5_d:"Ao trocar de janela, as abas anteriores são silenciadas.",f6_t:"15 idiomas",f6_d:"Totalmente localizado em português, inglês, espanhol e 12 outros.",sec_how:"Como funciona",sec_how_title:"Configure e esqueça",s1_t:"Instale da App Store",s1_d:"Baixe Auto Mute Tab na Mac App Store.",s2_t:"Ative no Safari",s2_d:"Abra Ajustes do Safari e ative o Auto Mute Tab.",s3_t:"Navegue em paz",s3_d:"Pronto. Abas em segundo plano são silenciadas automaticamente.",sec_why:"Por que Auto Mute Tab",sec_why_title:"O botão mudo que o Safari deveria ter",w1_t:"Fim do caos sonoro",w1_d:"Várias abas reproduzindo áudio é distrativo. Auto Mute Tab garante que apenas uma seja ouvida.",w2_t:"Funciona em todo lugar",w2_d:"Suporta HTML5, Web Audio API, autoplay, iframes e mídia dinâmica.",w3_t:"Zero coleta de dados",w3_d:"Sem analíticas, sem rastreamento. Tudo funciona localmente.",req:"Requer macOS 14.0 (Sonoma) ou posterior. Funciona com Safari 17+.",f_brand:"Estúdio indie de software macOS.<br>Ferramentas focadas e privadas.",f_legal:"Legal",f_privacy:"Privacidade",f_terms:"Termos",f_connect:"Contato"},
+it:{nav_features:"Funzioni",nav_how:"Come funziona",nav_contact:"Contatto",hero_title:"Auto Mute Tab<br>per Safari",hero_sub:"Silenzia automaticamente tutte le schede in background. Solo la scheda attiva riproduce audio.",hero_cta:"Scarica dall'App Store",hero_req:"Richiede macOS 14.0 o successivo",sec_features:"Funzioni",sec_features_title:"Concentrati su ciò che ascolti",f1_t:"Silenziamento automatico",f1_d:"Le schede in background vengono silenziate quando cambi scheda.",f2_t:"Supporto PiP",f2_d:"I video in PiP continuano a riprodurre audio in background.",f3_t:"Scorciatoia",f3_d:"Attiva o disattiva con Ctrl+Shift+M.",f4_t:"Lista bianca domini",f4_d:"Mantieni specifici siti sempre con audio.",f5_t:"Silenziamento tra finestre",f5_d:"Cambiando finestra, le schede precedenti vengono silenziate.",f6_t:"15 lingue",f6_d:"Completamente localizzato in italiano, inglese, spagnolo e 12 altre lingue.",sec_how:"Come funziona",sec_how_title:"Imposta e dimentica",s1_t:"Installa dall'App Store",s1_d:"Scarica Auto Mute Tab dal Mac App Store.",s2_t:"Attiva in Safari",s2_d:"Apri Impostazioni Safari e attiva Auto Mute Tab.",s3_t:"Naviga in pace",s3_d:"Fatto. Le schede in background si silenziano da sole.",sec_why:"Perché Auto Mute Tab",sec_why_title:"Il tasto muto che Safari dovrebbe avere",w1_t:"Fine al caos audio",w1_d:"Più schede con audio contemporaneamente è fastidioso.",w2_t:"Funziona ovunque",w2_d:"Gestisce HTML5, Web Audio API, autoplay, iframe e media dinamici.",w3_t:"Zero raccolta dati",w3_d:"Nessuna analitica, nessun tracciamento. Tutto funziona localmente.",req:"Richiede macOS 14.0 (Sonoma) o successivo. Funziona con Safari 17+.",f_brand:"Studio indie di software macOS.<br>Strumenti mirati e rispettosi della privacy.",f_legal:"Legale",f_privacy:"Privacy",f_terms:"Termini",f_connect:"Contatto"},
+ja:{nav_features:"機能",nav_how:"使い方",nav_contact:"お問い合わせ",hero_title:"Auto Mute Tab<br>for Safari",hero_sub:"バックグラウンドタブを自動でミュート。アクティブなタブだけが音声を再生。",hero_cta:"App Storeでダウンロード",hero_req:"macOS 14.0以降が必要",sec_features:"機能",sec_features_title:"聞いているものに集中",f1_t:"スマート自動ミュート",f1_d:"タブ切り替えでバックグラウンドタブが自動ミュート。",f2_t:"PiPサポート",f2_d:"PiP動画はバックグラウンドでも音声再生。",f3_t:"キーボードショートカット",f3_d:"Ctrl+Shift+Mでミュート切り替え。",f4_t:"ホワイトリスト",f4_d:"特定のサイトを常に音声有りに。",f5_t:"ウィンドウ間ミュート",f5_d:"ウィンドウ切り替えで前のウィンドウが自動ミュート。",f6_t:"15言語対応",f6_d:"日本語、英語、スペイン語など15言語に完全対応。",sec_how:"使い方",sec_how_title:"設定して忘れるだけ",s1_t:"App Storeからインストール",s1_d:"Mac App Storeからダウンロード。",s2_t:"Safariで有効化",s2_d:"Safari設定の機能拡張から有効に。",s3_t:"快適にブラウズ",s3_d:"バックグラウンドタブは自動でミュート。",sec_why:"なぜAuto Mute Tab",sec_why_title:"Safariにあるべきミュートボタン",w1_t:"音声の混乱を終わらせる",w1_d:"複数タブの同時再生は気が散ります。",w2_t:"あらゆる場所で動作",w2_d:"HTML5、Web Audio API、自動再生、iframeに対応。",w3_t:"データ収集なし",w3_d:"分析も追跡もなし。すべてSafari内でローカルに動作。",req:"macOS 14.0以降が必要。Safari 17+対応。",f_brand:"インディーmacOSソフトウェアスタジオ。",f_legal:"法的情報",f_privacy:"プライバシー",f_terms:"利用規約",f_connect:"お問い合わせ"},
+ko:{nav_features:"기능",nav_how:"사용법",nav_contact:"문의",hero_title:"Auto Mute Tab<br>for Safari",hero_sub:"백그라운드 탭을 자동으로 음소거. 활성 탭만 오디오 재생.",hero_cta:"App Store에서 다운로드",hero_req:"macOS 14.0 이상 필요",sec_features:"기능",sec_features_title:"듣고 있는 것에 집중",f1_t:"스마트 자동 음소거",f1_d:"탭 전환 시 백그라운드 탭 자동 음소거.",f2_t:"PiP 지원",f2_d:"PiP 동영상은 백그라운드에서도 오디오 계속 재생.",f3_t:"키보드 단축키",f3_d:"Ctrl+Shift+M으로 음소거 전환.",f4_t:"도메인 화이트리스트",f4_d:"특정 사이트를 항상 오디오 유지.",f5_t:"창 간 음소거",f5_d:"창 전환 시 이전 창의 탭 자동 음소거.",f6_t:"15개 언어",f6_d:"한국어, 영어, 스페인어 등 15개 언어 지원.",sec_how:"사용법",sec_how_title:"설정하고 잊어버리세요",s1_t:"App Store에서 설치",s1_d:"Mac App Store에서 다운로드.",s2_t:"Safari에서 활성화",s2_d:"Safari 설정의 확장프로그램에서 활성화.",s3_t:"편안하게 브라우징",s3_d:"백그라운드 탭은 자동 음소거.",sec_why:"왜 Auto Mute Tab",sec_why_title:"Safari에 있어야 할 음소거 버튼",w1_t:"오디오 혼란 종료",w1_d:"여러 탭이 동시에 오디오를 재생하면 집중하기 어렵습니다.",w2_t:"어디서나 동작",w2_d:"HTML5, Web Audio API, 자동 재생, iframe 지원.",w3_t:"데이터 수집 없음",w3_d:"분석도 추적도 없음. 모두 로컬로 동작.",req:"macOS 14.0 이상 필요. Safari 17+ 지원.",f_brand:"인디 macOS 스튜디오.",f_legal:"법적 고지",f_privacy:"개인정보",f_terms:"이용약관",f_connect:"연락처"},
+ru:{nav_features:"Функции",nav_how:"Как работает",nav_contact:"Контакты",hero_title:"Auto Mute Tab<br>для Safari",hero_sub:"Автоматически отключает звук во всех фоновых вкладках. Звук только в активной вкладке.",hero_cta:"Загрузить из App Store",hero_req:"Требуется macOS 14.0 или новее",sec_features:"Функции",sec_features_title:"Сосредоточьтесь на том, что слушаете",f1_t:"Умное отключение",f1_d:"Фоновые вкладки отключаются при переключении.",f2_t:"Поддержка PiP",f2_d:"Видео в PiP продолжает воспроизводить звук.",f3_t:"Горячая клавиша",f3_d:"Ctrl+Shift+M для переключения.",f4_t:"Белый список",f4_d:"Определённые сайты всегда со звуком.",f5_t:"Между окнами",f5_d:"При переключении окон вкладки предыдущего отключаются.",f6_t:"15 языков",f6_d:"Русский, английский, испанский и ещё 12 языков.",sec_how:"Как работает",sec_how_title:"Настройте и забудьте",s1_t:"Установите из App Store",s1_d:"Скачайте из Mac App Store.",s2_t:"Включите в Safari",s2_d:"Откройте Настройки Safari и включите Auto Mute Tab.",s3_t:"Наслаждайтесь",s3_d:"Фоновые вкладки отключаются автоматически.",sec_why:"Почему Auto Mute Tab",sec_why_title:"Кнопка отключения для Safari",w1_t:"Конец хаосу",w1_d:"Несколько вкладок со звуком одновременно отвлекает.",w2_t:"Работает везде",w2_d:"Поддерживает HTML5, Web Audio API, автовоспроизведение, iframe.",w3_t:"Нулевой сбор данных",w3_d:"Никакой аналитики. Всё локально в Safari.",req:"Требуется macOS 14.0 или новее. Safari 17+.",f_brand:"Инди-студия macOS.",f_legal:"Правовая информация",f_privacy:"Конфиденциальность",f_terms:"Условия",f_connect:"Связь"}};
+
+    const langLabels={en:"English",es:"Español",fr:"Français",de:"Deutsch",pt:"Português",it:"Italiano",ja:"日本語",ko:"한국어",ru:"Русский"};
+
+    function setLanguage(lang){
+        const s=T[lang]||T.en;
+        document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.getAttribute("data-i18n");if(s[k])el.textContent=s[k];});
+        document.querySelectorAll("[data-i18n-html]").forEach(el=>{const k=el.getAttribute("data-i18n-html");if(s[k])el.innerHTML=s[k];});
+        document.documentElement.lang=lang;
+        localStorage.setItem("amt-lang",lang);
+        document.getElementById("langBtn").textContent=langLabels[lang]||langLabels.en;
+        document.querySelectorAll("#langMenu button").forEach(b=>{b.classList.toggle("active",b.dataset.lang===lang);});
+        document.getElementById("langMenu").classList.remove("open");
+    }
+    document.getElementById("langBtn").addEventListener("click",(e)=>{e.stopPropagation();document.getElementById("langMenu").classList.toggle("open");});
+    document.getElementById("langMenu").addEventListener("click",(e)=>{const btn=e.target.closest("[data-lang]");if(btn)setLanguage(btn.dataset.lang);});
+    document.addEventListener("click",()=>document.getElementById("langMenu").classList.remove("open"));
+    (function(){const saved=localStorage.getItem("amt-lang");if(saved&&T[saved]){setLanguage(saved);return;}const bl=(navigator.language||"en").split("-")[0];if(T[bl])setLanguage(bl);})();
+    </script>
+<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "36ef79985b2045c4b271333fe4e427ab"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

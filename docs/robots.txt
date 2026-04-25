@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/sitemap.xml
