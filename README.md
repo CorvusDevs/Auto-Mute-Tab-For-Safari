@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="icon.png" width="128" height="128" alt="Auto Mute Tab icon" style="border-radius: 22%;">
+  <img src="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/icon.png" width="128" height="128" alt="Auto Mute Tab icon">
   <h1>Auto Mute Tab for Safari</h1>
   <p><strong>Automatically mute background tabs — only the focused tab plays audio</strong></p>
   <p>
@@ -10,7 +10,6 @@
   <p>
     <img src="https://img.shields.io/badge/macOS-14.0+-000000?style=flat-square&logo=apple&logoColor=white" alt="macOS 14.0+">
     <img src="https://img.shields.io/badge/Languages-15-4CAF50?style=flat-square" alt="15 Languages">
-    <img src="https://img.shields.io/badge/Price-Free-34C759?style=flat-square" alt="Free">
   </p>
   <p>
     <a href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/">Website</a>
