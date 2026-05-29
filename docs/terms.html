@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service — Auto Mute Tab for Safari</title>
+    <title>Terms of Service, Auto Mute Tab for Safari</title>
     <meta name="description" content="Terms of Service for Auto Mute Tab for Safari.">
     <link rel="canonical" href="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/terms">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Terms of Service — Auto Mute Tab for Safari">
+    <meta property="og:title" content="Terms of Service, Auto Mute Tab for Safari">
     <meta property="og:description" content="Terms of Service for Auto Mute Tab for Safari.">
     <meta property="og:url" content="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/terms">
     <meta property="og:image" content="https://corvusdevs.github.io/Auto-Mute-Tab-For-Safari/og-image.png">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Terms of Service — Auto Mute Tab for Safari">
+    <meta name="twitter:title" content="Terms of Service, Auto Mute Tab for Safari">
     <meta name="twitter:description" content="Terms of Service for Auto Mute Tab for Safari.">
     <meta name="robots" content="index, follow">
     <link rel="icon" type="image/png" sizes="32x32" href="icon.png">
@@ -77,25 +77,71 @@
         }
         .lang-menu button:hover { background: rgba(255,255,255,0.08); }
         .lang-menu button.active { color: var(--accent); }
+
+        /* Shared picker CSS, matches index.html's picker. */
+        .lang-glyph {
+            display: inline-flex; align-items: center; justify-content: center;
+            color: var(--text-secondary); pointer-events: none; margin-right: 4px;
+        }
+        .lang-glyph svg { display: block; width: 22px; height: 22px; }
+        .lang-btn { display: inline-flex; align-items: center; gap: 8px; }
+        .lang-menu {
+            display: none; position: absolute; top: calc(100% + 8px); right: 0; z-index: 300;
+            background: rgba(20, 20, 24, 0.92);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px;
+            padding: 6px 0; min-width: 220px; max-height: 420px;
+            box-shadow: 0 16px 48px rgba(0, 0, 0, 0.6);
+            overflow: hidden; flex-direction: column;
+        }
+        .lang-menu.open { display: flex; }
+        .lang-search-wrap {
+            position: sticky; top: 0; padding: 8px 10px;
+            background: inherit; border-bottom: 1px solid rgba(255,255,255,0.06);
+            flex-shrink: 0;
+        }
+        .lang-search {
+            width: 100%; padding: 7px 10px 7px 30px;
+            background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); border-radius: 7px;
+            color: var(--text); font-size: 13px; outline: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%237c7c84' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat; background-position: 10px center;
+        }
+        .lang-search:focus { border-color: var(--accent); }
+        .lang-list { overflow-y: auto; flex: 1; padding: 4px 0; }
+        .lang-list::-webkit-scrollbar { width: 6px; }
+        .lang-list::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+        .lang-menu button {
+            display: flex; align-items: center; gap: 10px;
+            width: 100%; padding: 8px 16px; background: none; border: none;
+            color: var(--text); font-size: 13px; cursor: pointer; text-align: left; white-space: nowrap;
+            transition: background 0.12s;
+        }
+        .lang-menu button:hover { background: rgba(255,255,255,0.08); }
+        .lang-menu button.active { color: var(--accent); font-weight: 600; }
+        .lang-menu button.active::after {
+            content: ''; margin-left: auto; width: 16px; height: 16px; flex-shrink: 0;
+            background-color: var(--accent);
+            -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") no-repeat center / contain;
+                    mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='20 6 9 17 4 12'/%3E%3C/svg%3E") no-repeat center / contain;
+        }
+        .lang-menu button.lang-default { border-bottom: 1px solid rgba(255,255,255,0.06); margin-bottom: 4px; padding-bottom: 10px; }
+        .lang-flag { width: 18px; height: 13px; flex-shrink: 0; border-radius: 2px; box-shadow: 0 0 0 1px rgba(255,255,255,0.08); object-fit: cover; }
+        .lang-auto-glyph { width: 18px; height: 13px; flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center; color: var(--text-secondary); }
+        .lang-auto-glyph svg { display: block; width: 14px; height: 14px; }
+        .lang-name { white-space: nowrap; }
+        .lang-empty { padding: 14px 16px; font-size: 13px; color: var(--text-secondary); text-align: center; display: none; }
+        .lang-empty.visible { display: block; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="top-bar">
             <a href="./" class="back" data-i18n="back">&larr; Back to Auto Mute Tab</a>
-            <div class="lang-wrap">
-                <button class="lang-btn" id="langBtn">🇬🇧 English</button>
-                <div class="lang-menu" id="langMenu">
-                    <button data-lang="en">🇬🇧 English</button>
-                    <button data-lang="es">🇪🇸 Español</button>
-                    <button data-lang="fr">🇫🇷 Français</button>
-                    <button data-lang="de">🇩🇪 Deutsch</button>
-                    <button data-lang="pt">🇧🇷 Português</button>
-                    <button data-lang="it">🇮🇹 Italiano</button>
-                    <button data-lang="ja">🇯🇵 日本語</button>
-                    <button data-lang="ko">🇰🇷 한국어</button>
-                    <button data-lang="ru">🇷🇺 Русский</button>
-                </div>
+            <div class="lang-wrap" id="langWrap">
+                <span class="lang-glyph" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Language" style="vertical-align:middle;"><text x="7" y="17" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Noto Sans CJK SC', sans-serif" font-size="14" font-weight="600" fill="currentColor" text-anchor="middle">文</text><text x="17" y="17" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="700" fill="currentColor" text-anchor="middle">A</text></svg></span><button class="lang-btn" id="langBtn"><!-- populated by JS --></button>
+                <div class="lang-menu" id="langMenu"><!-- populated by JS --></div>
             </div>
         </div>
 
@@ -144,316 +190,9 @@
         <h2 data-i18n="h_contact">11. Contact</h2>
         <p data-i18n="p_contact_pre">If you have questions about these Terms, contact us at:</p>
         <p><strong>CorvusDevs</strong><br><a href="mailto:corvusdevs@outlook.com">corvusdevs@outlook.com</a></p>
-    </div>
-
-    <script>
-    const T = {
-        en: {},
-        es: {
-            back: "← Volver a Auto Mute Tab",
-            title: "Términos de Servicio",
-            date: "Fecha de vigencia: 4 de abril de 2026 · Última actualización: 4 de abril de 2026",
-            intro: "Estos Términos de Servicio (“Términos”) rigen el uso de Auto Mute Tab para Safari, desarrollado y publicado por CorvusDevs (“nosotros”). Al descargar, instalar o usar Auto Mute Tab, aceptas estos Términos.",
-            h_license: "1. Licencia",
-            p_license: "Te otorgamos una licencia personal, no exclusiva, intransferible y revocable para instalar y usar Auto Mute Tab en cualquier ordenador macOS que poseas o controles, para uso personal.",
-            h_restrictions: "2. Restricciones",
-            p_restrictions: "No puedes:",
-            li_redistribute: "Redistribuir, revender o sublicenciar la extensión",
-            li_reverse: "Realizar ingeniería inversa, descompilar o desensamblar la extensión, excepto donde lo permita la ley aplicable",
-            li_copyright: "Eliminar o alterar avisos de derechos de autor o marcas",
-            li_unlawful: "Usar la extensión para cualquier propósito ilícito",
-            li_twitch_tos: "Usar la extensión para violar los Términos de Servicio de Twitch",
-            h_thirdparty: "3. Servicios de Terceros",
-            p_thirdparty: "Auto Mute Tab interactúa con Twitch (twitch.tv) y proveedores de emotes de terceros (BetterTTV, FrankerFaceZ, 7TV). No estamos afiliados con Twitch Interactive, Inc. ni con ninguno de estos proveedores. Tu uso de Twitch se rige por los Términos de Servicio propios de Twitch.",
-            h_ip: "4. Propiedad Intelectual",
-            p_ip: "Auto Mute Tab, incluido su código, diseño, nombres y logotipos, es propiedad de CorvusDevs y está protegido por la ley de derechos de autor. Tu licencia no transfiere ningún derecho de propiedad. “Twitch” es una marca registrada de Twitch Interactive, Inc.",
-            h_updates: "5. Actualizaciones",
-            p_updates: "Podemos publicar actualizaciones a nuestra discreción a través de la Mac App Store. No estamos obligados a proporcionar actualizaciones, nuevas funciones o soporte continuo.",
-            h_warranty: "6. Exención de Garantías",
-            p_warranty: "TWITCH PLUS SE PROPORCIONA “TAL CUAL” SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUIDAS, ENTRE OTRAS, LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN FIN PARTICULAR Y NO INFRACCIÓN. NO GARANTIZAMOS QUE LA EXTENSIÓN FUNCIONE SIN INTERRUPCIONES, SIN ERRORES O SEA COMPATIBLE CON TODAS LAS VERSIONES DE TWITCH O SAFARI.",
-            h_liability: "7. Limitación de Responsabilidad",
-            p_liability: "EN LA MEDIDA MÁXIMA PERMITIDA POR LA LEY, CORVUSDEVS NO SERÁ RESPONSABLE DE NINGÚN DAÑO INDIRECTO, INCIDENTAL, ESPECIAL, CONSECUENTE O PUNITIVO DERIVADO DEL USO DE TWITCH PLUS.",
-            h_termination: "8. Terminación",
-            p_termination: "Podemos revocar tu licencia si infringes estos Términos. Tras la terminación, debes desinstalar la extensión.",
-            h_changes: "9. Cambios en Estos Términos",
-            p_changes: "Podemos actualizar estos Términos ocasionalmente. La versión actualizada se publicará en esta URL con una fecha de “Última actualización” revisada. El uso continuado de la extensión después de los cambios constituye la aceptación de los nuevos Términos.",
-            h_law: "10. Ley Aplicable",
-            p_law: "Estos Términos se rigen por las leyes de la jurisdicción en la que opera CorvusDevs, sin tener en cuenta los principios de conflicto de leyes.",
-            h_contact: "11. Contacto",
-            p_contact_pre: "Si tienes preguntas sobre estos Términos, contáctanos en:",
-        },
-        fr: {
-            back: "← Retour à Auto Mute Tab",
-            title: "Conditions d’Utilisation",
-            date: "Date d’effet : 4 avril 2026 · Dernière mise à jour : 4 avril 2026",
-            intro: "Les présentes Conditions d’Utilisation (« Conditions ») régissent votre utilisation de Auto Mute Tab pour Safari, développé et publié par CorvusDevs (« nous »). En téléchargeant, installant ou utilisant Auto Mute Tab, vous acceptez ces Conditions.",
-            h_license: "1. Licence",
-            p_license: "Nous vous accordons une licence personnelle, non exclusive, non transférable et révocable pour installer et utiliser Auto Mute Tab sur tout ordinateur macOS que vous possédez ou contrôlez, à des fins personnelles.",
-            h_restrictions: "2. Restrictions",
-            p_restrictions: "Vous ne pouvez pas :",
-            li_redistribute: "Redistribuer, revendre ou sous-licencier l’extension",
-            li_reverse: "Procéder à l’ingénierie inverse, décompiler ou désassembler l’extension, sauf dans les cas autorisés par la loi applicable",
-            li_copyright: "Supprimer ou modifier les avis de droits d’auteur ou la marque",
-            li_unlawful: "Utiliser l’extension à des fins illégales",
-            li_twitch_tos: "Utiliser l’extension en violation des Conditions d’Utilisation de Twitch",
-            h_thirdparty: "3. Services Tiers",
-            p_thirdparty: "Auto Mute Tab interagit avec Twitch (twitch.tv) et des fournisseurs d’emotes tiers (BetterTTV, FrankerFaceZ, 7TV). Nous ne sommes pas affiliés à Twitch Interactive, Inc. ni à aucun de ces fournisseurs. Votre utilisation de Twitch est régie par les propres Conditions d’Utilisation de Twitch.",
-            h_ip: "4. Propriété Intellectuelle",
-            p_ip: "Auto Mute Tab, y compris son code, son design, ses noms et ses logos, est la propriété de CorvusDevs et est protégé par le droit d’auteur. Votre licence ne transfère aucun droit de propriété. « Twitch » est une marque de Twitch Interactive, Inc.",
-            h_updates: "5. Mises à Jour",
-            p_updates: "Nous pouvons publier des mises à jour à notre discrétion via le Mac App Store. Nous ne sommes pas tenus de fournir des mises à jour, de nouvelles fonctionnalités ou un support continu.",
-            h_warranty: "6. Exclusion de Garanties",
-            p_warranty: "TWITCH PLUS EST FOURNI « TEL QUEL » SANS GARANTIE D’AUCUNE SORTE, EXPRESSE OU IMPLICITE, Y COMPRIS, MAIS SANS S’Y LIMITER, LES GARANTIES DE QUALITÉ MARCHANDE, D’ADÉQUATION À UN USAGE PARTICULIER ET DE NON-CONTREFAÇON. NOUS NE GARANTISSONS PAS QUE L’EXTENSION FONCTIONNERA SANS INTERRUPTION, SANS ERREUR OU SERA COMPATIBLE AVEC TOUTES LES VERSIONS DE TWITCH OU SAFARI.",
-            h_liability: "7. Limitation de Responsabilité",
-            p_liability: "DANS LA MESURE MAXIMALE PERMISE PAR LA LOI, CORVUSDEVS NE SERA PAS RESPONSABLE DE TOUT DOMMAGE INDIRECT, ACCESSOIRE, SPÉCIAL, CONSÉCUTIF OU PUNITIF DÉCOULANT DE VOTRE UTILISATION DE TWITCH PLUS.",
-            h_termination: "8. Résiliation",
-            p_termination: "Nous pouvons résilier votre licence si vous enfreignez ces Conditions. Après la résiliation, vous devez désinstaller l’extension.",
-            h_changes: "9. Modifications de ces Conditions",
-            p_changes: "Nous pouvons mettre à jour ces Conditions de temps en temps. La version mise à jour sera publiée à cette URL avec une date de « Dernière mise à jour » révisée. L’utilisation continue de l’extension après les modifications constitue l’acceptation des nouvelles Conditions.",
-            h_law: "10. Droit Applicable",
-            p_law: "Ces Conditions sont régies par les lois de la juridiction dans laquelle CorvusDevs opère, sans égard aux principes de conflit de lois.",
-            h_contact: "11. Contact",
-            p_contact_pre: "Si vous avez des questions sur ces Conditions, contactez-nous à :",
-        },
-        de: {
-            back: "← Zurück zu Auto Mute Tab",
-            title: "Nutzungsbedingungen",
-            date: "Gültig ab: 4. April 2026 · Zuletzt aktualisiert: 4. April 2026",
-            intro: "Diese Nutzungsbedingungen („Bedingungen“) regeln Ihre Nutzung von Auto Mute Tab für Safari, entwickelt und veröffentlicht von CorvusDevs („wir“). Durch das Herunterladen, Installieren oder Verwenden von Auto Mute Tab stimmen Sie diesen Bedingungen zu.",
-            h_license: "1. Lizenz",
-            p_license: "Wir gewähren Ihnen eine persönliche, nicht-exklusive, nicht übertragbare, widerrufliche Lizenz zur Installation und Nutzung von Auto Mute Tab auf jedem macOS-Computer, den Sie besitzen oder kontrollieren, für den persönlichen Gebrauch.",
-            h_restrictions: "2. Einschränkungen",
-            p_restrictions: "Sie dürfen nicht:",
-            li_redistribute: "Die Erweiterung weiterverbreiten, weiterverkaufen oder unterlizenzieren",
-            li_reverse: "Die Erweiterung mittels Reverse Engineering, Dekompilierung oder Disassemblierung untersuchen, außer soweit gesetzlich zulässig",
-            li_copyright: "Urheberrechtshinweise oder Markenzeichen entfernen oder ändern",
-            li_unlawful: "Die Erweiterung für rechtswidrige Zwecke verwenden",
-            li_twitch_tos: "Die Erweiterung unter Verstoß gegen die Nutzungsbedingungen von Twitch verwenden",
-            h_thirdparty: "3. Drittanbieterdienste",
-            p_thirdparty: "Auto Mute Tab interagiert mit Twitch (twitch.tv) und Drittanbieter-Emote-Anbietern (BetterTTV, FrankerFaceZ, 7TV). Wir sind weder mit Twitch Interactive, Inc. noch mit diesen Emote-Anbietern verbunden. Ihre Nutzung von Twitch unterliegt den eigenen Nutzungsbedingungen von Twitch.",
-            h_ip: "4. Geistiges Eigentum",
-            p_ip: "Auto Mute Tab, einschließlich seines Codes, Designs, seiner Namen und Logos, ist Eigentum von CorvusDevs und durch das Urheberrecht geschützt. Ihre Lizenz überträgt keine Eigentumsrechte. „Twitch“ ist eine Marke von Twitch Interactive, Inc.",
-            h_updates: "5. Updates",
-            p_updates: "Wir können nach eigenem Ermessen Updates über den Mac App Store veröffentlichen. Wir sind nicht verpflichtet, Updates, neue Funktionen oder fortlaufenden Support bereitzustellen.",
-            h_warranty: "6. Gewährleistungsausschluss",
-            p_warranty: "TWITCH PLUS WIRD „WIE BESEHEN“ OHNE JEGLICHE GEWÄHRLEISTUNG BEREITGESTELLT, WEDER AUSDRÜCKLICH NOCH STILLSCHWEIGEND, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF GEWÄHRLEISTUNGEN DER MARKTGÄNGIGKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG. WIR GARANTIEREN NICHT, DASS DIE ERWEITERUNG UNTERBRECHUNGSFREI, FEHLERFREI ODER MIT ALLEN VERSIONEN VON TWITCH ODER SAFARI KOMPATIBEL SEIN WIRD.",
-            h_liability: "7. Haftungsbeschränkung",
-            p_liability: "IM GRÖSSTMÖGLICHEN GESETZLICH ZULÄSSIGEN UMFANG HAFTET CORVUSDEVS NICHT FÜR INDIREKTE, ZUFÄLLIGE, BESONDERE, FOLGE- ODER STRAFSCHÄDEN, DIE SICH AUS IHRER NUTZUNG VON TWITCH PLUS ERGEBEN.",
-            h_termination: "8. Kündigung",
-            p_termination: "Wir können Ihre Lizenz kündigen, wenn Sie gegen diese Bedingungen verstoßen. Nach der Kündigung müssen Sie die Erweiterung deinstallieren.",
-            h_changes: "9. Änderungen dieser Bedingungen",
-            p_changes: "Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Die aktualisierte Version wird unter dieser URL mit einem überarbeiteten Datum veröffentlicht. Die fortgesetzte Nutzung der Erweiterung nach Änderungen gilt als Zustimmung zu den neuen Bedingungen.",
-            h_law: "10. Anwendbares Recht",
-            p_law: "Diese Bedingungen unterliegen den Gesetzen der Gerichtsbarkeit, in der CorvusDevs tätig ist, ohne Berücksichtigung von Kollisionsnormen.",
-            h_contact: "11. Kontakt",
-            p_contact_pre: "Wenn Sie Fragen zu diesen Bedingungen haben, kontaktieren Sie uns unter:",
-        },
-        pt: {
-            back: "← Voltar ao Auto Mute Tab",
-            title: "Termos de Serviço",
-            date: "Data de vigência: 4 de abril de 2026 · Última atualização: 4 de abril de 2026",
-            intro: "Estes Termos de Serviço (“Termos”) regem o uso do Auto Mute Tab para Safari, desenvolvido e publicado pela CorvusDevs (“nós”). Ao baixar, instalar ou usar o Auto Mute Tab, você concorda com estes Termos.",
-            h_license: "1. Licença",
-            p_license: "Concedemos a você uma licença pessoal, não exclusiva, intransferível e revogável para instalar e usar o Auto Mute Tab em qualquer computador macOS que você possua ou controle, para uso pessoal.",
-            h_restrictions: "2. Restrições",
-            p_restrictions: "Você não pode:",
-            li_redistribute: "Redistribuir, revender ou sublicenciar a extensão",
-            li_reverse: "Realizar engenharia reversa, descompilar ou desmontar a extensão, exceto quando permitido pela lei aplicável",
-            li_copyright: "Remover ou alterar avisos de direitos autorais ou marcas",
-            li_unlawful: "Usar a extensão para qualquer finalidade ilícita",
-            li_twitch_tos: "Usar a extensão para violar os Termos de Serviço do Twitch",
-            h_thirdparty: "3. Serviços de Terceiros",
-            p_thirdparty: "O Auto Mute Tab interage com o Twitch (twitch.tv) e provedores de emotes de terceiros (BetterTTV, FrankerFaceZ, 7TV). Não somos afiliados à Twitch Interactive, Inc. ou a qualquer desses provedores. Seu uso do Twitch é regido pelos próprios Termos de Serviço do Twitch.",
-            h_ip: "4. Propriedade Intelectual",
-            p_ip: "O Auto Mute Tab, incluindo seu código, design, nomes e logotipos, é propriedade da CorvusDevs e é protegido pela lei de direitos autorais. Sua licença não transfere nenhum direito de propriedade. “Twitch” é uma marca registrada da Twitch Interactive, Inc.",
-            h_updates: "5. Atualizações",
-            p_updates: "Podemos lançar atualizações a nosso critério através da Mac App Store. Não somos obrigados a fornecer atualizações, novos recursos ou suporte contínuo.",
-            h_warranty: "6. Isenção de Garantias",
-            p_warranty: "O TWITCH PLUS É FORNECIDO “COMO ESTÁ” SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO A, GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM FIM ESPECÍFICO E NÃO VIOLAÇÃO. NÃO GARANTIMOS QUE A EXTENSÃO FUNCIONARÁ SEM INTERRUPÇÕES, SEM ERROS OU SERÁ COMPATÍVEL COM TODAS AS VERSÕES DO TWITCH OU SAFARI.",
-            h_liability: "7. Limitação de Responsabilidade",
-            p_liability: "NA MÁXIMA EXTENSÃO PERMITIDA PELA LEI, A CORVUSDEVS NÃO SERÁ RESPONSÁVEL POR QUAISQUER DANOS INDIRETOS, INCIDENTAIS, ESPECIAIS, CONSEQUENCIAIS OU PUNITIVOS DECORRENTES DO USO DO TWITCH PLUS.",
-            h_termination: "8. Rescisão",
-            p_termination: "Podemos rescindir sua licença se você violar estes Termos. Após a rescisão, você deve desinstalar a extensão.",
-            h_changes: "9. Alterações nestes Termos",
-            p_changes: "Podemos atualizar estes Termos periodicamente. A versão atualizada será publicada nesta URL com uma data de “Última atualização” revisada. O uso continuado da extensão após alterações constitui aceitação dos novos Termos.",
-            h_law: "10. Lei Aplicável",
-            p_law: "Estes Termos são regidos pelas leis da jurisdição em que a CorvusDevs opera, sem considerar princípios de conflito de leis.",
-            h_contact: "11. Contato",
-            p_contact_pre: "Se você tiver dúvidas sobre estes Termos, entre em contato:",
-        },
-        it: {
-            back: "← Torna a Auto Mute Tab",
-            title: "Termini di Servizio",
-            date: "Data di efficacia: 4 aprile 2026 · Ultimo aggiornamento: 4 aprile 2026",
-            intro: "I presenti Termini di Servizio (“Termini”) regolano l’utilizzo di Auto Mute Tab per Safari, sviluppato e pubblicato da CorvusDevs (“noi”). Scaricando, installando o utilizzando Auto Mute Tab, accetti questi Termini.",
-            h_license: "1. Licenza",
-            p_license: "Ti concediamo una licenza personale, non esclusiva, non trasferibile e revocabile per installare e utilizzare Auto Mute Tab su qualsiasi computer macOS che possiedi o controlli, per uso personale.",
-            h_restrictions: "2. Restrizioni",
-            p_restrictions: "Non puoi:",
-            li_redistribute: "Ridistribuire, rivendere o sublicenziare l’estensione",
-            li_reverse: "Eseguire ingegneria inversa, decompilare o disassemblare l’estensione, salvo ove consentito dalla legge applicabile",
-            li_copyright: "Rimuovere o alterare avvisi di copyright o marchi",
-            li_unlawful: "Utilizzare l’estensione per scopi illeciti",
-            li_twitch_tos: "Utilizzare l’estensione in violazione dei Termini di Servizio di Twitch",
-            h_thirdparty: "3. Servizi di Terze Parti",
-            p_thirdparty: "Auto Mute Tab interagisce con Twitch (twitch.tv) e fornitori di emote di terze parti (BetterTTV, FrankerFaceZ, 7TV). Non siamo affiliati a Twitch Interactive, Inc. né a nessuno di questi fornitori. Il tuo utilizzo di Twitch è regolato dai Termini di Servizio di Twitch.",
-            h_ip: "4. Proprietà Intellettuale",
-            p_ip: "Auto Mute Tab, incluso il suo codice, design, nomi e loghi, è proprietà di CorvusDevs ed è protetto dalla legge sul diritto d’autore. La tua licenza non trasferisce alcun diritto di proprietà. “Twitch” è un marchio di Twitch Interactive, Inc.",
-            h_updates: "5. Aggiornamenti",
-            p_updates: "Possiamo rilasciare aggiornamenti a nostra discrezione tramite il Mac App Store. Non siamo obbligati a fornire aggiornamenti, nuove funzionalità o supporto continuativo.",
-            h_warranty: "6. Esclusione di Garanzie",
-            p_warranty: "TWITCH PLUS È FORNITO “COSÌ COM’È” SENZA GARANZIE DI ALCUN TIPO, ESPLICITE O IMPLICITE, INCLUSE, A TITOLO ESEMPLIFICATIVO, LE GARANZIE DI COMMERCIABILITÀ, IDONEITÀ A UNO SCOPO PARTICOLARE E NON VIOLAZIONE. NON GARANTIAMO CHE L’ESTENSIONE FUNZIONERÀ SENZA INTERRUZIONI, SENZA ERRORI O SARÀ COMPATIBILE CON TUTTE LE VERSIONI DI TWITCH O SAFARI.",
-            h_liability: "7. Limitazione di Responsabilità",
-            p_liability: "NELLA MISURA MASSIMA CONSENTITA DALLA LEGGE, CORVUSDEVS NON SARÀ RESPONSABILE PER DANNI INDIRETTI, INCIDENTALI, SPECIALI, CONSEQUENZIALI O PUNITIVI DERIVANTI DALL’UTILIZZO DI TWITCH PLUS.",
-            h_termination: "8. Risoluzione",
-            p_termination: "Possiamo revocare la tua licenza se violi questi Termini. Dopo la risoluzione, devi disinstallare l’estensione.",
-            h_changes: "9. Modifiche a Questi Termini",
-            p_changes: "Potremmo aggiornare questi Termini di tanto in tanto. La versione aggiornata sarà pubblicata a questo URL con una data di “Ultimo aggiornamento” rivista. L’uso continuato dell’estensione dopo le modifiche costituisce accettazione dei nuovi Termini.",
-            h_law: "10. Legge Applicabile",
-            p_law: "Questi Termini sono regolati dalle leggi della giurisdizione in cui CorvusDevs opera, senza riguardo ai principi di conflitto di leggi.",
-            h_contact: "11. Contatti",
-            p_contact_pre: "Per domande su questi Termini, contattaci a:",
-        },
-        ja: {
-            back: "← Auto Mute Tabに戻る",
-            title: "利用規約",
-            date: "施行日: 2026年4月4日 · 最終更新: 2026年4月4日",
-            intro: "この利用規約（「規約」）は、CorvusDevs（「当社」）が開発・公開するAuto Mute Tab for Safariのご利用を規定します。Auto Mute Tabをダウンロード、インストール、または使用することにより、この規約に同意したものとみなされます。",
-            h_license: "1. ライセンス",
-            p_license: "当社は、お客様が所有または管理する任意のmacOSコンピュータにAuto Mute Tabをインストールし、個人使用目的で使用するための、個人的、非独占的、譲渡不可、取消可能なライセンスを付与します。",
-            h_restrictions: "2. 制限事項",
-            p_restrictions: "以下の行為は禁止されています：",
-            li_redistribute: "拡張機能の再配布、転売、またはサブライセンス",
-            li_reverse: "適用法で許可されている場合を除き、拡張機能のリバースエンジニアリング、逆コンパイル、または逆アセンブル",
-            li_copyright: "著作権表示やブランディングの削除または改変",
-            li_unlawful: "拡張機能の違法目的での使用",
-            li_twitch_tos: "Twitchの利用規約に違反する拡張機能の使用",
-            h_thirdparty: "3. サードパーティサービス",
-            p_thirdparty: "Auto Mute TabはTwitch（twitch.tv）およびサードパーティのエモートプロバイダー（BetterTTV、FrankerFaceZ、7TV）と連携します。当社はTwitch Interactive, Inc.やこれらのエモートプロバイダーとは提携関係にありません。Twitchのご利用はTwitch独自の利用規約に従います。",
-            h_ip: "4. 知的財産権",
-            p_ip: "Auto Mute Tabのコード、デザイン、名称、ロゴを含むすべてはCorvusDevsの財産であり、著作権法により保護されています。ライセンスにより所有権が移転されることはありません。「Twitch」はTwitch Interactive, Inc.の商標です。",
-            h_updates: "5. アップデート",
-            p_updates: "当社の裁量でMac App Storeを通じてアップデートをリリースする場合があります。アップデート、新機能、または継続的なサポートを提供する義務はありません。",
-            h_warranty: "6. 保証の否認",
-            p_warranty: "TWITCH PLUSは、商品性、特定目的への適合性、非侵害の保証を含むがこれに限らない、明示的または黙示的ないかなる種類の保証もなく「現状のまま」提供されます。拡張機能が中断なく、エラーなく、またはTWITCHやSAFARIのすべてのバージョンと互換性があることを保証しません。",
-            h_liability: "7. 責任の制限",
-            p_liability: "法律で許容される最大限の範囲で、CORVUSDEVSはTWITCH PLUSの使用に起因する間接的、偶発的、特別、結果的、または懲罰的損害について責任を負いません。",
-            h_termination: "8. 解除",
-            p_termination: "お客様がこの規約に違反した場合、ライセンスを解除することがあります。解除後は拡張機能をアンインストールしてください。",
-            h_changes: "9. 規約の変更",
-            p_changes: "この規約は随時更新される場合があります。更新版はこのURLに新しい日付で掲載されます。変更後の拡張機能の継続使用は、新しい規約への同意とみなされます。",
-            h_law: "10. 準拠法",
-            p_law: "この規約は、法の抵触の原則を考慮せず、CorvusDevsが運営する管轄地の法律に準拠します。",
-            h_contact: "11. お問い合わせ",
-            p_contact_pre: "この規約についてご質問がある場合は、以下までご連絡ください：",
-        },
-        ko: {
-            back: "← Auto Mute Tab로 돌아가기",
-            title: "이용 약관",
-            date: "시행일: 2026년 4월 4일 · 마지막 업데이트: 2026년 4월 4일",
-            intro: "본 이용 약관(“약관”)은 CorvusDevs(“당사”)가 개발 및 배포하는 Safari용 Auto Mute Tab의 사용을 규정합니다. Auto Mute Tab를 다운로드, 설치 또는 사용함으로써 본 약관에 동의하는 것으로 간주합니다.",
-            h_license: "1. 라이선스",
-            p_license: "당사는 귀하가 소유하거나 관리하는 모든 macOS 컴퓨터에 Auto Mute Tab를 설치하고 개인 용도로 사용할 수 있는 개인적, 비독점적, 양도 불가능, 철회 가능한 라이선스를 부여합니다.",
-            h_restrictions: "2. 제한 사항",
-            p_restrictions: "다음 행위는 금지됩니다:",
-            li_redistribute: "확장 프로그램을 재배포, 재판매 또는 재라이선스",
-            li_reverse: "관련 법률이 허용하는 경우를 제외하고 확장 프로그램을 역설계, 디컴파일 또는 디스어셈블",
-            li_copyright: "저작권 표시 또는 브랜딩을 제거하거나 변경",
-            li_unlawful: "불법적인 목적으로 확장 프로그램을 사용",
-            li_twitch_tos: "Twitch 이용 약관을 위반하는 확장 프로그램 사용",
-            h_thirdparty: "3. 타사 서비스",
-            p_thirdparty: "Auto Mute Tab는 Twitch(twitch.tv) 및 타사 이모트 제공업체(BetterTTV, FrankerFaceZ, 7TV)와 상호작용합니다. 당사는 Twitch Interactive, Inc. 또는 이러한 이모트 제공업체와 제휴 관계가 없습니다. Twitch 사용은 Twitch 자체의 이용 약관에 의해 규정됩니다.",
-            h_ip: "4. 지적 재산권",
-            p_ip: "코드, 디자인, 명칭 및 로고를 포함한 Auto Mute Tab는 CorvusDevs의 재산이며 저작권법에 의해 보호됩니다. 라이선스는 소유권을 이전하지 않습니다. “Twitch”는 Twitch Interactive, Inc.의 상표입니다.",
-            h_updates: "5. 업데이트",
-            p_updates: "당사는 Mac App Store를 통해 재량에 따라 업데이트를 배포할 수 있습니다. 업데이트, 새로운 기능 또는 지속적인 지원을 제공할 의무는 없습니다.",
-            h_warranty: "6. 보증 부인",
-            p_warranty: "TWITCH PLUS는 상품성, 특정 목적에 대한 적합성 및 비침해에 대한 보증을 포함하되 이에 국한되지 않는 명시적 또는 묵시적인 어떠한 종류의 보증도 없이 “있는 그대로” 제공됩니다. 확장 프로그램이 중단 없이, 오류 없이, 또는 모든 버전의 TWITCH 또는 SAFARI와 호환될 것을 보증하지 않습니다.",
-            h_liability: "7. 책임 제한",
-            p_liability: "법률이 허용하는 최대 범위 내에서 CORVUSDEVS는 TWITCH PLUS 사용으로 인한 간접적, 부수적, 특별, 결과적 또는 징별적 손해에 대해 책임을 지지 않습니다.",
-            h_termination: "8. 해지",
-            p_termination: "본 약관을 위반할 경우 라이선스를 해지할 수 있습니다. 해지 후에는 확장 프로그램을 제거해야 합니다.",
-            h_changes: "9. 약관 변경",
-            p_changes: "본 약관은 수시로 업데이트될 수 있습니다. 업데이트된 버전은 이 URL에 새로운 날짜로 게시됩니다. 변경 후 확장 프로그램을 계속 사용하면 새 약관에 동의하는 것으로 간주합니다.",
-            h_law: "10. 준거법",
-            p_law: "본 약관은 법의 충돌 원칙을 고려하지 않고 CorvusDevs가 운영하는 관할권의 법률에 의해 규정됩니다.",
-            h_contact: "11. 연락처",
-            p_contact_pre: "본 약관에 대한 질문이 있으시면 아래로 연락해 주세요:",
-        },
-        ru: {
-            back: "← Назад к Auto Mute Tab",
-            title: "Условия использования",
-            date: "Дата вступления в силу: 4 апреля 2026 · Последнее обновление: 4 апреля 2026",
-            intro: "Настоящие Условия использования («Условия») регулируют использование Auto Mute Tab для Safari, разработанного и опубликованного CorvusDevs («мы»). Загружая, устанавливая или используя Auto Mute Tab, вы соглашаетесь с этими Условиями.",
-            h_license: "1. Лицензия",
-            p_license: "Мы предоставляем вам персональную, неисключительную, непередаваемую, отзывную лицензию на установку и использование Auto Mute Tab на любых компьютерах macOS, которыми вы владеете или управляете, для личного использования.",
-            h_restrictions: "2. Ограничения",
-            p_restrictions: "Вы не имеете права:",
-            li_redistribute: "Распространять, перепродавать или сублицензировать расширение",
-            li_reverse: "Осуществлять обратную разработку, декомпиляцию или дизассемблирование расширения, за исключением случаев, предусмотренных применимым законодательством",
-            li_copyright: "Удалять или изменять уведомления об авторских правах или брендинг",
-            li_unlawful: "Использовать расширение в незаконных целях",
-            li_twitch_tos: "Использовать расширение для нарушения Условий использования Twitch",
-            h_thirdparty: "3. Сторонние сервисы",
-            p_thirdparty: "Auto Mute Tab взаимодействует с Twitch (twitch.tv) и сторонними поставщиками эмоутов (BetterTTV, FrankerFaceZ, 7TV). Мы не связаны с Twitch Interactive, Inc. или каким-либо из этих поставщиков. Использование Twitch регулируется собственными Условиями использования Twitch.",
-            h_ip: "4. Интеллектуальная собственность",
-            p_ip: "Auto Mute Tab, включая код, дизайн, названия и логотипы, является собственностью CorvusDevs и защищён авторским правом. Лицензия не передаёт права собственности. «Twitch» — товарный знак Twitch Interactive, Inc.",
-            h_updates: "5. Обновления",
-            p_updates: "Мы можем выпускать обновления по своему усмотрению через Mac App Store. Мы не обязаны предоставлять обновления, новые функции или постоянную поддержку.",
-            h_warranty: "6. Отказ от гарантий",
-            p_warranty: "TWITCH PLUS ПРЕДОСТАВЛЯЕТСЯ «КАК ЕСТЬ» БЕЗ КАКИХ-ЛИБО ГАРАНТИЙ, ЯВНЫХ ИЛИ ПОДРАЗУМЕВАЕМЫХ, ВКЛЮЧАЯ, НО НЕ ОГРАНИЧИВАЯСЬ, ГАРАНТИИ ТОВАРНОЙ ПРИГОДНОСТИ, ПРИГОДНОСТИ ДЛЯ ОПРЕДЕЛЁННОЙ ЦЕЛИ И НЕНАРУШЕНИЯ ПРАВ. МЫ НЕ ГАРАНТИРУЕМ, ЧТО РАСШИРЕНИЕ БУДЕТ РАБОТАТЬ БЕЗ ПЕРЕБОЕВ, БЕЗ ОШИБОК ИЛИ БЫТЬ СОВМЕСТИМЫМ СО ВСЕМИ ВЕРСИЯМИ TWITCH ИЛИ SAFARI.",
-            h_liability: "7. Ограничение ответственности",
-            p_liability: "В МАКСИМАЛЬНОЙ СТЕПЕНИ, ДОПУСКАЕМОЙ ЗАКОНОМ, CORVUSDEVS НЕ НЕСЁТ ОТВЕТСТВЕННОСТИ ЗА КОСВЕННЫЙ, СЛУЧАЙНЫЙ, ОСОБЫЙ, ПОСЛЕДОВАТЕЛЬНЫЙ ИЛИ ШТРАФНОЙ УЩЕРБ, ВЫТЕКАЮЩИЙ ИЗ ИСПОЛЬЗОВАНИЯ TWITCH PLUS.",
-            h_termination: "8. Расторжение",
-            p_termination: "Мы можем прекратить действие вашей лицензии в случае нарушения этих Условий. После расторжения вы обязаны удалить расширение.",
-            h_changes: "9. Изменения этих Условий",
-            p_changes: "Мы можем обновлять эти Условия время от времени. Обновлённая версия будет опубликована по этому URL с обновлённой датой. Продолжение использования расширения после изменений означает принятие новых Условий.",
-            h_law: "10. Применимое право",
-            p_law: "Эти Условия регулируются законодательством юрисдикции, в которой действует CorvusDevs, без учёта коллизионных норм.",
-            h_contact: "11. Контакты",
-            p_contact_pre: "Если у вас есть вопросы об этих Условиях, свяжитесь с нами:",
-        },
-    };
-
-    const langLabels = {en:"🇬🇧 English",es:"🇪🇸 Español",fr:"🇫🇷 Français",de:"🇩🇪 Deutsch",pt:"🇧🇷 Português",it:"🇮🇹 Italiano",ja:"🇯🇵 日本語",ko:"🇰🇷 한국어",ru:"🇷🇺 Русский"};
-
-    function setLanguage(lang) {
-        const s = T[lang] || T.en;
-        document.querySelectorAll("[data-i18n]").forEach(el => {
-            const k = el.getAttribute("data-i18n");
-            if (s[k]) el.textContent = s[k];
-        });
-        document.querySelectorAll("[data-i18n-html]").forEach(el => {
-            const k = el.getAttribute("data-i18n-html");
-            if (s[k]) el.innerHTML = s[k];
-        });
-        document.documentElement.lang = lang;
-        localStorage.setItem("amt-lang", lang);
-        document.getElementById("langBtn").textContent = langLabels[lang] || langLabels.en;
-        document.querySelectorAll("#langMenu button").forEach(b => {
-            b.classList.toggle("active", b.dataset.lang === lang);
-        });
-        document.getElementById("langMenu").classList.remove("open");
-    }
-
-    document.getElementById("langBtn").addEventListener("click", (e) => {
-        e.stopPropagation();
-        document.getElementById("langMenu").classList.toggle("open");
-    });
-    document.getElementById("langMenu").addEventListener("click", (e) => {
-        const btn = e.target.closest("[data-lang]");
-        if (btn) setLanguage(btn.dataset.lang);
-    });
-    document.addEventListener("click", () => document.getElementById("langMenu").classList.remove("open"));
-
-    (function() {
-        const saved = localStorage.getItem("amt-lang");
-        if (saved && T[saved]) { setLanguage(saved); return; }
-        const bl = (navigator.language || "en").split("-")[0];
-        if (T[bl]) setLanguage(bl);
-    })();
-    </script>
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "36ef79985b2045c4b271333fe4e427ab"}'></script><!-- End Cloudflare Web Analytics -->
+    </div><!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "36ef79985b2045c4b271333fe4e427ab"}'></script><!-- End Cloudflare Web Analytics -->
+    <script src="translations-terms.js"></script>
+    <script src="lang-picker.js"></script>
 </body>
 </html>
 

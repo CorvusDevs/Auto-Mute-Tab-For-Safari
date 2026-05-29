@@ -1,0 +1,132 @@
+{
+  "nav_features": "Funktioner",
+  "nav_how": "Hur det fungerar",
+  "nav_contact": "Kontakt",
+  "hero_title": "Automutera flik för Safari",
+  "hero_sub": "Tysta automatiskt alla bakgrundsflikar så att bara den flik du har fokus på spelar ljud, och slippa konkurrerande ljud från glömda flikar.",
+  "hero_cta": "Ladda ner i App Store",
+  "hero_req": {
+    "text": "För iPhone, iPad och Mac",
+    "context": "description"
+  },
+  "sec_features": "Funktioner",
+  "sec_features_title": "Fokusera på vad du lyssnar på",
+  "f1_t": "Smart automatisk tystning",
+  "f1_d": "Bakgrundsflikar tystas automatiskt så snart du byter bort, och endast den aktiva fliken spelar upp ljud utan att du behöver göra några inställningar.",
+  "f2_t": "Bilder-in-Bilder-stöd",
+  "f2_d": "Videor i PiP-läge fortsätter att spela upp ljud även när deras flik är i bakgrunden, så att du aldrig förlorar ljudet.",
+  "f3_t": "Tangentbordsgenväg",
+  "f3_d": "Växla mellan att stänga och öppna ljudet direkt med Ctrl+Shift+M, och anpassa det i Safari-tilläggens inställningar.",
+  "f4_t": "Domänvitlista",
+  "f4_d": "Håll specifika webbplatser uppkopplade för ljud vid alla tillfällen. Perfekt för musikspelare, videomöten eller vilken webbplats som helst som alltid ska ha ljud.",
+  "f5_t": "Tysta över fönster",
+  "f5_d": "Vid växling mellan Safari-fönster tystas automatiskt flikarna i det föregående fönstret, och ljudet följer din fokus överallt.",
+  "f6_t": {
+    "text": "33 Språk",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "Fullt lokaliserat på 33 språk, så Auto Mute Tab talar ditt språk.",
+    "context": "description"
+  },
+  "sec_how": "Hur det fungerar",
+  "sec_how_title": "Ställ in och glöm",
+  "s1_t": "Installera från App Store",
+  "s1_d": {
+    "text": "Ladda ner Auto Mute Tab från App Store. Det är en lättviktig Safari-tillägg.",
+    "context": "description"
+  },
+  "s2_t": "Aktivera i Safari",
+  "s2_d": "Öppna Safari-inställningar, gå till Tillägg och aktivera Auto Mute Tab. Bevilja tillåtelse för alla webbplatser.",
+  "s3_t": "Bläddra i lugn",
+  "s3_d": "Det är det. Bakgrundsflikar tystnar automatiskt. Byt flik och endast den fokuserade fliken spelar upp ljud.",
+  "sec_why": "Varför auto-dämpa flik",
+  "sec_why_title": "Tystningsknapp Safari bör ha",
+  "w1_t": "Slut på ljudchaos",
+  "w1_d": "Auto Mute Tab stänger automatiskt och omedelbart av ljudet i alla flikar utom en, så att bara en flik spelas upp i taget och undvika störningar.",
+  "w2_t": "Fungerar överallt",
+  "w2_d": "Hanterar HTML5-video och ljud, Web Audio API, automatisk uppspelning, iframes och dynamiskt laddat innehåll, och Auto Mute Tab styr ljudet om det spelar upp ljud.",
+  "w3_t": "Noll insamling av data",
+  "w3_d": "Ingen analys, ingen spårning, inga konton, inga servrar. Allt körs lokalt i Safari och din surfning förblir helt privat.",
+  "req": {
+    "text": "Kräver iOS 15, iPadOS 15 eller macOS 14 eller senare, med Safari. Tillgängligt på 33 språk.",
+    "context": "description"
+  },
+  "f_brand": "Oberoende mjukvarostudio",
+  "f_legal": "Laglig",
+  "f_privacy": "Integritetspolicy",
+  "f_terms": "Villkor för tjänsten",
+  "f_connect": "Anslut",
+  "carousel_title": {
+    "text": "Mer från CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Privatfokuserade appar för macOS, iOS och Safari.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Tystnaden undviker den mutade knappen",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "Platser som YouTube, Twitch och X kör ljud via Web Audio API, vilket slipper undan den vanliga flikstängningen. Auto Mute Tab tystar dem ändå.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Spärra en flik för att fortsätta spela",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Håll en bakgrundsflik ljudlig medan allt annat hålls tyst, perfekt för musik eller ett samtal.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Dämpa det aktiva fliken på begäran",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "Tysta fliken du tittar på med ett enda tap, utan att lämna sidan.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "Se allt som är dämpat",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "En dedikerad sida listar varje flik som Auto Mute tystar, med en knapp för att återuppta ljudet.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Alltid tillåt-lista",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Lägg till musikspelare, videokopplingar eller vilken sida som helst som aldrig ska dämpas.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Återställs efter viloläge",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "Ljudet återkommer korrekt efter att din Mac eller enhet vaknat från viloläge, något många flikdämpare missar.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Stoppa överraskande autoplay",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "En bakgrundsflik som plötsligt börjar spela in är dämpad i det ögonblick den gör ljud.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Privat och lättviktig",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "Inga konton, ingen spårning, inga nätverksförfråningar och nästan noll påverkan på surfhastigheten.",
+    "context": "description"
+  }
+}

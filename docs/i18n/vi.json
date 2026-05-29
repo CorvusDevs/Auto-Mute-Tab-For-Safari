@@ -1,0 +1,132 @@
+{
+  "nav_features": "Tính năng",
+  "nav_how": "Cách hoạt động",
+  "nav_contact": "Liên hệ",
+  "hero_title": "Tắt Tự Động Tab Cho Safari",
+  "hero_sub": "Tự động tắt âm thanh của mọi tab nền để chỉ có tab đang được chọn mới phát nhạc, loại bỏ hoàn toàn các âm thanh gây nhiễu từ những tab bị lãng quên.",
+  "hero_cta": "Tải trên App Store",
+  "hero_req": {
+    "text": "Cho iPhone, iPad và Mac",
+    "context": "description"
+  },
+  "sec_features": "Tính năng",
+  "sec_features_title": "Tập trung vào âm thanh bạn đang nghe",
+  "f1_t": "Tắt Tự động Thông minh",
+  "f1_d": "Các tab nền tự động tắt tiếng ngay khi bạn chuyển sang tab khác; chỉ tab đang hoạt động mới phát âm thanh mà không cần cấu hình.",
+  "f2_t": "Hỗ trợ hình ảnh trong ảnh",
+  "f2_d": "Video ở chế độ PiP vẫn phát âm thanh ngay cả khi tab đang ở nền, giúp bạn không bao giờ bỏ lỡ âm thanh của video.",
+  "f3_t": "Phím tắt bàn phím",
+  "f3_d": "Bật/tắt chế độ tắt tiếng ngay lập tức bằng Ctrl+Shift+M và tùy chỉnh trong phần cài đặt mở rộng của Safari.",
+  "f4_t": "Danh sách miền được tin cậy",
+  "f4_d": "Giữ các trang web cụ thể luôn phát âm thanh. Lý tưởng cho trình phát nhạc, cuộc gọi video hoặc bất kỳ trang nào cần âm thanh liên tục.",
+  "f5_t": "Tắt Âm Thanh Đa Cửa Sổ",
+  "f5_d": "Việc chuyển đổi giữa các cửa sổ Safari sẽ tự động tắt tiếng các tab của cửa sổ trước, đảm bảo âm thanh luôn đi theo nơi bạn tập trung.",
+  "f6_t": {
+    "text": "Hỗ trợ 33 ngôn ngữ",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "Đã được dịch toàn diện sang 33 ngôn ngữ, vì vậy Auto Mute Tab sẽ nói ngôn ngữ của bạn.",
+    "context": "description"
+  },
+  "sec_how": "Cách hoạt động",
+  "sec_how_title": "Đặt và quên đi",
+  "s1_t": "Cài đặt từ App Store",
+  "s1_d": {
+    "text": "Tải Auto Mute Tab từ App Store. Đây là một tiện ích mở rộng Safari nhẹ.",
+    "context": "description"
+  },
+  "s2_t": "Bật trong Safari",
+  "s2_d": "Mở Cài đặt Safari, chọn Tiện ích mở rộng và bật Tự động tắt tab. Cấp quyền truy cập cho tất cả các trang web.",
+  "s3_t": "Duyệt thư mục yên bình",
+  "s3_d": "Đó là tất cả. Các tab nền tự động tắt âm thanh; khi chuyển tab, chỉ tab đang được chọn mới phát nhạc.",
+  "sec_why": "Tại sao tắt tự động tab?",
+  "sec_why_title": "Nút tắt tiếng trình duyệt Safari",
+  "w1_t": "Kết thúc hỗn loạn âm thanh",
+  "w1_d": "Tùy chọn Tự động Ẩn Tab đảm bảo chỉ có một tab phát âm thanh cùng lúc, một cách tự động và tức thì, giúp loại bỏ sự phân tâm khi nhiều tab phát âm thanh đồng thời.",
+  "w2_t": "Hoạt động mọi nơi",
+  "w2_d": "Xử lý video và âm thanh HTML5, Web Audio API, video tự phát, khung nhúng và phương tiện được tải động; nếu phát ra âm thanh, tính năng Tự tắt tab sẽ kiểm soát nó.",
+  "w3_t": "Thu thập dữ liệu bằng không",
+  "w3_d": "Không có phân tích, không theo dõi, không tài khoản, không máy chủ. Mọi thứ chạy cục bộ trên Safari. Duyệt web của bạn hoàn toàn riêng tư.",
+  "req": {
+    "text": "Yêu cầu iOS 15, iPadOS 15 hoặc macOS 14 trở lên, cùng với Safari. Có sẵn trong 33 ngôn ngữ.",
+    "context": "description"
+  },
+  "f_brand": "Phát triển công cụ bảo mật tập trung",
+  "f_legal": "Pháp lý",
+  "f_privacy": "Chính sách bảo mật",
+  "f_terms": "Điều khoản dịch vụ",
+  "f_connect": "Kết nối",
+  "carousel_title": {
+    "text": "Thêm nữa từ CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Các ứng dụng ưu tiên quyền riêng tư cho macOS, iOS và Safari.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Các khoảng lặng là điều nút tắt âm thanh bỏ lỡ",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "Các trang web như YouTube, Twitch, và X định tuyến âm thanh thông qua Web Audio API, điều này giúp âm thanh lọt qua chế độ tắt tab bình thường. Auto Mute Tab vẫn có thể làm im lặng chúng.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Ghim tab để tiếp tục phát",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Giữ một tab nền có âm thanh trong khi tất cả các tab khác đều tắt tiếng, hoàn hảo cho việc nghe nhạc hoặc cuộc gọi.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Tắt âm thanh cho tab đang hoạt động theo yêu cầu",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "Im lặng tab bạn đang xem chỉ với một thao tác, mà không cần rời khỏi trang.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "Xem tất cả nội dung bị tắt âm",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "Một trang riêng biệt liệt kê tất cả các tab mà Auto Mute đang tắt, cho phép mở lại âm thanh với một cú nhấp chuột.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Danh sách cho phép luôn",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Thêm trình phát nhạc, cuộc gọi video, hoặc bất kỳ trang web nào không bao giờ được tắt âm thanh.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Khôi phục sau khi ngủ",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "Âm thanh được khôi phục chính xác sau khi Mac hoặc thiết bị của bạn thức dậy khỏi chế độ ngủ, một tình huống mà nhiều người tắt tab thường bỏ qua.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Ngăn chặn phát tự động bất ngờ",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "Một tab nền bắt đầu phát nhạc sẽ bị tắt âm ngay lập tức khi có âm thanh phát ra.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Ri tư và nhẹ",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "Không cần tài khoản, không theo dõi, không yêu cầu kết nối mạng, và gần như không ảnh hưởng đến tốc độ duyệt web.",
+    "context": "description"
+  }
+}

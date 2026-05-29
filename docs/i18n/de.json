@@ -1,0 +1,132 @@
+{
+  "nav_features": "Funktionen",
+  "nav_how": "So funktioniert's",
+  "nav_contact": "Kontakt",
+  "hero_title": "Auto Mute Tab<br>für Safari",
+  "hero_sub": "Schaltet automatisch alle Hintergrund-Tabs stumm. Nur der aktive Tab gibt Audio wieder.",
+  "hero_cta": "Im App Store laden",
+  "hero_req": {
+    "text": "Für iPhone, iPad und Mac",
+    "context": "description"
+  },
+  "sec_features": "Funktionen",
+  "sec_features_title": "Konzentrieren Sie sich auf das, was Sie hören",
+  "f1_t": "Intelligente Stummschaltung",
+  "f1_d": "Hintergrund-Tabs werden beim Wechsel automatisch stummgeschaltet. Nur der aktive Tab spielt Audio.",
+  "f2_t": "Bild-in-Bild-Unterstützung",
+  "f2_d": "Videos im PiP-Modus spielen weiter Audio, auch wenn ihr Tab im Hintergrund ist.",
+  "f3_t": "Tastaturkürzel",
+  "f3_d": "Stummschaltung mit Ctrl+Shift+M ein- oder ausschalten.",
+  "f4_t": "Domain-Whitelist",
+  "f4_d": "Bestimmte Websites immer hörbar halten. Ideal für Musikplayer oder Videoanrufe.",
+  "f5_t": "Fensterübergreifende Stummschaltung",
+  "f5_d": "Beim Wechsel zwischen Safari-Fenstern werden die Tabs des vorherigen Fensters stummgeschaltet.",
+  "f6_t": {
+    "text": "33 Sprachen",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "Vollständig in 33 Sprachen lokalisiert, sodass Auto Mute Tab Ihre Sprache spricht.",
+    "context": "description"
+  },
+  "sec_how": "So funktioniert's",
+  "sec_how_title": "Einrichten und vergessen",
+  "s1_t": "Aus dem App Store laden",
+  "s1_d": {
+    "text": "Laden Sie Auto Mute Tab im App Store herunter. Es handelt sich um eine leichte Safari-Erweiterung.",
+    "context": "description"
+  },
+  "s2_t": "In Safari aktivieren",
+  "s2_d": "Öffnen Sie Safari-Einstellungen, gehen Sie zu Erweiterungen und aktivieren Sie Auto Mute Tab.",
+  "s3_t": "In Ruhe surfen",
+  "s3_d": "Das war's. Hintergrund-Tabs werden automatisch stummgeschaltet.",
+  "sec_why": "Warum Auto Mute Tab",
+  "sec_why_title": "Die Stummschalttaste, die Safari haben sollte",
+  "w1_t": "Schluss mit Audio-Chaos",
+  "w1_d": "Mehrere Tabs, die gleichzeitig Audio abspielen, sind störend.",
+  "w2_t": "Überall einsetzbar",
+  "w2_d": "Unterstützt HTML5, Web Audio API, Autoplay, iframes und dynamische Medien.",
+  "w3_t": "Keine Datenerhebung",
+  "w3_d": "Keine Analytik, kein Tracking, keine Konten. Alles läuft lokal in Safari.",
+  "req": {
+    "text": "Benötigt iOS 15, iPadOS 15 oder macOS 14 oder später, mit Safari. Verfügbar in 33 Sprachen.",
+    "context": "description"
+  },
+  "f_brand": "Indie macOS Software Studio.<br>Fokussierte, datenschutzfreundliche Tools.",
+  "f_legal": "Rechtliches",
+  "f_privacy": "Datenschutz",
+  "f_terms": "Nutzungsbedingungen",
+  "f_connect": "Kontakt",
+  "carousel_title": {
+    "text": "Weitere Apps von CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Datenschutzorientierte Apps für macOS, iOS und Safari.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Stille ist das, was der Stummschalt-Button übersieht",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "Seiten wie YouTube, Twitch und X leiten Audio über die Web Audio API weiter, wodurch es dem normalen Tab-Stummschalten entgeht. Auto Mute Tab stummschaltet sie trotzdem.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Heften Sie ein Tab fest, um die Wiedergabe fortzusetzen.",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Behalten Sie einen Hintergrundtab hörbar, während alle anderen stummgeschaltet werden – ideal für Musik oder Anrufe.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Stummschalten des aktiven Tabs auf Abruf",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "Stummschalten Sie den Tab, auf den Sie gerade schauen, mit einem einzigen Tippen, ohne die Seite zu verlassen.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "Sehen Sie alles, das stummgeschaltet ist",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "Eine dedizierte Seite listet jeden Tab auf, den Auto Mute stummschaltet, mit einem Klick zum Aufheben des Stummschaltens.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Always-allow-List",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Fügen Sie Musikplayer, Videoanrufe oder jede Website hinzu, die niemals stummgeschaltet werden sollte.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Wird nach dem Schlafen wiederhergestellt",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "Der Audioausgang wird korrekt wiederhergestellt, nachdem Ihr Mac oder Gerät aus dem Ruhezustand geweckt wurde – ein Problem, das viele Tab-Stummschalter übersehen.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Stoppt unerwartetes Autoplay",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "Ein Hintergrundtab, das plötzlich startet, wird sofort stummgeschaltet, sobald es Sound erzeugt.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Privat und leichtgewichtig",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "Keine Konten, keine Nachverfolgung, keine Netzwerkabfragen und nahezu null Auswirkung auf die Surfgeschwindigkeit.",
+    "context": "description"
+  }
+}

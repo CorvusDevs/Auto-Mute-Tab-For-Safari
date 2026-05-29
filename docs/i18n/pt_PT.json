@@ -1,0 +1,132 @@
+{
+  "nav_features": "Recursos",
+  "nav_how": "Como funciona",
+  "nav_contact": "Contacto",
+  "hero_title": "Auto Mute Tab<br>para o Safari",
+  "hero_sub": "Silencia automaticamente todas as abas de fundo, fazendo com que apenas a aba em foco reproduza o áudio, eliminando sons concorrentes de abas esquecidas.",
+  "hero_cta": "Baixar na App Store",
+  "hero_req": {
+    "text": "Para iPhone, iPad e Mac",
+    "context": "description"
+  },
+  "sec_features": "Recursos",
+  "sec_features_title": "Foque no que está a ouvir",
+  "f1_t": "Silencio Automático Inteligente",
+  "f1_d": "As abas de fundo são automaticamente silenciadas ao sair delas; apenas a aba ativa reproduz áudio, sem necessidade de configuração.",
+  "f2_t": "Suporte Picture-in-Picture",
+  "f2_d": "Os vídeos no modo PiP continuam a reproduzir o áudio mesmo quando a respetiva aba está em segundo plano; nunca perca o som do seu vídeo.",
+  "f3_t": "Atalho do Teclado",
+  "f3_d": "Ative ou desative o silenciamento instantaneamente com Ctrl+Shift+M e personalize-o nas definições da extensão do Safari.",
+  "f4_t": "Lista de Domínios",
+  "f4_d": "Mantenha sites específicos sem som em todo o momento. Ideal para leitores de música, chamadas de vídeo ou qualquer site que deva ter áudio sempre ativo.",
+  "f5_t": "Silenciamento Multi-Janela",
+  "f5_d": "Ao alternar entre janelas do Safari, as abas da janela anterior são automaticamente silenciadas; o áudio segue o seu foco em qualquer lugar.",
+  "f6_t": {
+    "text": "33 Idiomas",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "Completamente localizado em 33 idiomas, para que o Auto Mute Tab fale o seu.",
+    "context": "description"
+  },
+  "sec_how": "Como funciona",
+  "sec_how_title": "Definir e esquecer",
+  "s1_t": "Instalar na App Store",
+  "s1_d": {
+    "text": "Baixe o Auto Mute Tab na App Store. É uma extensão leve para o Safari.",
+    "context": "description"
+  },
+  "s2_t": "Ativar no Safari",
+  "s2_d": "Abra as Definições do Safari, vá para Extensões e ative o Auto Mute Tab, concedendo permissão para todos os sites.",
+  "s3_t": "Navegue em paz",
+  "s3_d": "Isso é tudo. As abas de fundo ficam silenciosas automaticamente; ao alternar para uma aba, apenas a focada reproduz áudio.",
+  "sec_why": "Porque Auto Silenciar Aba",
+  "sec_why_title": "Botão de silêncio que o Safari deve ter",
+  "w1_t": "Termine o caos de áudio",
+  "w1_d": "O Auto Mute Tab garante que apenas uma aba seja ouvida de cada vez, de forma automática e instantânea, evitando distrações causadas por múltiplas abas a tocar simultaneamente.",
+  "w2_t": "Funciona em todo o lado",
+  "w2_d": "Gerencia vídeo e áudio HTML5, Web Audio API, vídeos com autoplay, iframes e media carregado dinamicamente; se emitir som, o Auto Mute Tab controla-o.",
+  "w3_t": "Zero de recolha de dados",
+  "w3_d": "Sem análises, sem rastreamento, sem contas e sem servidores; tudo funciona localmente no Safari, mantendo o seu navegação completamente privada.",
+  "req": {
+    "text": "Requer iOS 15, iPadOS 15 ou macOS 14 ou mais recente, com o Safari. Disponível em 33 idiomas.",
+    "context": "description"
+  },
+  "f_brand": "Estúdio de software para macOS indie.<br>Criamos ferramentas focadas e orientadas à privacidade.",
+  "f_legal": "Legal",
+  "f_privacy": "Política de Privacidade",
+  "f_terms": "Termos de Serviço",
+  "f_connect": "Conectar",
+  "carousel_title": {
+    "text": "Mais do CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Aplicações com foco na privacidade para macOS, iOS e Safari.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Os silêncios são aqueles que o botão de silêncio não capta",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "Sites como YouTube, Twitch e X encaminham o áudio através da Web Audio API, o que permite que escape da suspensão normal da aba. O Auto Mute Tab silencia-os de qualquer forma.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Pin a tab para continuar a ouvir",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Mantenha um fundo de tabulador audível enquanto o resto permanece silenciado, perfeito para música ou chamadas.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Silencie a aba ativa quando necessário",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "Silencie a aba em que está a ver com um toque, sem sair da página.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "Veja tudo que está silenciado",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "Uma página dedicada lista todas as abas que o Auto Mute está a silenciar, com a opção de desilenciar com um único clique.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Lista sempre permitida",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Adicione leitores de música, chamadas de vídeo ou qualquer site que nunca deve ser silenciado.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Recupera após o sono",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "O áudio é restabelecido corretamente após o seu Mac ou dispositivo acordar do sono, um caso que muitos mutadores de abas ignoram.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Impede a reprodução automática surpresa",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "Uma aba de fundo que começa a tocar de repente é silenciada no instante em que emite som.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Privado e leve",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "Sem contas, sem rastreamento, sem requisições de rede e com impacto quase nulo na velocidade de navegação.",
+    "context": "description"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "nav_features": "Functies",
+  "nav_how": "Hoe het werkt",
+  "nav_contact": "Contact",
+  "hero_title": "Tab automatisch stilzetten voor Safari",
+  "hero_sub": "Stil alle achtergrondtabbladen automatisch, zodat alleen de tabblad dat u hebt geselecteerd audio afspeelt; geen meer geluiden van vergeten tabbladen.",
+  "hero_cta": "Downloaden bij de App Store",
+  "hero_req": {
+    "text": "Voor iPhone, iPad en Mac",
+    "context": "description"
+  },
+  "sec_features": "Functies",
+  "sec_features_title": "Focus op wat je luistert",
+  "f1_t": "Slim Automatisch Dempen",
+  "f1_d": "Achtergrondtabbladen worden automatisch stilgezet zodra u het tabblad verlaat; alleen het actieve tabblad speelt audio af, zonder dat er enige configuratie nodig is.",
+  "f2_t": "Picture-in-Picture Ondersteuning",
+  "f2_d": "Video's in PiP-modus blijven audio afspelen, zelfs wanneer het tabblad op de achtergrond staat; mis nooit het geluid van uw video.",
+  "f3_t": "Snelkoppeling Toetsenbord",
+  "f3_d": "Schakel het dempen direct in of uit met Ctrl+Shift+M en pas dit aan in de Safari-extensie-instellingen.",
+  "f4_t": "Domein Whitelist",
+  "f4_d": "Houd specifieke sites altijd ongemuteerd. Ideaal voor muziekafspeelprogramma's, videobellen of elke site die altijd geluid moet hebben.",
+  "f5_t": "Geluid uitschakelen tussen vensters",
+  "f5_d": "Het automatisch wisselen tussen Safari vensters dempt de tabbladen van het vorige venster; de audio volgt uw focus overal.",
+  "f6_t": {
+    "text": "33 Talen",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "Volledig vertaald in 33 talen, dus Auto Mute Tab spreekt uw taal.",
+    "context": "description"
+  },
+  "sec_how": "Hoe het werkt",
+  "sec_how_title": "Stel het in en vergeet het",
+  "s1_t": "Installeer vanuit App Store",
+  "s1_d": {
+    "text": "Download Auto Mute Tab uit de App Store. Het is een lichtgewicht Safari-extensie.",
+    "context": "description"
+  },
+  "s2_t": "Inschakelen in Safari",
+  "s2_d": "Open Safari Instellingen, ga naar Extensies en schakel Auto Mute Tab in. Geef toestemming voor alle websites.",
+  "s3_t": "Blader in rust",
+  "s3_d": "Dat is alles. Achtergrondtabbladen gaan automatisch stil. Wissel tussen tabbladen en alleen het gefocuste tabblad speelt audio af.",
+  "sec_why": "Waarom Auto Mute Tab?",
+  "sec_why_title": "De Safari-uitzetknop",
+  "w1_t": "Audio chaos beëindigen",
+  "w1_d": "Auto Mute Tab zorgt ervoor dat slechts één tabblad wordt gehoord, automatisch en direct, om afleiding door geluid van meerdere gelijktijdig afspelende tabbladen te voorkomen.",
+  "w2_t": "Werkt overal",
+  "w2_d": "Behandelt HTML5-video en -audio, de Web Audio API, autoplay-video's, iframes en dynamisch geladen media; als het geluid maakt, regelt Auto Mute Tab het.",
+  "w3_t": "Geen gegevensverzameling",
+  "w3_d": "Geen analytics, geen tracking, geen accounts, geen servers. Alles draait lokaal in Safari. Uw browsingsessies blijven volledig privé.",
+  "req": {
+    "text": "Vereist iOS 15, iPadOS 15 of macOS 14 of nieuwer, met Safari. Beschikbaar in 33 talen.",
+    "context": "description"
+  },
+  "f_brand": "Indie macOS studio.",
+  "f_legal": "Juridisch",
+  "f_privacy": "Privacybeleid",
+  "f_terms": "Servicevoorwaarden",
+  "f_connect": "Verbinden",
+  "carousel_title": {
+    "text": "Meer van CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Privacy-first apps voor macOS, iOS en Safari.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Silenties zijn de knop die het geluid uitschakelt niet",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "Sites zoals YouTube, Twitch en X leiden audio via de Web Audio API, wat de normale tabbladen-stillegging omzeilt. Auto Mute Tab stilt deze sites toch wel.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Koppel een tabblad vast om verder te spelen",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Houd één achtergrondtabblad hoorbaar terwijl alles anders uit staat, ideaal voor muziek of een gesprek.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Schakel het actieve tabblad op verzoek uit",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "Druk op <ph id=\"0\"/> om het tabblad dat u bekijkt stil te zetten, zonder de pagina te verlaten.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "Zie alles dat is uitgeschakeld",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "Een speciale pagina toont elk tabblad dat Auto Mute uitschakelt, met een knop om het met één klik weer in te schakelen.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Altijd-toestaan lijst",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Voeg muziekspelers, video-oproepen of elke site toe die nooit uitgemutet moet worden.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Wordt hersteld na slaapstand",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "Audio wordt correct teruggegeven na het wakker worden van uw Mac of apparaat uit de slaapstand, een geval dat veel tab-muters missen.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Stop onverwachte autoplay <ph id=\"0\"/>",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "Een achtergrondtabblad dat plotseling begint af te spelen, wordt direct zodra er geluid wordt gemaakt, gedempt.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Privé en lichtgewicht",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "Geen accounts, geen tracking, geen netwerkverzoeken en een bijna nul-impact op de browsingsnelheid.",
+    "context": "description"
+  }
+}

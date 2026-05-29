@@ -1,0 +1,132 @@
+{
+  "nav_features": "Características",
+  "nav_how": "Cómo funciona",
+  "nav_contact": "Contacto",
+  "hero_title": "Auto Mute Tab<br>para Safari",
+  "hero_sub": "Silo automáticamente todas las pestañas de fondo para que solo se reproduzca el audio de la pestaña en la que está enfocado, eliminando así sonidos molestos de pestañas olvidadas.",
+  "hero_cta": "Descargar en App Store",
+  "hero_req": {
+    "text": "Para iPhone, iPad y Mac",
+    "context": "description"
+  },
+  "sec_features": "Características",
+  "sec_features_title": "Concéntrese en lo que escucha",
+  "f1_t": "Auto-Silencio Inteligente",
+  "f1_d": "Las pestañas de fondo se silencian automáticamente en cuanto te alejas de ellas; solo la pestaña activa reproduce el audio, sin necesidad de configuración.",
+  "f2_t": "Soporte de PIP",
+  "f2_d": "Los videos en modo PiP continúan reproduciendo el audio incluso cuando su pestaña está en segundo plano; nunca pierda el sonido de su video.",
+  "f3_t": "Atajo de teclado",
+  "f3_d": "Alternar silenciar instantáneamente con Ctrl+Shift+M y personalízalo en la configuración de la extensión de Safari.",
+  "f4_t": "Lista de dominios",
+  "f4_d": "Mantenga sitios específicos sin silenciar en todo momento, ideal para reproductores de música, videollamadas o cualquier sitio que siempre necesite audio.",
+  "f5_t": "Smutar entre ventanas",
+  "f5_d": "Al cambiar entre ventanas de Safari, se silencian automáticamente las pestañas de la ventana anterior; el audio sigue su enfoque en todas partes.",
+  "f6_t": {
+    "text": "33 Idiomas",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "Completamente localizado en 33 idiomas, para que Auto Mute Tab hable el tuyo.",
+    "context": "description"
+  },
+  "sec_how": "Cómo funciona",
+  "sec_how_title": "Déjalo y olvídate",
+  "s1_t": "Instalar desde la App Store",
+  "s1_d": {
+    "text": "Descarga Auto Mute Tab desde la App Store. Es una extensión ligera para Safari.",
+    "context": "description"
+  },
+  "s2_t": "Activar en Safari",
+  "s2_d": "Abra la configuración de Safari, vaya a Extensiones y active Auto Mute Tab, otorgando permiso a todos los sitios web.",
+  "s3_t": "Navega en paz",
+  "s3_d": "Eso es todo; las pestañas de fondo se silencian automáticamente, y al cambiar de pestaña, solo la activa reproduce audio.",
+  "sec_why": "¿Por qué silenciar pestaña automáticamente",
+  "sec_why_title": "Botón de silencio para Safari",
+  "w1_t": "Termina el caos de audio",
+  "w1_d": "Auto Mute Tab asegura que solo se escuche una pestaña a la vez, de forma automática e instantánea, evitando la distracción de múltiples pestañas reproduciendo audio simultáneamente.",
+  "w2_t": "Funciona en todas partes",
+  "w2_d": "Controla videos y audio HTML5, la API Web Audio, videos con reproducción automática, iframes y medios cargados dinámicamente, silenciando automáticamente la pestaña si genera sonido.",
+  "w3_t": "Cero recopilación de datos",
+  "w3_d": "Sin análisis, sin rastreo, sin cuentas y sin servidores; todo funciona localmente en Safari para garantizar la privacidad total de su navegación.",
+  "req": {
+    "text": "Requiere iOS 15, iPadOS 15 o macOS 14 o posterior, con Safari. Disponible en 33 idiomas.",
+    "context": "description"
+  },
+  "f_brand": "Estudio de software para macOS independiente.<br>Creamos herramientas centradas y enfocadas en la privacidad.",
+  "f_legal": "Legal",
+  "f_privacy": "Política de Privacidad",
+  "f_terms": "Términos de servicio",
+  "f_connect": "Conectar",
+  "carousel_title": {
+    "text": "Más de CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Aplicaciones con privacidad primero para macOS, iOS y Safari.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Los silencios son lo que el botón de silencio no capta",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "Sitios como YouTube, Twitch y X enrutan el audio a través de la Web Audio API, lo que les permite eludir el bloqueo de pestañas normal. Auto Mute Tab los silencia de todos modos.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Ancla una pestaña para seguir reproduciendo",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Mantenga audible un solo fondo de pestaña mientras todo lo demás permanece silenciado, ideal para música o una llamada.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Silencie la pestaña activa según sea necesario",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "Silencie la pestaña que está viendo con un solo toque, sin salir de la página.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "Vea todo lo silenciado",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "Una página dedicada lista cada pestaña que Auto Mute silencia, con desilenciamiento con un solo clic.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Lista siempre permitida",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Añade reproductores de música, videollamadas o cualquier sitio que nunca debería silenciarse.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Se recupera después de dormir",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "El audio vuelve correctamente después de que su Mac o dispositivo despierte de la suspensión, algo que muchos mutadores de pestañas pierden.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Detiene la reproducción automática inesperada",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "Una pestaña de fondo que comienza a reproducirse de repente se silencia en el instante en que emite sonido.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Privado y ligero",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "Sin cuentas, sin rastreo, sin solicitudes de red y un impacto casi nulo en la velocidad de navegación.",
+    "context": "description"
+  }
+}

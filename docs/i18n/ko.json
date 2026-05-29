@@ -1,0 +1,132 @@
+{
+  "nav_features": "기능",
+  "nav_how": "사용법",
+  "nav_contact": "문의",
+  "hero_title": "Auto Mute Tab<br>for Safari",
+  "hero_sub": "백그라운드 탭을 자동으로 음소거. 활성 탭만 오디오 재생.",
+  "hero_cta": "App Store에서 다운로드",
+  "hero_req": {
+    "text": "iPhone, iPad, Mac용",
+    "context": "description"
+  },
+  "sec_features": "기능",
+  "sec_features_title": "듣고 있는 것에 집중",
+  "f1_t": "스마트 자동 음소거",
+  "f1_d": "탭 전환 시 백그라운드 탭 자동 음소거.",
+  "f2_t": "PiP 지원",
+  "f2_d": "PiP 동영상은 백그라운드에서도 오디오 계속 재생.",
+  "f3_t": "키보드 단축키",
+  "f3_d": "Ctrl+Shift+M으로 음소거 전환.",
+  "f4_t": "도메인 화이트리스트",
+  "f4_d": "특정 사이트를 항상 오디오 유지.",
+  "f5_t": "창 간 음소거",
+  "f5_d": "창 전환 시 이전 창의 탭 자동 음소거.",
+  "f6_t": {
+    "text": "33 개 언어 지원",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "전 세계 33 개 언어로 완전히 현지화되어 Auto Mute Tab 이 사용자의 언어를 지원합니다.",
+    "context": "description"
+  },
+  "sec_how": "사용법",
+  "sec_how_title": "설정하고 잊어버리세요",
+  "s1_t": "App Store에서 설치",
+  "s1_d": {
+    "text": "App Store 에서 Auto Mute Tab 을 다운로드하세요. 가볍고 효율적인 Safari 확장 프로그램입니다.",
+    "context": "description"
+  },
+  "s2_t": "Safari에서 활성화",
+  "s2_d": "Safari 설정의 확장프로그램에서 활성화.",
+  "s3_t": "편안하게 브라우징",
+  "s3_d": "백그라운드 탭은 자동 음소거.",
+  "sec_why": "왜 Auto Mute Tab",
+  "sec_why_title": "Safari에 있어야 할 음소거 버튼",
+  "w1_t": "오디오 혼란 종료",
+  "w1_d": "여러 탭이 동시에 오디오를 재생하면 집중하기 어렵습니다.",
+  "w2_t": "어디서나 동작",
+  "w2_d": "HTML5, Web Audio API, 자동 재생, iframe 지원.",
+  "w3_t": "데이터 수집 없음",
+  "w3_d": "분석도 추적도 없음. 모두 로컬로 동작.",
+  "req": {
+    "text": "iOS 15, iPadOS 15, 또는 macOS 14 이상 버전과 Safari 가 필요합니다. 33 개 언어로 제공됩니다.",
+    "context": "description"
+  },
+  "f_brand": "인디 macOS 스튜디오.",
+  "f_legal": "법적 고지",
+  "f_privacy": "개인정보",
+  "f_terms": "이용약관",
+  "f_connect": "연락처",
+  "carousel_title": {
+    "text": "CorvusDevs 에서 더 많은 앱 확인하기",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "macOS, iOS, 및 Safari를 위한 프라이버시 우선 앱입니다.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "무음 버튼이 놓치는 침묵의 소리",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "YouTube, Twitch, X 와 같은 사이트는 웹 오디오 API 를 통해 오디오를 전달하므로, 일반적인 탭ミュ트 기능을 우회합니다. Auto Mute Tab 은 이를 자동으로 차단합니다.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "탭을 고정하여 계속 재생할 수 있습니다.",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "배경 탭 하나만 소리를 내도록 설정하여 음악이나 통화 시 모든 다른 탭은 자동으로 음소거됩니다.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "필요에 따라 활성 탭을 즉시ミュ트합니다.",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "한 번 탭으로 현재 보고 있는 탭의 소리를 끄세요. 페이지를 떠날 필요가 없습니다.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "모음으로 된 모든 항목을 확인하세요",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "Auto Mute 가ミュ팅하는 모든 탭이 나열된 전용 페이지로, 한 번 클릭으로ミュ팅을 해제할 수 있습니다.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Always-allow 목록",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "음악 플레이어, 영상 통화, 또는 절대 음소거되어서는 안 될 사이트를 추가하세요.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "수면 후 복구됩니다",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "Mac 또는 장치가 절전 모드에서 깨어나면 오디오가 올바르게 복원되며, 이는 많은 탭ミュ터 사용자가 놓치는 경우입니다.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "반응형 자동 재생을 중지합니다",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "갑자기 재생이 시작되는 백그라운드 탭은 소리가 나자마자 즉시 음소거됩니다.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "사적이고 경량입니다",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "계정 없음, 추적 없음, 네트워크 요청 없음, 그리고 브라우저 속도에 거의 영향을 미치지 않습니다.",
+    "context": "description"
+  }
+}

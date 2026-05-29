@@ -1,0 +1,132 @@
+{
+  "nav_features": "Funkciók",
+  "nav_how": "Működése",
+  "nav_contact": "Kapcsolat",
+  "hero_title": "Auto Mute Tab<br>a Safarihoz",
+  "hero_sub": "Automatikusan némítja a háttérben lévő összes fület, így csak az aktuálisan előtérben lévő lejátszik hangot, elkerülve a felejtett fülekből származó zavaró hangokat.",
+  "hero_cta": "Töltsd le az App Store-ból",
+  "hero_req": {
+    "text": "iPhone, iPad és Mac számára",
+    "context": "description"
+  },
+  "sec_features": "Funkciók",
+  "sec_features_title": "Fókusz a hallgatottakra",
+  "f1_t": "Okos automatikus némítás",
+  "f1_d": "A háttérben lévő fülök automatikusan némítva vannak, amint elhagyja őket; csak a jelenlegi fül adja le a hangot, nincs beállítás szükséges.",
+  "f2_t": "Kép-ben-kép támogatás",
+  "f2_d": "A képernyőn megjelenő videók hangja akkor is szól, ha a fül háttérben van; soha ne veszítse el a videó hangját.",
+  "f3_t": "Billentyűparancs",
+  "f3_d": "A Ctrl+Shift+M billentyűkombinációval azonnal kapcsolhatja be vagy ki a némítást, amely a Safari bővítménybeállításokban testreszabható.",
+  "f4_t": "Domain Whitelist",
+  "f4_d": "Tartsa meg a megadott webhelyek zavarmentesítését; ideális zenelejátszókhoz, videóhívásokhoz vagy minden olyan oldalhoz, amelynek mindig hangot kell adnia.",
+  "f5_t": "Keresztablakos némítás",
+  "f5_d": "A Safari ablakok közötti váltás automatikusan némítja a korábbi ablak fülét; a hangkövetés mindenhol érvényesül.",
+  "f6_t": {
+    "text": "33 Nyelv",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "Teljesen lokalizálva 33 nyelven, így Auto Mute Tab beszél a saját nyelveden is.",
+    "context": "description"
+  },
+  "sec_how": "Működése",
+  "sec_how_title": "Beállítva és elfelejtve",
+  "s1_t": "Tárolja az App Store-ból",
+  "s1_d": {
+    "text": "Töltse le az Auto Mute Tab-ot az App Store-ból. Egy könnyed Safari bővítmény.",
+    "context": "description"
+  },
+  "s2_t": "Safari-ben engedélyezés",
+  "s2_d": "Nyissa meg a Safari Beállítások menüt, lépjen az Kiegészítések részre, és engedélyezze az Auto Mute Tab funkciót. Adja meg az engedélyt az összes weboldal számára.",
+  "s3_t": "Nyugodtan böngéssz",
+  "s3_d": "Ez így van: a háttérben lévő fülök automatikusan csendesek; váltson fülre, és csak a fókuszált fül adja vissza a hangot.",
+  "sec_why": "Miért Auto Mutes a fület",
+  "sec_why_title": "A Safari némítás gombja",
+  "w1_t": "Zárja a zajt",
+  "w1_d": "Az Auto Mute Tab funkció biztosítja, hogy egyszerre csak egy fülhallgatóban szóló tab jelenjen meg, automatikusan és azonnal.",
+  "w2_t": "Mindenhol működik",
+  "w2_d": "Az Auto Mute Tab funkció kezeli az HTML5 videókat és hangokat, a Web Audio API-t, az automatikus lejátszású videókat, az iframeeket és a dinamikus betöltésű médiafájlokat; ha hangot ad ki, ez a funkció automatikusan némítja a fület.",
+  "w3_t": "Nulla adatgyűjtés",
+  "w3_d": "Nincs elemzés, nincs követés, nincs fiók, nincs szerver; mind a Safari-ban fut helyileg, a böngészése teljesen magán marad.",
+  "req": {
+    "text": "iOS 15, iPadOS 15 vagy macOS 14 vagy újabb verzióra van szükség, a Safari böngészővel. 33 nyelven érhető el.",
+    "context": "description"
+  },
+  "f_brand": "Indie macOS szoftverstúdió.<br>A célunk a magánéletre fókuszáló eszközök fejlesztése.",
+  "f_legal": "Jogi",
+  "f_privacy": "Adatvédelmi tájékoztató",
+  "f_terms": "Szolgáltatási feltételek",
+  "f_connect": "Csatlakozás",
+  "carousel_title": {
+    "text": "Több a CorvusDevs-től",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Apple-hez tartozó, az adatvédelemre fókuszáló alkalmazások macOS, iOS és Safari számára.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "A csendet a némítógomb elkerüli",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "A YouTube, Twitch és X oldalak hangját a Web Audio API-n keresztül továbbítják, így elkerülik a szokásos fülbevaló gombos némítást. Az Auto Mute Tab mindenképpen elnémítja őket.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Tűzd ki egy fület, hogy a lejátszás folytatódjon.",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Tartsa hangosnak egy háttérben futó fület, miközben minden más csendben marad, tökéletes zenei élményhez vagy hívásokhoz.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Csendesítsen a jelenlegi fület igény szerint",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "Nyomjon egyet a <ph id=\"0\"/> gombra, hogy elnémítsa a jelenlegi fület, anélkül, hogy elhagyná az oldalt.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "Mindent látsz, ami némítva van",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "Egy dedikált oldal felsorolja azokat a fülöket, amelyeket az Auto Mute némít, egyetlen kattintással pedig feloldhatja a némítást.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Mindig engedélyezett lista",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Hozzon hozzá zenelejátszókat, videóhívásokat vagy olyan weboldalakat, amelyek soha nem maradhatnak némítva.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Alvás után helyreállít",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "A hang helyreáll a megfelelően, amikor a Mac vagy az eszköz felébred alvóból, ami sok tab zavaró gombot használó felhasználó esetében nem így történik.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Megaköti a meglepetés automatikus lejátszást",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "A háttérben lévő fülke hirtelen elindulása esetén azonnal némítva van, amint hangot ad.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Privát és könnyű",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "Fiókok nélkül, nyomon követés nélkül, hálózati kérések nélkül, és a böngészési sebességre szinte nulla hatással.",
+    "context": "description"
+  }
+}

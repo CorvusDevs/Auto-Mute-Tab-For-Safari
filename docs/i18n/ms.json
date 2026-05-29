@@ -1,0 +1,132 @@
+{
+  "nav_features": "Ciri-ciri",
+  "nav_how": "Cara Kerjanya",
+  "nav_contact": "Hubungi",
+  "hero_title": "Senyap Tab Safari",
+  "hero_sub": "Secara automatik, senyapkan semua tab latar belakang supaya hanya tab yang anda fokuskan sahaja yang memutar audio, tanpa lagi bunyi yang bertentangan daripada tab yang dilupakan.",
+  "hero_cta": "Muat turun di App Store",
+  "hero_req": {
+    "text": "Untuk iPhone, iPad, dan Mac",
+    "context": "description"
+  },
+  "sec_features": "Ciri-ciri",
+  "sec_features_title": "Fokus pada apa yang anda dengar",
+  "f1_t": "Penyembunyi Pintas Cerdas",
+  "f1_d": "Tetapan latar belakang secara automatik disenyapkan apabila anda beralih keluar; hanya tetapan aktif yang memutar audio tanpa perlu konfigurasi.",
+  "f2_t": "Sokongan Imej-dalam-Imej",
+  "f2_d": "Video dalam mod PiP terus memulakan bunyi walaupun tab berada di latar belakang; jangan pernah kehilangan bunyi video anda.",
+  "f3_t": "Pintas Tetingkap",
+  "f3_d": "Tukar keadaan pintas Ctrl+Shift+M untuk mematikan bunyi secara serta-merta, dan sesuaikan dalam tetapan sambungan Safari.",
+  "f4_t": "Senarai Putih Domain",
+  "f4_d": "Tetapkan laman web tertentu supaya tidak disenyapkan pada semua masa, sesuai untuk pemutar muzik, panggilan video, atau mana-mana laman web yang mesti mempunyai audio.",
+  "f5_t": "Penyembunyi Tetingkap",
+  "f5_d": "Safari mengunci tab pada tetingkap yang tidak aktif apabila anda beralih tetingkap, supaya bunyi audio sentiasa mengikuti tetingkap yang anda gunakan.",
+  "f6_t": {
+    "text": "33 Bahasa",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "Telah dilokalkan sepenuhnya dalam 33 bahasa, jadi Auto Mute Tab akan berbicara dalam bahasa Anda.",
+    "context": "description"
+  },
+  "sec_how": "Cara Kerjanya",
+  "sec_how_title": "Tetapkan dan Lupakan",
+  "s1_t": "Sedia dari App Store",
+  "s1_d": {
+    "text": "Muat turun Auto Mute Tab dari App Store. Ia adalah sambungan Safari yang ringan.",
+    "context": "description"
+  },
+  "s2_t": "Aktifkan di Safari",
+  "s2_d": "Buka Tetapan Safari, pergi ke Sambungan, dan aktifkan Auto Mute Tab. Berikan kebenaran untuk semua laman web.",
+  "s3_t": "Seronok jelajah",
+  "s3_d": "Sudah cukup. Tab latar belakang akan berdiam secara automatik; tukar tab dan hanya tab yang aktif yang memutar audio.",
+  "sec_why": "Mengapa Senyap Tab Secara Automatik",
+  "sec_why_title": "Tombol Senyap Safari",
+  "w1_t": "Tamatkan kekacauan audio",
+  "w1_d": "Auto Mute Tab memastikan hanya satu tab yang terdengar pada satu masa, secara automatik dan serta-merta, untuk mengelakkan gangguan daripada beberapa tab memutar audio serentak.",
+  "w2_t": "Berfungsi di mana-mana",
+  "w2_d": "Menangani video dan audio HTML5, Web Audio API, video autoplay, iframe, dan media yang dimuat secara dinamik; jika menghasilkan bunyi, Auto Mute Tab mengawalinya.",
+  "w3_t": "Kumpul Data Sifar",
+  "w3_d": "Tiada analisis, tiada pemantauan, tiada akaun, tiada pelayar web. Semua berjalan secara tempatan di Safari. Pengunjung anda kekal sepenuhnya privat.",
+  "req": {
+    "text": "Memerlukan iOS 15, iPadOS 15, atau macOS 14 atau yang lebih baru, dengan Safari. Tersedia dalam 33 bahasa.",
+    "context": "description"
+  },
+  "f_brand": "Studio perisian macOS indie.<br> Membina alat yang berfokus dan mengutamakan privasi.",
+  "f_legal": "Hukum",
+  "f_privacy": "Dasar Privasi",
+  "f_terms": "Terma Perkhidmatan",
+  "f_connect": "Sambungkan",
+  "carousel_title": {
+    "text": "Lebih banyak daripada CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Aplikasi yang memprioritaskan privasi untuk macOS, iOS, dan Safari.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Senyap-senyap, butang senyap tidak dapat menangkapnya",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "Laman web seperti YouTube, Twitch, dan X mengarahkan audio melalui Web Audio API, yang meloloskan diri daripada senyaman tab biasa. Auto Mute Tab tetap menyenyamkannya.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Pin tab untuk terus memutar",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Tetapkan satu tab latar belakang yang boleh didengar manakala semua tab lain disenyapkan, sangat sesuai untuk muzik atau panggilan.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Senyapkan tab aktif bila diperlukan",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "Senyapkan tab yang sedang anda lihat dengan satu tap, tanpa meninggalkan halaman.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "Lihat semua yang dimatikan",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "Halaman khusus senaraikan setiap tab yang Auto Mute senyapkan, dengan fungsi senyapkan semula dengan satu klik.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Senarai kebenaran selamanya",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Tambahkan pemutar muzik, panggilan video, atau mana-mana laman web yang tidak sepatutnya disenyapkan.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Diperbaiki selepas tidur",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "Audio kembali dengan betul selepas Mac atau peranti anda bangun dari tidur, satu kes yang sering terlepas oleh pengguna tab muters.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Menghentikan autoplay kejutan",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "Tab latar belakang yang tiba-tiba memutar akan disenyapkan seketika setelah mengeluarkan suara.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Pribadi dan ringan",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "Tiada akaun, tiada pemantauan, tiada permintaan rangkaian, dan impak hampir sifar terhadap kelajuan melayar.",
+    "context": "description"
+  }
+}

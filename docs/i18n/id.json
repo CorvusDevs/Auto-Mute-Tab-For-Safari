@@ -1,0 +1,132 @@
+{
+  "nav_features": "Fitur",
+  "nav_how": "Cara kerjanya",
+  "nav_contact": "Kontak",
+  "hero_title": "Tab Safari<br>Bisukan",
+  "hero_sub": "Secara otomatis menyalakan semua tab latar belakang sehingga hanya tab yang Anda fokuskan yang memutar audio, tanpa lagi suara yang saling bertabrakan dari tab yang terlupakan.",
+  "hero_cta": "Unduh di App Store",
+  "hero_req": {
+    "text": "Untuk iPhone, iPad, dan Mac",
+    "context": "description"
+  },
+  "sec_features": "Fitur",
+  "sec_features_title": "Fokus pada apa yang Anda dengarkan",
+  "f1_t": "Penyembunyi Otomatis Cerdas",
+  "f1_d": "Tab latar belakang otomatis dimatikan begitu Anda berpindah, hanya tab aktif yang memutar audio tanpa perlu konfigurasi.",
+  "f2_t": "Dukungan Layar dalam Layar",
+  "f2_d": "Video dalam mode PiP tetap memutar audio meskipun tabnya berada di latar belakang, sehingga suara video tidak pernah hilang.",
+  "f3_t": "Keyboard Shortcut",
+  "f3_d": "Nyalakan atau matikan mode diam secara instan dengan Ctrl+Shift+M, dan sesuaikan pengaturan ini di bagian ekstensi Safari.",
+  "f4_t": "Daftar Putusan Domain",
+  "f4_d": "Pertahankan situs tertentu tidak dibungkam pada semua waktu. Sangat cocok untuk pemutar musik, panggilan video, atau situs apa pun yang harus selalu memiliki audio.",
+  "f5_t": "Penyembunyikan Jendela Silang",
+  "f5_d": "Beralih antar jendela Safari secara otomatis menyalakan/mematikan tab pada jendela sebelumnya, sehingga audio mengikuti fokus Anda di mana saja.",
+  "f6_t": {
+    "text": "33 Bahasa",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "Dilokalisasi sepenuhnya di 33 bahasa, sehingga Auto Mute Tab dapat berbicara dalam bahasa Anda.",
+    "context": "description"
+  },
+  "sec_how": "Cara kerjanya",
+  "sec_how_title": "Atur dan Lupakan",
+  "s1_t": "Instal dari App Store",
+  "s1_d": {
+    "text": "Unduh Auto Mute Tab dari App Store. Ini adalah ekstensi Safari yang ringan.",
+    "context": "description"
+  },
+  "s2_t": "Aktifkan di Safari",
+  "s2_d": "Buka Pengaturan Safari, pilih Ekstensi, dan aktifkan Auto Mute Tab. Izinkan akses untuk semua situs web.",
+  "s3_t": "Jelajahi dengan Tenang",
+  "s3_d": "Sudah cukup. Tab latar belakang otomatis menjadi senyap. Pindah tab dan hanya tab yang aktif yang memutar audio.",
+  "sec_why": "Mengapa Tab Otomatis Dibungkam?",
+  "sec_why_title": "Tombol Bisu Safari",
+  "w1_t": "Akhirkan Kekacauan Audio",
+  "w1_d": "Tab Auto Mute memastikan hanya satu tab yang terdengar pada satu waktu, secara otomatis dan instan, untuk menghindari gangguan dari beberapa tab yang memutar audio secara bersamaan.",
+  "w2_t": "Berfungsi di mana saja",
+  "w2_d": "Menangani video dan audio HTML5, Web Audio API, video autoplay, iframe, dan media yang dimuat secara dinamis; jika menghasilkan suara, Auto Mute Tab akan mengendalikannya.",
+  "w3_t": "Pengumpulan Data Nol",
+  "w3_d": "Tanpa analitik, pelacakan, akun, atau server; semua berjalan secara lokal di Safari, memastikan privasi browsing Anda sepenuhnya terjaga.",
+  "req": {
+    "text": "Memerlukan iOS 15, iPadOS 15, atau macOS 14 atau yang lebih baru, dengan Safari. Tersedia dalam 33 bahasa.",
+    "context": "description"
+  },
+  "f_brand": "Studio Perangkat Lunak macOS Indie",
+  "f_legal": "Hukum",
+  "f_privacy": "Kebijakan Privasi",
+  "f_terms": "Syarat Layanan",
+  "f_connect": "Hubungkan",
+  "carousel_title": {
+    "text": "Lebih banyak dari CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Aplikasi yang memprioritaskan privasi untuk macOS, iOS, dan Safari.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Diam-diam terdengar ketika tombol hening tidak menemukannya",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "Aplikasi ini menyalakan fitur Bypass untuk Kompresor dan Limiter, serta mengubah tema menjadi Terang atau Gelap.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Sematkan tab agar pemutaran tetap berlanjut",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Pertahankan satu tab latar belakang terdengar sambil semuanya tetap dalam mode diam, sangat cocok untuk musik atau panggilan.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Heningkan tab aktif sesuai permintaan",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "Heningkan tab yang Anda lihat dengan satu ketukan, tanpa meninggalkan halaman.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "Lihat semua yang dimatikan",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "Halaman khusus menampilkan setiap tab yang dibisukan oleh Auto Mute, dengan fitur untuk membisukan kembali dengan satu klik.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Daftar Izin Selalu",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Tambahkan pemutar musik, panggilan video, atau situs apa pun yang seharusnya tidak pernah dimatikan suaranya.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Diperbaiki setelah tidur",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "Audio kembali dengan benar setelah Mac atau perangkat Anda bangun dari mode tidur, sebuah kasus yang sering terlewatkan oleh banyak penekan tab.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Menghentikan autoplay kejutan",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "Tab latar belakang yang tiba-tiba mulai memutar akan disetel ke mode diam segera saat mengeluarkan suara.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Privat dan ringan",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "Tanpa akun, tanpa pelacakan, tanpa permintaan jaringan, dan dampak hampir nol terhadap kecepatan browsing.",
+    "context": "description"
+  }
+}

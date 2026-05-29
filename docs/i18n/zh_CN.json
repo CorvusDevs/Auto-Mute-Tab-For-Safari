@@ -1,0 +1,132 @@
+{
+  "nav_features": "功能",
+  "nav_how": "工作原理",
+  "nav_contact": "联系",
+  "hero_title": "自动静音标签页",
+  "hero_sub": "自动静音所有后台标签页，仅播放当前聚焦标签页的音频，避免遗忘的标签页发出干扰声。",
+  "hero_cta": "App Store 下载",
+  "hero_req": {
+    "text": "适用于 iPhone、iPad 和 Mac",
+    "context": "description"
+  },
+  "sec_features": "功能",
+  "sec_features_title": "专注当前播放",
+  "f1_t": "智能自动静音",
+  "f1_d": "切换标签页时，后台标签页会自动静音，仅当前标签页播放音频，无需手动配置。",
+  "f2_t": "画中画支持",
+  "f2_d": "画中画模式下的视频在后台时也会继续播放音频，确保声音不会丢失。",
+  "f3_t": "键盘快捷键",
+  "f3_d": "按 Ctrl+Shift+M 可立即切换静音开关，也可在 Safari 扩展设置中自定义此快捷键。",
+  "f4_t": "域名白名单",
+  "f4_d": "始终保持特定网站不静音，非常适合音乐播放器、视频通话或任何需要始终播放音频的网站。",
+  "f5_t": "跨窗口静音",
+  "f5_d": "切换 Safari 窗口时会自动静音前一个窗口的标签页，音频始终跟随您的专注位置。",
+  "f6_t": {
+    "text": "支持 33 种语言",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "支持 33 种语言的完全本地化，让 Auto Mute Tab 说您的语言。",
+    "context": "description"
+  },
+  "sec_how": "工作原理",
+  "sec_how_title": "设置即忘",
+  "s1_t": "从 App Store 安装",
+  "s1_d": {
+    "text": "从 App Store 下载 Auto Mute Tab。它是一款轻量级的 Safari 扩展。",
+    "context": "description"
+  },
+  "s2_t": "在 Safari 中启用",
+  "s2_d": "在 Safari 设置中进入“扩展”，启用“自动静音标签页”，并授予所有网站权限。",
+  "s3_t": "浏览",
+  "s3_d": "背景标签会自动静音，切换标签时仅播放当前聚焦标签的音频。",
+  "sec_why": "自动静音标签",
+  "sec_why_title": "Safari 应包含的静音按钮",
+  "w1_t": "结束音频混乱",
+  "w1_d": "自动静音标签页功能可确保同一时间仅播放一个标签页的音频，自动且即时地消除多标签页同时播放音频的干扰。",
+  "w2_t": "随处可用",
+  "w2_d": "自动静音标签页可控制 HTML5 视频和音频、Web Audio API、自动播放视频、iframe 及动态加载的媒体，只要它们发出声音即可。",
+  "w3_t": "零数据收集",
+  "w3_d": "无需分析、追踪、账户或服务器，所有操作均在 Safari 本地运行，确保您的浏览完全私密。",
+  "req": {
+    "text": "需要 iOS 15、iPadOS 15 或 macOS 14 及以上版本，并需使用 Safari。支持 33 种语言。",
+    "context": "description"
+  },
+  "f_brand": "独立 macOS 软件工作室。<br>专注于构建以隐私为先的工具。",
+  "f_legal": "法律",
+  "f_privacy": "隐私政策",
+  "f_terms": "服务条款",
+  "f_connect": "连接",
+  "carousel_title": {
+    "text": "更多来自 CorvusDevs 的内容",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "适用于 macOS、iOS 和 Safari 的首重隐私应用。",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Silences 是静音按钮遗漏的",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "类似 YouTube、Twitch 和 X 的网站通过 Web Audio API 传输音频，从而绕过正常的标签页静音功能。Auto Mute Tab 依然可以静音这些网站。",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "将标签页固定以继续播放",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "保持一个后台标签的音频播放，同时静音其他所有内容，非常适合音乐或通话。",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "按需静音当前标签页",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "点击即可静音当前标签页，无需离开页面。",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "查看所有静音内容",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "一个专用页面列出 Auto Mute 静音的所有标签页，并提供一键取消静音功能。",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "始终允许列表",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "添加音乐播放器、视频通话或任何不应被静音的网站。",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "睡眠唤醒后恢复",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "唤醒 Mac 或设备后，音频会正确恢复，这是许多标签静音者会遇到的情况。",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "阻止意外自动播放",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "当后台标签页突然开始播放时，一旦发出声音就会立即静音。",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "私密且轻量级",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "无需账号、无需追踪、无需网络请求，且对浏览速度几乎零影响。",
+    "context": "description"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "back": {
+    "text": "← Back to Auto Mute Tab",
+    "context": "label"
+  },
+  "title": {
+    "text": "Terms of Service",
+    "context": "label"
+  },
+  "date": {
+    "text": "Effective Date: April 4, 2026 · Last Updated: April 4, 2026",
+    "context": "format"
+  },
+  "intro": {
+    "text": "These Terms of Service (\"Terms\") govern your use of Auto Mute Tab for Safari, developed and published by CorvusDevs (\"we\", \"us\", \"our\"). By downloading, installing, or using Auto Mute Tab, you agree to these Terms.",
+    "context": "description"
+  },
+  "h_license": {
+    "text": "1. License",
+    "context": "label"
+  },
+  "p_license": {
+    "text": "We grant you a personal, non-exclusive, non-transferable, revocable license to install and use Auto Mute Tab on any macOS computers that you own or control, for personal use.",
+    "context": "description"
+  },
+  "h_restrictions": {
+    "text": "2. Restrictions",
+    "context": "label"
+  },
+  "p_restrictions": {
+    "text": "You may not:",
+    "context": "description"
+  },
+  "li_redistribute": {
+    "text": "Redistribute, resell, or sublicense the extension",
+    "context": "label"
+  },
+  "li_reverse": {
+    "text": "Reverse-engineer, decompile, or disassemble the extension, except where permitted by applicable law",
+    "context": "label"
+  },
+  "li_copyright": {
+    "text": "Remove or alter any copyright notices or branding",
+    "context": "label"
+  },
+  "li_unlawful": {
+    "text": "Use the extension for any unlawful purpose",
+    "context": "label"
+  },
+  "li_twitch_tos": {
+    "text": "Use the extension to violate Twitch's Terms of Service",
+    "context": "label"
+  },
+  "h_thirdparty": {
+    "text": "3. Third-Party Services",
+    "context": "label"
+  },
+  "p_thirdparty": {
+    "text": "Auto Mute Tab interacts with Twitch (twitch.tv) and third-party emote providers (BetterTTV, FrankerFaceZ, 7TV). We are not affiliated with Twitch Interactive, Inc. or any of these emote providers. Your use of Twitch is governed by Twitch's own Terms of Service.",
+    "context": "description"
+  },
+  "h_ip": {
+    "text": "4. Intellectual Property",
+    "context": "label"
+  },
+  "p_ip": {
+    "text": "Auto Mute Tab, including its code, design, names, and logos, is the property of CorvusDevs and is protected by copyright law. Your license does not transfer any ownership rights. \"Twitch\" is a trademark of Twitch Interactive, Inc.",
+    "context": "description"
+  },
+  "h_updates": {
+    "text": "5. Updates",
+    "context": "label"
+  },
+  "p_updates": {
+    "text": "We may release updates at our discretion through the Mac App Store. We are not obligated to provide updates, new features, or ongoing support.",
+    "context": "description"
+  },
+  "h_warranty": {
+    "text": "6. Disclaimer of Warranties",
+    "context": "label"
+  },
+  "p_warranty": {
+    "text": "Auto Mute Tab is provided \"as is\" without warranty of any kind, express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, and non-infringement. We do not warrant that the extension will be uninterrupted, error-free, or compatible with all versions of Twitch or Safari.",
+    "context": "description"
+  },
+  "h_liability": {
+    "text": "7. Limitation of Liability",
+    "context": "label"
+  },
+  "p_liability": {
+    "text": "To the maximum extent permitted by law, CorvusDevs shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of Auto Mute Tab.",
+    "context": "description"
+  },
+  "h_termination": {
+    "text": "8. Termination",
+    "context": "label"
+  },
+  "p_termination": {
+    "text": "We may terminate your license if you violate these Terms. Upon termination, you must uninstall the extension.",
+    "context": "description"
+  },
+  "h_changes": {
+    "text": "9. Changes to These Terms",
+    "context": "label"
+  },
+  "p_changes": {
+    "text": "We may update these Terms from time to time. The updated version will be posted at this URL with a revised \"Last Updated\" date. Continued use of the extension after changes constitutes acceptance of the new Terms.",
+    "context": "description"
+  },
+  "h_law": {
+    "text": "10. Governing Law",
+    "context": "label"
+  },
+  "p_law": {
+    "text": "These Terms are governed by the laws of the jurisdiction in which CorvusDevs operates, without regard to conflict-of-law principles.",
+    "context": "description"
+  },
+  "h_contact": {
+    "text": "11. Contact",
+    "context": "label"
+  },
+  "p_contact_pre": {
+    "text": "If you have questions about these Terms, contact us at:",
+    "context": "description"
+  }
+}

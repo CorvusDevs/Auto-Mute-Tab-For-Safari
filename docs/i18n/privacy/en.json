@@ -1,0 +1,118 @@
+{
+  "back": {
+    "text": "← Back to Auto Mute Tab",
+    "context": "label"
+  },
+  "title": {
+    "text": "Privacy Policy",
+    "context": "label"
+  },
+  "date": {
+    "text": "Effective Date: April 4, 2026 · Last Updated: April 4, 2026",
+    "context": "format"
+  },
+  "intro": {
+    "text": "CorvusDevs (\"we\", \"us\", \"our\") develops and publishes software applications. This Privacy Policy explains how we handle data in Auto Mute Tab for Safari.",
+    "context": "description"
+  },
+  "h_commitment": {
+    "text": "Our Commitment",
+    "context": "label"
+  },
+  "p_commitment": {
+    "text": "Auto Mute Tab is designed to work entirely on your device. We do not collect, store, or transmit any personal data.",
+    "context": "description"
+  },
+  "h_collection": {
+    "text": "Data Collection",
+    "context": "label"
+  },
+  "p_collection": {
+    "text": "Auto Mute Tab does not collect any data. Specifically:",
+    "context": "description"
+  },
+  "li_analytics": {
+    "text": "No analytics or telemetry",
+    "context": "label"
+  },
+  "li_personal": {
+    "text": "No personal information",
+    "context": "label"
+  },
+  "li_tracking": {
+    "text": "No third-party tracking",
+    "context": "label"
+  },
+  "li_local": {
+    "text": "Local storage only",
+    "context": "label"
+  },
+  "h_thirdparty": {
+    "text": "Third-Party Services",
+    "context": "label"
+  },
+  "p_thirdparty": {
+    "text": "Auto Mute Tab connects to the following third-party APIs to load emote data:",
+    "context": "description"
+  },
+  "li_bttv": {
+    "text": "BetterTTV API",
+    "context": "label"
+  },
+  "li_ffz": {
+    "text": "FrankerFaceZ API",
+    "context": "label"
+  },
+  "li_7tv": {
+    "text": "7TV API",
+    "context": "label"
+  },
+  "li_pronouns": {
+    "text": "Pronouns API",
+    "context": "label"
+  },
+  "p_thirdparty2": {
+    "text": "These requests are made directly from your browser to the respective services. We do not proxy, log, or intercept these requests. Please refer to each service's own privacy policy for how they handle requests.",
+    "context": "description"
+  },
+  "h_account": {
+    "text": "Twitch Account",
+    "context": "label"
+  },
+  "p_account": {
+    "text": "Auto Mute Tab does not access your Twitch account credentials. The extension operates by modifying the Twitch web page in your browser, it does not authenticate with Twitch on your behalf or store any login information.",
+    "context": "description"
+  },
+  "h_website": {
+    "text": "Website",
+    "context": "label"
+  },
+  "p_website": {
+    "text": "This website (hosted via GitHub Pages) does not use cookies, analytics, or tracking scripts.",
+    "context": "description"
+  },
+  "h_children": {
+    "text": "Children's Privacy",
+    "context": "label"
+  },
+  "p_children": {
+    "text": "Auto Mute Tab is not directed at children under 13, and we do not knowingly collect data from children.",
+    "context": "description"
+  },
+  "h_changes": {
+    "text": "Changes to This Policy",
+    "context": "label"
+  },
+  "p_changes": {
+    "text": "We may update this Privacy Policy from time to time. The updated version will be posted at this URL with a revised \"Last Updated\" date.",
+    "context": "description"
+  },
+  "h_contact": {
+    "text": "Contact",
+    "context": "label"
+  },
+  "p_contact_pre": {
+    "text": "If you have questions about this Privacy Policy, contact us at:",
+    "context": "description"
+  }
+}

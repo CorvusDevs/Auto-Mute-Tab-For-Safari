@@ -1,0 +1,246 @@
+{
+  "nav_features": {
+    "text": "Features",
+    "context": "label"
+  },
+  "nav_how": {
+    "text": "How it works",
+    "context": "label"
+  },
+  "nav_contact": {
+    "text": "Contact",
+    "context": "label"
+  },
+  "hero_title": {
+    "text": "Auto Mute Tab<br>for Safari",
+    "context": "label"
+  },
+  "hero_sub": {
+    "text": "Automatically mutes every background tab so only the one you're focused on plays audio. No more competing sounds from forgotten tabs.",
+    "context": "description"
+  },
+  "hero_cta": {
+    "text": "Download on the App Store",
+    "context": "label"
+  },
+  "hero_req": {
+    "text": "For iPhone, iPad, and Mac",
+    "context": "description"
+  },
+  "sec_features": {
+    "text": "Features",
+    "context": "label"
+  },
+  "sec_features_title": {
+    "text": "Focus on what you're listening to",
+    "context": "name"
+  },
+  "f1_t": {
+    "text": "Smart Auto-Muting",
+    "context": "label"
+  },
+  "f1_d": {
+    "text": "Background tabs are automatically muted the moment you switch away. Only the active tab plays audio, no configuration needed.",
+    "context": "description"
+  },
+  "f2_t": {
+    "text": "Picture-in-Picture Support",
+    "context": "label"
+  },
+  "f2_d": {
+    "text": "Videos in PiP mode keep playing audio even when their tab is in the background. Never lose your video's sound.",
+    "context": "description"
+  },
+  "f3_t": {
+    "text": "Keyboard Shortcut",
+    "context": "label"
+  },
+  "f3_d": {
+    "text": "Toggle muting on or off instantly with Ctrl+Shift+M. Customize it in Safari's extension settings.",
+    "context": "description"
+  },
+  "f4_t": {
+    "text": "Domain Whitelist",
+    "context": "label"
+  },
+  "f4_d": {
+    "text": "Keep specific sites unmuted at all times. Perfect for music players, video calls, or any site that should always have audio.",
+    "context": "description"
+  },
+  "f5_t": {
+    "text": "Cross-Window Muting",
+    "context": "label"
+  },
+  "f5_d": {
+    "text": "Switching between Safari windows automatically mutes the previous window's tabs. Audio follows your focus everywhere.",
+    "context": "description"
+  },
+  "f6_t": {
+    "text": "33 Languages",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "Fully localized across 33 languages, so Auto Mute Tab speaks yours.",
+    "context": "description"
+  },
+  "sec_how": {
+    "text": "How it works",
+    "context": "label"
+  },
+  "sec_how_title": {
+    "text": "Set it and forget it",
+    "context": "name"
+  },
+  "s1_t": {
+    "text": "Install from the App Store",
+    "context": "label"
+  },
+  "s1_d": {
+    "text": "Download Auto Mute Tab from the App Store. It's a lightweight Safari extension.",
+    "context": "description"
+  },
+  "s2_t": {
+    "text": "Enable in Safari",
+    "context": "label"
+  },
+  "s2_d": {
+    "text": "Open Safari Settings, go to Extensions, and enable Auto Mute Tab. Grant permission for all websites.",
+    "context": "description"
+  },
+  "s3_t": {
+    "text": "Browse in peace",
+    "context": "label"
+  },
+  "s3_d": {
+    "text": "That's it. Background tabs go silent automatically. Switch tabs and only the focused one plays audio.",
+    "context": "description"
+  },
+  "sec_why": {
+    "text": "Why Auto Mute Tab",
+    "context": "label"
+  },
+  "sec_why_title": {
+    "text": "The mute button Safari should have",
+    "context": "name"
+  },
+  "w1_t": {
+    "text": "End the audio chaos",
+    "context": "label"
+  },
+  "w1_d": {
+    "text": "Multiple tabs playing audio at the same time is distracting. Auto Mute Tab ensures only one tab is heard at a time, automatically and instantly.",
+    "context": "description"
+  },
+  "w2_t": {
+    "text": "Works everywhere",
+    "context": "label"
+  },
+  "w2_d": {
+    "text": "Handles HTML5 video and audio, Web Audio API, autoplay videos, iframes, and dynamically loaded media. If it makes sound, Auto Mute Tab controls it.",
+    "context": "description"
+  },
+  "w3_t": {
+    "text": "Zero data collection",
+    "context": "label"
+  },
+  "w3_d": {
+    "text": "No analytics, no tracking, no accounts, no servers. Everything runs locally in Safari. Your browsing stays completely private.",
+    "context": "description"
+  },
+  "req": {
+    "text": "Requires iOS 15, iPadOS 15, or macOS 14 or later, with Safari. Available in 33 languages.",
+    "context": "description"
+  },
+  "f_brand": {
+    "text": "Indie macOS software studio.<br>Building focused, privacy-first tools.",
+    "context": "description"
+  },
+  "f_legal": {
+    "text": "Legal",
+    "context": "label"
+  },
+  "f_privacy": {
+    "text": "Privacy Policy",
+    "context": "label"
+  },
+  "f_terms": {
+    "text": "Terms of Service",
+    "context": "label"
+  },
+  "f_connect": {
+    "text": "Connect",
+    "context": "label"
+  },
+  "carousel_title": {
+    "text": "More from CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Privacy-first apps for macOS, iOS, and Safari.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Silences sound the mute button misses",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "Sites like YouTube, Twitch, and X route audio through the Web Audio API, which slips past the normal tab mute. Auto Mute Tab silences them anyway.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Pin a tab to keep playing",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Keep one background tab audible while everything else stays muted, perfect for music or a call.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Mute the active tab on demand",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "Silence the tab you are looking at with one tap, without leaving the page.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "See everything that is muted",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "A dedicated page lists every tab Auto Mute is muting, with one-click unmute.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Always-allow list",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Add music players, video calls, or any site that should never be muted.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Recovers after sleep",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "Audio comes back correctly after your Mac or device wakes from sleep, a case many tab muters miss.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Stops surprise autoplay",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "A background tab that suddenly starts playing is muted the instant it makes sound.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Private and lightweight",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "No accounts, no tracking, no network requests, and near-zero impact on browsing speed.",
+    "context": "description"
+  }
+}

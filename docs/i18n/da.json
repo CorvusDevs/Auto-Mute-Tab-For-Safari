@@ -1,0 +1,132 @@
+{
+  "nav_features": "Funktioner",
+  "nav_how": "Hvordan det virker",
+  "nav_contact": "Kontakt",
+  "hero_title": "Auto Mute Safari-tab",
+  "hero_sub": "Automatisk stil alle baggrunds-faneblade, så kun den, du er fokuseret på, afspiller lyd.",
+  "hero_cta": "Download på App Store",
+  "hero_req": {
+    "text": "Til iPhone, iPad og Mac",
+    "context": "description"
+  },
+  "sec_features": "Funktioner",
+  "sec_features_title": "Fokusér på, hvad du lytter til",
+  "f1_t": "Smart automatisk lyddæmpning",
+  "f1_d": "Baggrunds-faneblade dæmpes automatisk, når du skifter væk; kun det aktive faneblad afspiller lyd uden konfiguration.",
+  "f2_t": "Picture-in-Picture-understøttelse",
+  "f2_d": "Videoer i PiP-tilstand fortsætter med at afspille lyd, selv når fanen er i baggrunden, så du aldrig mister lyden i dit videoindhold.",
+  "f3_t": "Tastaturgenvej",
+  "f3_d": "Skift øjeblikkeligt mellem at afspille og afspille i stilhed med Ctrl+Shift+M, og tilpas det i Safari's udvidelsesindstillinger.",
+  "f4_t": "Domenelist over hvide",
+  "f4_d": "Hold specifikke sider altid på højt volumen. Perfekt til musikafspillere, videoopkald eller sider, der altid skal have lyd.",
+  "f5_t": "Dæmpning på tværs af vinduer",
+  "f5_d": "Ved at skifte mellem Safari-vinduer dæmpes automatisk fanerne i det tidligere vindue, så lyden følger dit fokus overalt.",
+  "f6_t": {
+    "text": "33 sprog",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "Fuld lokaliseret på 33 sprog, så Auto Mute Tab taler dit sprog.",
+    "context": "description"
+  },
+  "sec_how": "Hvordan det virker",
+  "sec_how_title": "Sæt det og glem det",
+  "s1_t": "Installér fra App Store",
+  "s1_d": {
+    "text": "Download Auto Mute Tab fra App Store. Det er en letvægtsudvidelse til Safari.",
+    "context": "description"
+  },
+  "s2_t": "Aktivér i Safari",
+  "s2_d": "Åbn Safari-indstillinger, gå til Udvidelser og aktiver Auto Mute Tab. Tillad adgang for alle hjemmesider.",
+  "s3_t": "Blæse i ro",
+  "s3_d": "Det er det. Baggrunds-faneblade bliver automatisk stille. Skift til en fane, og kun den markerede afspiller lyd.",
+  "sec_why": "Hvorfor automatisk stilke fan",
+  "sec_why_title": "Safaris tystknap",
+  "w1_t": "Slut med lydchaos",
+  "w1_d": "Auto Mute Tab sikrer, at kun én fane afspilles ad gangen, automatisk og øjeblikkeligt, for at undgå forstyrrende lyd fra flere faner.",
+  "w2_t": "Fungerer overalt",
+  "w2_d": "Behandler HTML5-video og -lyd, Web Audio API, autoplay-videoer, iframes og dynamisk indlæste medier; hvis det producerer lyd, kontrollerer Auto Mute Tab lyden.",
+  "w3_t": "Ingen dataopsamling",
+  "w3_d": "Ingen analyser, ingen tracking, ingen konti og ingen servere; alt kører lokalt i Safari, så din browsing forbliver helt privat.",
+  "req": {
+    "text": "Kræver iOS 15, iPadOS 15 eller macOS 14 eller nyere, med Safari. Tilgængelig på 33 sprog.",
+    "context": "description"
+  },
+  "f_brand": "Indie macOS-studie, <br>der bygger fokuserede, privatlivsvenlige værktøjer.",
+  "f_legal": "Lov",
+  "f_privacy": "Privatlivspolitik",
+  "f_terms": "Vilkår for tjenesten",
+  "f_connect": "Forbind",
+  "carousel_title": {
+    "text": "Flere apps fra CorvusDevs",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "Privatfirst-apps til macOS, iOS og Safari.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Stille lyde, som tavs-knappen overser",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "Sites som YouTube, Twitch og X sender lyd gennem Web Audio API, som slipper forbi den normale fanemute. Auto Mute Tab tænder dem op alligevel.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Fastgør et faneblad for at fortsætte med at afspille",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Hold én baggrundsfane hørbart, mens alt andet er tavs – perfekt til musik eller et opkald.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Dæmp det aktive faneblad efter behov",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "Dæm tabet, du kigger på, med ét tryk uden at forlade siden.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "Se alt, der er dæmpet",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "En dedikeret side viser alle faner, som Auto Mute dæmper, med en-klik genopstart.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Always-allow-list",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Tilføj musikafspillere, videoopkald eller enhver hjemmeside, der aldrig bør være på stand-by.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Genoprettes efter søvn",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "Lyd kommer tilbage korrekt, når din Mac eller enhed vågner fra søvn – et tilfælde, som mange fane-muttere går glip af.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Stop overraskelses-autospil",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "En baggrundsfane, der pludselig begynder at spille, bliver straks dæmpet, øjeblikket den starter med lyd.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Privat og letvægts",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "Ingen kontoer, ingen tracking, ingen netværksforespørgsler og næsten nul indvirkning på browsespeed.",
+    "context": "description"
+  }
+}

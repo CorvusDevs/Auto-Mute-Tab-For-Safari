@@ -1,0 +1,132 @@
+{
+  "nav_features": "Özellikler",
+  "nav_how": "Nasıl Çalışır",
+  "nav_contact": "İletişim",
+  "hero_title": "Safari için Otomatik Sessiz Tab",
+  "hero_sub": "Arka plandaki sekmeleri otomatik olarak susturarak, yalnızca odaklandığınız sekmede ses çalmasını sağlar; unutulmuş sekmelerden gelen çarpışan sesler artık olmayacaktır.",
+  "hero_cta": "App Store'da İndir",
+  "hero_req": {
+    "text": "iPhone, iPad ve Mac için",
+    "context": "description"
+  },
+  "sec_features": "Özellikler",
+  "sec_features_title": "Dinlediğiniz Şeye Odaklan",
+  "f1_t": "Akıllı Otomatik Sessizlik",
+  "f1_d": "Arka plan sekmeleri, başka bir sekkeye geçildiği anda otomatik olarak sessize alınır; yalnızca aktif sekme ses çalar ve herhangi bir yapılandırma gerekmez.",
+  "f2_t": "Resim içinde Resim Desteği",
+  "f2_d": "PiP modundaki videolar, sekme arkaplanda olduğunda bile sesi kesmeden devam eder; videonuzun sesini asla kaybetmeyin.",
+  "f3_t": "Klavye Kısayolu",
+  "f3_d": "Ctrl+Shift+M tuş kombinasyonu ile sessizlik durumunu anında açıp kapatabilir; bunu Safari'nin uzantı ayarlarında özelleştirebilirsiniz.",
+  "f4_t": "Alan Adı Beyaz Liste",
+  "f4_d": "Belirli web sitelerini her zaman sessiz tutmayı durdurun; müzik çalarlar, video görüşmeler veya sesin her zaman duyulması gereken siteler için idealdir.",
+  "f5_t": "Pencerearası Sessizleştirme",
+  "f5_d": "Safari pencereleri arasında geçiş yaparken, önceki pencerenin sekmeleri otomatik olarak sessize alınır; ses odağınızla birlikte her yere takip eder.",
+  "f6_t": {
+    "text": "33 Dil",
+    "context": "label"
+  },
+  "f6_d": {
+    "text": "33 dile tam olarak yerelleştirildi, bu sayede Auto Mute Tab sizin dilinizi konuşur.",
+    "context": "description"
+  },
+  "sec_how": "Nasıl çalışır",
+  "sec_how_title": "Kullan ve Unut",
+  "s1_t": "App Store'dan Yükle",
+  "s1_d": {
+    "text": "App Store'dan Auto Mute Tab'ı indirin. Hafif bir Safari uzantısıdır.",
+    "context": "description"
+  },
+  "s2_t": "Safari'de Etkinleştir",
+  "s2_d": "Safari Ayarlarını açın, Uzantılar bölümüne gidin ve Otomatik Sessiz Sekme özelliğini etkinleştirin; ardından tüm web sitelerine izin verin.",
+  "s3_t": "Sakince ile gez",
+  "s3_d": "İşte o kadar; arka plan sekmeleri otomatik olarak sessize alınır. Sekmeler arası geçiş yapın ve yalnızca odaklanmış sekme sesi çalsın.",
+  "sec_why": "Neden Otomatik Sessizlik",
+  "sec_why_title": "Safari'de olması gereken sessizleştirme düğmesi",
+  "w1_t": "Ses Kaosunu Durdur",
+  "w1_d": "Birden fazla sekme aynı anda ses çalmasını rahatsız edici; Otomatik Sessiz Sekme özelliği, otomatik ve anında sadece bir sekmenin duyulmasını sağlar.",
+  "w2_t": "Her yerde çalışır",
+  "w2_d": "HTML5 video ve ses, Web Audio API, otomatik oynatılan videolar, iframe'ler ve dinamik olarak yüklenen medya içeriklerini yönetir; ses çıkartıyorsa Otomatik Sessizlik Sebebi ile sekmeyi kontrol eder.",
+  "w3_t": "Veri Toplama Yok",
+  "w3_d": "Analiz yok, takip yok, hesap yok, sunucu yok; her şey Safari'de yerel olarak çalışır ve tarayıcı kullanımlarınız tamamen gizli kalır.",
+  "req": {
+    "text": "iOS 15, iPadOS 15 veya macOS 14 ve üzeri sürümler ile Safari gerektirir. 33 dilde mevcuttur.",
+    "context": "description"
+  },
+  "f_brand": "Bağlamdan bağımsız olarak, bu metin bir ayar seçeneği adı değil, bir yazılım stüdyosunun tanıtım sloganıdır. \"İndi macOS yazılım stüdyosu\" anlamına gelen \"Bağlamdan bağımsız olarak\" ifadesi, orijinal metindeki \"Indie\" kelimesinin çevirisi olarak kullanılmıştır. Ancak, \"Building focused, privacy-first tools\" ifadesi bir slogan olduğu için doğrudan çeviri yapılmamalıdır. Bu nedenle, \"İndi macOS yazılım stüdyosu\" ifadesi, orijinal metnin anlamını koruyarak Türkçe'ye çevrilmiştir.",
+  "f_legal": "Yasal",
+  "f_privacy": "Gizlilik Politikası",
+  "f_terms": "Hizmet Şartları",
+  "f_connect": "Bağlan",
+  "carousel_title": {
+    "text": "CorvusDevs'ten daha fazlası",
+    "context": "label"
+  },
+  "carousel_sub": {
+    "text": "macOS, iOS ve Safari için gizlilik odaklı uygulamalar.",
+    "context": "description"
+  },
+  "fr1_t": {
+    "text": "Sessizlikler, susturma tuşunun kaçırduğu seslerdir.",
+    "context": "label"
+  },
+  "fr1_d": {
+    "text": "YouTube, Twitch ve X gibi siteler sesleri Web Audio API üzerinden yönlendirir; bu da normal sekme susturma işleminin üzerinden geçmesine neden olur. Auto Mute Tab bunları yine de susturur.",
+    "context": "description"
+  },
+  "fr2_t": {
+    "text": "Bir sekme sabitleyin ve izlemeye devam edin",
+    "context": "label"
+  },
+  "fr2_d": {
+    "text": "Arka plandaki bir sekmenin sesini açık tutun, diğerlerini sessize alarak müzik veya bir arama için mükemmel bir deneyim.",
+    "context": "description"
+  },
+  "fr3_t": {
+    "text": "Aktif sekme için sesleri isteğe bağlı olarak kapatın",
+    "context": "label"
+  },
+  "fr3_d": {
+    "text": "İstediğiniz sekme, sayfadan ayrılmadan tek dokunuşla sessizleştirilir.",
+    "context": "description"
+  },
+  "fr4_t": {
+    "text": "Sessize Alınan Her Şeyi Gör",
+    "context": "label"
+  },
+  "fr4_d": {
+    "text": "Auto Mute'in susturduğu her sekmeyi listeleyen özel bir sayfa, tek tıkla susturmayı kaldırma özelliğiyle birlikte sunulur.",
+    "context": "description"
+  },
+  "fr5_t": {
+    "text": "Her zaman izin ver listesi",
+    "context": "label"
+  },
+  "fr5_d": {
+    "text": "Müzik çalarları, video görüşmeleri veya hiç sesinin kesilmemesi gereken herhangi bir web sitesini ekleyin.",
+    "context": "description"
+  },
+  "fr6_t": {
+    "text": "Uykudan sonra geri yüklenir",
+    "context": "label"
+  },
+  "fr6_d": {
+    "text": "Uyku modundan uyandığınızda Mac'iniz veya cihazınızın sesi düzgün şekilde geri geldiğini, ancak bunu fark etmeyen pek çok seans susturucu kullanıcısını görüyoruz.",
+    "context": "description"
+  },
+  "fr7_t": {
+    "text": "Sürpriz otomatik oynatmayı durdurur",
+    "context": "label"
+  },
+  "fr7_d": {
+    "text": "Sesi aniden başlamaya başladığı anda, aniden sesli hale gelen arka plan sekmeleri otomatik olarak susturulur.",
+    "context": "description"
+  },
+  "fr8_t": {
+    "text": "Özel ve hafif",
+    "context": "label"
+  },
+  "fr8_d": {
+    "text": "Hesap yok, takip yok, ağ isteği yok ve tarayma hızına neredeyse sıfır etkisi var.",
+    "context": "description"
+  }
+}
