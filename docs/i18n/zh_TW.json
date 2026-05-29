@@ -5,10 +5,7 @@
   "hero_title": "自動靜音 Safari 分頁",
   "hero_sub": "自動靜音所有背景分頁，僅播放您專注的分頁，避免遺忘的分頁發出干擾聲。",
   "hero_cta": "App Store 下載",
-  "hero_req": {
-    "text": "適用於 iPhone、iPad 和 Mac",
-    "context": "description"
-  },
+  "hero_req": "適用於 iPhone、iPad 和 Mac",
   "sec_features": "功能",
   "sec_features_title": "專注於您正在收聽的內容",
   "f1_t": "智慧自動靜音",
@@ -21,21 +18,12 @@
   "f4_d": "隨時保持特定網站的音量開啟，適用於音樂播放器、視訊通話或任何需要持續播放音訊的網站。",
   "f5_t": "跨視窗靜音",
   "f5_d": "切換 Safari 視窗時，會自動靜音前一視窗的分頁，讓音訊隨您的專注點自動切換。",
-  "f6_t": {
-    "text": "支援 33 種語言",
-    "context": "label"
-  },
-  "f6_d": {
-    "text": "支援 33 種語言的完整本地化，讓 Auto Mute Tab 說您的語言。",
-    "context": "description"
-  },
+  "f6_t": "支援 33 種語言",
+  "f6_d": "支援 33 種語言的完整本地化，讓 Auto Mute Tab 說您的語言。",
   "sec_how": "運作方式",
   "sec_how_title": "設定後無需再管",
   "s1_t": "從 App Store 安裝",
-  "s1_d": {
-    "text": "從 App Store 下載 Auto Mute Tab。它是一個輕量級的 Safari 外掛程式。",
-    "context": "description"
-  },
+  "s1_d": "從 App Store 下載 Auto Mute Tab。它是一個輕量級的 Safari 外掛程式。",
   "s2_t": "在 Safari 中啟用",
   "s2_d": "開啟 Safari 設定，前往「延伸功能」並啟用「自動靜音分頁」，同時允許所有網站使用此功能。",
   "s3_t": "平靜瀏覽",
@@ -48,85 +36,28 @@
   "w2_d": "支援 HTML5 影音、Web Audio API、自動播放影片、iframe 及動態載入的媒體，若產生聲音，「自動靜音分頁」功能將自動控制。",
   "w3_t": "零資料收集",
   "w3_d": "無需分析、追蹤、帳戶或伺服器，一切均在 Safari 本地運行，瀏覽內容完全私密。",
-  "req": {
-    "text": "需要 iOS 15、iPadOS 15 或 macOS 14 以上版本，並支援 Safari。支援 33 種語言。",
-    "context": "description"
-  },
+  "req": "需要 iOS 15、iPadOS 15 或 macOS 14 以上版本，並支援 Safari。支援 33 種語言。",
   "f_brand": "獨立 macOS 軟體工作室。<br>專注打造以隱私為先的工具。",
   "f_legal": "法律",
   "f_privacy": "隱私權政策",
   "f_terms": "服務條款",
   "f_connect": "連接",
-  "carousel_title": {
-    "text": "更多來自 CorvusDevs 的內容",
-    "context": "label"
-  },
-  "carousel_sub": {
-    "text": "適用於 macOS、iOS 和 Safari 的重度隱私優先應用程式。",
-    "context": "description"
-  },
-  "fr1_t": {
-    "text": "Silences 是滑鼠靜音按鈕所遺漏的",
-    "context": "label"
-  },
-  "fr1_d": {
-    "text": "類似 YouTube、Twitch 和 X 的網站會透過 Web Audio API 路由音訊，使其逃過正常的分頁靜音機制；Auto Mute Tab 仍會將它們靜音。",
-    "context": "description"
-  },
-  "fr2_t": {
-    "text": "將標籤釘選以繼續播放",
-    "context": "label"
-  },
-  "fr2_d": {
-    "text": "保持一個背景標籤的音訊，同時將其他所有標籤靜音，非常適合用於音樂或通話。",
-    "context": "description"
-  },
-  "fr3_t": {
-    "text": "隨時手動靜音目前選取的標籤頁",
-    "context": "label"
-  },
-  "fr3_d": {
-    "text": "輕觸一次即可靜音當前標籤，無需離開頁面。",
-    "context": "description"
-  },
-  "fr4_t": {
-    "text": "查看所有靜音內容",
-    "context": "label"
-  },
-  "fr4_d": {
-    "text": "A dedicated page lists every tab Auto Mute is muting, with one-click unmute.",
-    "context": "description"
-  },
-  "fr5_t": {
-    "text": "Always-allow list",
-    "context": "label"
-  },
-  "fr5_d": {
-    "text": "新增音樂播放器、視訊通話，或任何不應被靜音的網站。",
-    "context": "description"
-  },
-  "fr6_t": {
-    "text": "睡眠後可恢復",
-    "context": "label"
-  },
-  "fr6_d": {
-    "text": "音訊在 Mac 或裝置從睡眠中喚醒後會正確返回，這是許多標籤靜音者容易忽略的情況。",
-    "context": "description"
-  },
-  "fr7_t": {
-    "text": "阻止意外自動播放",
-    "context": "label"
-  },
-  "fr7_d": {
-    "text": "突然開始播放的背景分頁在發出聲音時會立即靜音。",
-    "context": "description"
-  },
-  "fr8_t": {
-    "text": "私密且輕量級",
-    "context": "label"
-  },
-  "fr8_d": {
-    "text": "無需帳號、無需追蹤、無需網路請求，且對瀏覽速度影響極小。",
-    "context": "description"
-  }
+  "carousel_title": "更多來自 CorvusDevs 的內容",
+  "carousel_sub": "適用於 macOS、iOS 和 Safari 的重度隱私優先應用程式。",
+  "fr1_t": "Silences 是滑鼠靜音按鈕所遺漏的",
+  "fr1_d": "類似 YouTube、Twitch 和 X 的網站會透過 Web Audio API 路由音訊，使其逃過正常的分頁靜音機制；Auto Mute Tab 仍會將它們靜音。",
+  "fr2_t": "將標籤釘選以繼續播放",
+  "fr2_d": "保持一個背景標籤的音訊，同時將其他所有標籤靜音，非常適合用於音樂或通話。",
+  "fr3_t": "隨時手動靜音目前選取的標籤頁",
+  "fr3_d": "輕觸一次即可靜音當前標籤，無需離開頁面。",
+  "fr4_t": "查看所有靜音內容",
+  "fr4_d": "A dedicated page lists every tab Auto Mute is muting, with one-click unmute.",
+  "fr5_t": "Always-allow list",
+  "fr5_d": "新增音樂播放器、視訊通話，或任何不應被靜音的網站。",
+  "fr6_t": "睡眠後可恢復",
+  "fr6_d": "音訊在 Mac 或裝置從睡眠中喚醒後會正確返回，這是許多標籤靜音者容易忽略的情況。",
+  "fr7_t": "阻止意外自動播放",
+  "fr7_d": "突然開始播放的背景分頁在發出聲音時會立即靜音。",
+  "fr8_t": "私密且輕量級",
+  "fr8_d": "無需帳號、無需追蹤、無需網路請求，且對瀏覽速度影響極小。"
 }

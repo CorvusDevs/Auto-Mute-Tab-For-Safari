@@ -5,10 +5,7 @@
   "hero_title": "Automutera flik för Safari",
   "hero_sub": "Tysta automatiskt alla bakgrundsflikar så att bara den flik du har fokus på spelar ljud, och slippa konkurrerande ljud från glömda flikar.",
   "hero_cta": "Ladda ner i App Store",
-  "hero_req": {
-    "text": "För iPhone, iPad och Mac",
-    "context": "description"
-  },
+  "hero_req": "För iPhone, iPad och Mac",
   "sec_features": "Funktioner",
   "sec_features_title": "Fokusera på vad du lyssnar på",
   "f1_t": "Smart automatisk tystning",
@@ -21,21 +18,12 @@
   "f4_d": "Håll specifika webbplatser uppkopplade för ljud vid alla tillfällen. Perfekt för musikspelare, videomöten eller vilken webbplats som helst som alltid ska ha ljud.",
   "f5_t": "Tysta över fönster",
   "f5_d": "Vid växling mellan Safari-fönster tystas automatiskt flikarna i det föregående fönstret, och ljudet följer din fokus överallt.",
-  "f6_t": {
-    "text": "33 Språk",
-    "context": "label"
-  },
-  "f6_d": {
-    "text": "Fullt lokaliserat på 33 språk, så Auto Mute Tab talar ditt språk.",
-    "context": "description"
-  },
+  "f6_t": "33 Språk",
+  "f6_d": "Fullt lokaliserat på 33 språk, så Auto Mute Tab talar ditt språk.",
   "sec_how": "Hur det fungerar",
   "sec_how_title": "Ställ in och glöm",
   "s1_t": "Installera från App Store",
-  "s1_d": {
-    "text": "Ladda ner Auto Mute Tab från App Store. Det är en lättviktig Safari-tillägg.",
-    "context": "description"
-  },
+  "s1_d": "Ladda ner Auto Mute Tab från App Store. Det är en lättviktig Safari-tillägg.",
   "s2_t": "Aktivera i Safari",
   "s2_d": "Öppna Safari-inställningar, gå till Tillägg och aktivera Auto Mute Tab. Bevilja tillåtelse för alla webbplatser.",
   "s3_t": "Bläddra i lugn",
@@ -48,85 +36,28 @@
   "w2_d": "Hanterar HTML5-video och ljud, Web Audio API, automatisk uppspelning, iframes och dynamiskt laddat innehåll, och Auto Mute Tab styr ljudet om det spelar upp ljud.",
   "w3_t": "Noll insamling av data",
   "w3_d": "Ingen analys, ingen spårning, inga konton, inga servrar. Allt körs lokalt i Safari och din surfning förblir helt privat.",
-  "req": {
-    "text": "Kräver iOS 15, iPadOS 15 eller macOS 14 eller senare, med Safari. Tillgängligt på 33 språk.",
-    "context": "description"
-  },
+  "req": "Kräver iOS 15, iPadOS 15 eller macOS 14 eller senare, med Safari. Tillgängligt på 33 språk.",
   "f_brand": "Oberoende mjukvarostudio",
   "f_legal": "Laglig",
   "f_privacy": "Integritetspolicy",
   "f_terms": "Villkor för tjänsten",
   "f_connect": "Anslut",
-  "carousel_title": {
-    "text": "Mer från CorvusDevs",
-    "context": "label"
-  },
-  "carousel_sub": {
-    "text": "Privatfokuserade appar för macOS, iOS och Safari.",
-    "context": "description"
-  },
-  "fr1_t": {
-    "text": "Tystnaden undviker den mutade knappen",
-    "context": "label"
-  },
-  "fr1_d": {
-    "text": "Platser som YouTube, Twitch och X kör ljud via Web Audio API, vilket slipper undan den vanliga flikstängningen. Auto Mute Tab tystar dem ändå.",
-    "context": "description"
-  },
-  "fr2_t": {
-    "text": "Spärra en flik för att fortsätta spela",
-    "context": "label"
-  },
-  "fr2_d": {
-    "text": "Håll en bakgrundsflik ljudlig medan allt annat hålls tyst, perfekt för musik eller ett samtal.",
-    "context": "description"
-  },
-  "fr3_t": {
-    "text": "Dämpa det aktiva fliken på begäran",
-    "context": "label"
-  },
-  "fr3_d": {
-    "text": "Tysta fliken du tittar på med ett enda tap, utan att lämna sidan.",
-    "context": "description"
-  },
-  "fr4_t": {
-    "text": "Se allt som är dämpat",
-    "context": "label"
-  },
-  "fr4_d": {
-    "text": "En dedikerad sida listar varje flik som Auto Mute tystar, med en knapp för att återuppta ljudet.",
-    "context": "description"
-  },
-  "fr5_t": {
-    "text": "Alltid tillåt-lista",
-    "context": "label"
-  },
-  "fr5_d": {
-    "text": "Lägg till musikspelare, videokopplingar eller vilken sida som helst som aldrig ska dämpas.",
-    "context": "description"
-  },
-  "fr6_t": {
-    "text": "Återställs efter viloläge",
-    "context": "label"
-  },
-  "fr6_d": {
-    "text": "Ljudet återkommer korrekt efter att din Mac eller enhet vaknat från viloläge, något många flikdämpare missar.",
-    "context": "description"
-  },
-  "fr7_t": {
-    "text": "Stoppa överraskande autoplay",
-    "context": "label"
-  },
-  "fr7_d": {
-    "text": "En bakgrundsflik som plötsligt börjar spela in är dämpad i det ögonblick den gör ljud.",
-    "context": "description"
-  },
-  "fr8_t": {
-    "text": "Privat och lättviktig",
-    "context": "label"
-  },
-  "fr8_d": {
-    "text": "Inga konton, ingen spårning, inga nätverksförfråningar och nästan noll påverkan på surfhastigheten.",
-    "context": "description"
-  }
+  "carousel_title": "Mer från CorvusDevs",
+  "carousel_sub": "Privatfokuserade appar för macOS, iOS och Safari.",
+  "fr1_t": "Tystnaden undviker den mutade knappen",
+  "fr1_d": "Platser som YouTube, Twitch och X kör ljud via Web Audio API, vilket slipper undan den vanliga flikstängningen. Auto Mute Tab tystar dem ändå.",
+  "fr2_t": "Spärra en flik för att fortsätta spela",
+  "fr2_d": "Håll en bakgrundsflik ljudlig medan allt annat hålls tyst, perfekt för musik eller ett samtal.",
+  "fr3_t": "Dämpa det aktiva fliken på begäran",
+  "fr3_d": "Tysta fliken du tittar på med ett enda tap, utan att lämna sidan.",
+  "fr4_t": "Se allt som är dämpat",
+  "fr4_d": "En dedikerad sida listar varje flik som Auto Mute tystar, med en knapp för att återuppta ljudet.",
+  "fr5_t": "Alltid tillåt-lista",
+  "fr5_d": "Lägg till musikspelare, videokopplingar eller vilken sida som helst som aldrig ska dämpas.",
+  "fr6_t": "Återställs efter viloläge",
+  "fr6_d": "Ljudet återkommer korrekt efter att din Mac eller enhet vaknat från viloläge, något många flikdämpare missar.",
+  "fr7_t": "Stoppa överraskande autoplay",
+  "fr7_d": "En bakgrundsflik som plötsligt börjar spela in är dämpad i det ögonblick den gör ljud.",
+  "fr8_t": "Privat och lättviktig",
+  "fr8_d": "Inga konton, ingen spårning, inga nätverksförfråningar och nästan noll påverkan på surfhastigheten."
 }

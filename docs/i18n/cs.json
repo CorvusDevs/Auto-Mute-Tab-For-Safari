@@ -5,10 +5,7 @@
   "hero_title": "Auto Mute Tab<br>pro Safari",
   "hero_sub": "Automaticky ztiší všechny pozadové záložky, takže se zvuk přehrává pouze v té, na které jste zaměřeni.",
   "hero_cta": "Stáhnout v App Store",
-  "hero_req": {
-    "text": "Pro iPhone, iPad a Mac",
-    "context": "description"
-  },
+  "hero_req": "Pro iPhone, iPad a Mac",
   "sec_features": "Funkce",
   "sec_features_title": "Zaměřte se na poslech",
   "f1_t": "Chytré automatické tichnutí",
@@ -21,21 +18,12 @@
   "f4_d": "Umožněte konkrétním stránkám, aby byly vždy bez ticha. Ideální pro přehrávače hudby, videohovory nebo jakoukoli stránku, která by měla vždy obsahovat zvuk.",
   "f5_t": "Tlumení mezi okny",
   "f5_d": "Přepínání mezi okny Safari automaticky ztiší záložky v předchozím okně; zvuk následuje za vaším zaměřením všude.",
-  "f6_t": {
-    "text": "33 jazyky",
-    "context": "label"
-  },
-  "f6_d": {
-    "text": "Plně lokalizováno ve 33 jazycích, takže Auto Mute Tab mluví vaším jazykem.",
-    "context": "description"
-  },
+  "f6_t": "33 jazyky",
+  "f6_d": "Plně lokalizováno ve 33 jazycích, takže Auto Mute Tab mluví vaším jazykem.",
   "sec_how": "Jak to funguje",
   "sec_how_title": "Nastavte a zapomeňte",
   "s1_t": "Instalovat z App Store",
-  "s1_d": {
-    "text": "Stáhněte si Auto Mute Tab z App Store. Jedná se o lehké rozšíření pro Safari.",
-    "context": "description"
-  },
+  "s1_d": "Stáhněte si Auto Mute Tab z App Store. Jedná se o lehké rozšíření pro Safari.",
   "s2_t": "Povolit v Safari",
   "s2_d": "Otevřete Nastavení Safari, přejděte na Rozšíření a zapněte Auto Mute Tab. Udělte povolení pro všechny webové stránky.",
   "s3_t": "Prohlížejte klidně",
@@ -48,85 +36,28 @@
   "w2_d": "Zabývá se HTML5 videem a audiem, Web Audio API, autoplay videem, iframe a dynamicky načítaným médiem; pokud vydává zvuk, ovládá ho Automatické ztlumení karty.",
   "w3_t": "Žádné sběry dat",
   "w3_d": "Žádná analýza, žádné sledování, žádné účty, žádné servery. Vše běží lokálně v Safari a vaše prohlížení zůstává zcela soukromé.",
-  "req": {
-    "text": "Vyžaduje iOS 15, iPadOS 15 nebo macOS 14 a novější s podporou pro Safari. K dispozici ve 33 jazycích.",
-    "context": "description"
-  },
+  "req": "Vyžaduje iOS 15, iPadOS 15 nebo macOS 14 a novější s podporou pro Safari. K dispozici ve 33 jazycích.",
   "f_brand": "Indie macOS softwarová studio.<br>Vytváříme nástroje zaměřené na soukromí.",
   "f_legal": "Legální",
   "f_privacy": "Zásada ochrany soukromí",
   "f_terms": "Podmínky služby",
   "f_connect": "Připojit",
-  "carousel_title": {
-    "text": "Více od CorvusDevs",
-    "context": "label"
-  },
-  "carousel_sub": {
-    "text": "Aplikace s důrazem na ochranu soukromí pro macOS, iOS a Safari.",
-    "context": "description"
-  },
-  "fr1_t": {
-    "text": "Ticho, které tlačítko ztlumení přehlédne",
-    "context": "label"
-  },
-  "fr1_d": {
-    "text": "Webové stránky jako YouTube, Twitch a X přeposílají audio prostřednictvím Web Audio API, což obchází běžné ztlumení záložky. Auto Mute Tab je přesto tyto stránky automaticky ztlumí.",
-    "context": "description"
-  },
-  "fr2_t": {
-    "text": "Připněte záložku pro pokračování přehrávání",
-    "context": "label"
-  },
-  "fr2_d": {
-    "text": "Udržujte jeden pozadový záložku slyšitelnou, zatímco vše ostatní zůstane ztišeno, ideální pro hudbu nebo hovor.",
-    "context": "description"
-  },
-  "fr3_t": {
-    "text": "Ticho pro aktivní záložku na požadání",
-    "context": "label"
-  },
-  "fr3_d": {
-    "text": "Tichým jedním dotykem utište záložku, na kterou se díváte, aniž byste opustili stránku.",
-    "context": "description"
-  },
-  "fr4_t": {
-    "text": "Vidějte vše, co je ztišeno",
-    "context": "label"
-  },
-  "fr4_d": {
-    "text": "Dedikovaná stránka seznamuje všechny záložky, které Auto Mute tichne, s odmutováním jedním kliknutím.",
-    "context": "description"
-  },
-  "fr5_t": {
-    "text": "Seznam vždy povolených aplikací",
-    "context": "label"
-  },
-  "fr5_d": {
-    "text": "Přidejte přehrávače hudby, videohovory nebo jakoukoli stránku, která by nikdy neměla být ztišena.",
-    "context": "description"
-  },
-  "fr6_t": {
-    "text": "Obnoví se po spánku",
-    "context": "label"
-  },
-  "fr6_d": {
-    "text": "Zvuk se po probuzení Macu nebo zařízení vrátí správně, případ, který mnoho uživatelů, kteří zakazují přepínání záložek, přehlíží.",
-    "context": "description"
-  },
-  "fr7_t": {
-    "text": "Zastavuje překvapivé automatické přehrávání",
-    "context": "label"
-  },
-  "fr7_d": {
-    "text": "Kontejner pro pozadí, který náhle začne přehrávat, je okamžitě ztišen, jakmile vydá zvuk.",
-    "context": "description"
-  },
-  "fr8_t": {
-    "text": "Soukromé a lehké",
-    "context": "label"
-  },
-  "fr8_d": {
-    "text": "Žádné účty, žádné sledování, žádné síťové požadavky a téměř nulový dopad na rychlost prohlížení.",
-    "context": "description"
-  }
+  "carousel_title": "Více od CorvusDevs",
+  "carousel_sub": "Aplikace s důrazem na ochranu soukromí pro macOS, iOS a Safari.",
+  "fr1_t": "Ticho, které tlačítko ztlumení přehlédne",
+  "fr1_d": "Webové stránky jako YouTube, Twitch a X přeposílají audio prostřednictvím Web Audio API, což obchází běžné ztlumení záložky. Auto Mute Tab je přesto tyto stránky automaticky ztlumí.",
+  "fr2_t": "Připněte záložku pro pokračování přehrávání",
+  "fr2_d": "Udržujte jeden pozadový záložku slyšitelnou, zatímco vše ostatní zůstane ztišeno, ideální pro hudbu nebo hovor.",
+  "fr3_t": "Ticho pro aktivní záložku na požadání",
+  "fr3_d": "Tichým jedním dotykem utište záložku, na kterou se díváte, aniž byste opustili stránku.",
+  "fr4_t": "Vidějte vše, co je ztišeno",
+  "fr4_d": "Dedikovaná stránka seznamuje všechny záložky, které Auto Mute tichne, s odmutováním jedním kliknutím.",
+  "fr5_t": "Seznam vždy povolených aplikací",
+  "fr5_d": "Přidejte přehrávače hudby, videohovory nebo jakoukoli stránku, která by nikdy neměla být ztišena.",
+  "fr6_t": "Obnoví se po spánku",
+  "fr6_d": "Zvuk se po probuzení Macu nebo zařízení vrátí správně, případ, který mnoho uživatelů, kteří zakazují přepínání záložek, přehlíží.",
+  "fr7_t": "Zastavuje překvapivé automatické přehrávání",
+  "fr7_d": "Kontejner pro pozadí, který náhle začne přehrávat, je okamžitě ztišen, jakmile vydá zvuk.",
+  "fr8_t": "Soukromé a lehké",
+  "fr8_d": "Žádné účty, žádné sledování, žádné síťové požadavky a téměř nulový dopad na rychlost prohlížení."
 }

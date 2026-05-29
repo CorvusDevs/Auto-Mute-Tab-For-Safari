@@ -66,9 +66,17 @@
     function renderChip(container, lang, isTrigger) {
         container.innerHTML = '';
         if (isTrigger) {
-            // Trigger button: just the current language name. The 文A glyph
-            // sits beside the button (in HTML) as the language indicator, so
-            // the trigger never shows a globe (house rule: 文A, never globe).
+            // Trigger button: the selected language's flag + its name. For the
+            // auto/Default state there is no single flag, so we show just the
+            // name. The 文A glyph sits beside the button (in HTML) as the
+            // language indicator, so the trigger never shows a globe.
+            if (lang.code !== 'auto') {
+                const img = document.createElement('img');
+                img.className = 'lang-flag';
+                img.src = 'flags/' + lang.flag + '.svg';
+                img.width = 18; img.height = 13; img.alt = '';
+                container.appendChild(img);
+            }
             const cur = document.createElement('span');
             cur.className = 'lang-current';
             cur.textContent = lang.native;

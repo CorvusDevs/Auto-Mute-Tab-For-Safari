@@ -5,10 +5,7 @@
   "hero_title": "Auto Mute Tab<br>pour Safari",
   "hero_sub": "Coupe automatiquement le son de tous les onglets en arrière-plan. Seul l'onglet actif joue du son.",
   "hero_cta": "Télécharger sur l'App Store",
-  "hero_req": {
-    "text": "Pour iPhone, iPad et Mac",
-    "context": "description"
-  },
+  "hero_req": "Pour iPhone, iPad et Mac",
   "sec_features": "Fonctions",
   "sec_features_title": "Concentrez-vous sur ce que vous écoutez",
   "f1_t": "Sourdine automatique",
@@ -21,21 +18,12 @@
   "f4_d": "Gardez certains sites toujours audibles. Idéal pour la musique ou les appels vidéo.",
   "f5_t": "Sourdine entre fenêtres",
   "f5_d": "Changer de fenêtre Safari coupe automatiquement les onglets de la fenêtre précédente.",
-  "f6_t": {
-    "text": "33 Langues",
-    "context": "label"
-  },
-  "f6_d": {
-    "text": "Complètement localisé dans 33 langues, Auto Mute Tab parle donc la vôtre.",
-    "context": "description"
-  },
+  "f6_t": "33 Langues",
+  "f6_d": "Complètement localisé dans 33 langues, Auto Mute Tab parle donc la vôtre.",
   "sec_how": "Comment ça marche",
   "sec_how_title": "Installez et oubliez",
   "s1_t": "Installez depuis l'App Store",
-  "s1_d": {
-    "text": "Téléchargez Auto Mute Tab sur l'App Store. Il s'agit d'une extension Safari légère.",
-    "context": "description"
-  },
+  "s1_d": "Téléchargez Auto Mute Tab sur l'App Store. Il s'agit d'une extension Safari légère.",
   "s2_t": "Activez dans Safari",
   "s2_d": "Ouvrez les Réglages Safari, allez dans Extensions et activez Auto Mute Tab.",
   "s3_t": "Naviguez en paix",
@@ -48,85 +36,28 @@
   "w2_d": "Gère vidéo et audio HTML5, Web Audio API, autoplay, iframes et médias dynamiques.",
   "w3_t": "Zéro collecte de données",
   "w3_d": "Aucune analytique, aucun suivi, aucun compte. Tout fonctionne localement.",
-  "req": {
-    "text": "Requis iOS 15, iPadOS 15 ou macOS 14 ou plus récent, avec Safari. Disponible en 33 langues.",
-    "context": "description"
-  },
+  "req": "Requis iOS 15, iPadOS 15 ou macOS 14 ou plus récent, avec Safari. Disponible en 33 langues.",
   "f_brand": "Studio indie de logiciels macOS.<br>Outils ciblés et respectueux de la vie privée.",
   "f_legal": "Juridique",
   "f_privacy": "Confidentialité",
   "f_terms": "Conditions",
   "f_connect": "Contact",
-  "carousel_title": {
-    "text": "Plus de CorvusDevs",
-    "context": "label"
-  },
-  "carousel_sub": {
-    "text": "Des applications axées sur la confidentialité pour macOS, iOS et Safari.",
-    "context": "description"
-  },
-  "fr1_t": {
-    "text": "Les silences sont ceux que le bouton de mise en sourdine rate",
-    "context": "label"
-  },
-  "fr1_d": {
-    "text": "Des sites comme YouTube, Twitch et X acheminent l'audio via l'API Web Audio, ce qui contourne le blocage normal des onglets. Auto Mute Tab les silencie tout de même.",
-    "context": "description"
-  },
-  "fr2_t": {
-    "text": "Épinglez un onglet pour continuer la lecture",
-    "context": "label"
-  },
-  "fr2_d": {
-    "text": "Gardez un onglet de fond audible pendant que tout le reste reste muet, parfait pour la musique ou un appel.",
-    "context": "description"
-  },
-  "fr3_t": {
-    "text": "Mutez l'onglet actif sur demande",
-    "context": "label"
-  },
-  "fr3_d": {
-    "text": "Tapez une fois pour taire l'onglet que vous consultez, sans quitter la page.",
-    "context": "description"
-  },
-  "fr4_t": {
-    "text": "Tout ce qui est muet",
-    "context": "label"
-  },
-  "fr4_d": {
-    "text": "Une page dédiée liste tous les onglets que Auto Mute mute, avec une désactivation en un clic.",
-    "context": "description"
-  },
-  "fr5_t": {
-    "text": "Liste autorisée",
-    "context": "label"
-  },
-  "fr5_d": {
-    "text": "Ajoutez des lecteurs de musique, des appels vidéo ou tout site qui ne doit jamais être muet.",
-    "context": "description"
-  },
-  "fr6_t": {
-    "text": "Se rétablit après la mise en veille",
-    "context": "label"
-  },
-  "fr6_d": {
-    "text": "Le son revient correctement après que votre Mac ou votre appareil se soit réveillé de la veille, ce qui est un problème que de nombreux utilisateurs de l'extension pour muter les onglets ignorent.",
-    "context": "description"
-  },
-  "fr7_t": {
-    "text": "Arrête l'autoplay surprise",
-    "context": "label"
-  },
-  "fr7_d": {
-    "text": "Un onglet en arrière-plan qui commence soudainement à lire est mis en sourdine dès qu'il émet un son.",
-    "context": "description"
-  },
-  "fr8_t": {
-    "text": "Privé et léger",
-    "context": "label"
-  },
-  "fr8_d": {
-    "text": "Aucun compte, aucun suivi, aucune requête réseau et un impact quasi nul sur la vitesse de navigation.",
-    "context": "description"
-  }
+  "carousel_title": "Plus de CorvusDevs",
+  "carousel_sub": "Des applications axées sur la confidentialité pour macOS, iOS et Safari.",
+  "fr1_t": "Les silences sont ceux que le bouton de mise en sourdine rate",
+  "fr1_d": "Des sites comme YouTube, Twitch et X acheminent l'audio via l'API Web Audio, ce qui contourne le blocage normal des onglets. Auto Mute Tab les silencie tout de même.",
+  "fr2_t": "Épinglez un onglet pour continuer la lecture",
+  "fr2_d": "Gardez un onglet de fond audible pendant que tout le reste reste muet, parfait pour la musique ou un appel.",
+  "fr3_t": "Mutez l'onglet actif sur demande",
+  "fr3_d": "Tapez une fois pour taire l'onglet que vous consultez, sans quitter la page.",
+  "fr4_t": "Tout ce qui est muet",
+  "fr4_d": "Une page dédiée liste tous les onglets que Auto Mute mute, avec une désactivation en un clic.",
+  "fr5_t": "Liste autorisée",
+  "fr5_d": "Ajoutez des lecteurs de musique, des appels vidéo ou tout site qui ne doit jamais être muet.",
+  "fr6_t": "Se rétablit après la mise en veille",
+  "fr6_d": "Le son revient correctement après que votre Mac ou votre appareil se soit réveillé de la veille, ce qui est un problème que de nombreux utilisateurs de l'extension pour muter les onglets ignorent.",
+  "fr7_t": "Arrête l'autoplay surprise",
+  "fr7_d": "Un onglet en arrière-plan qui commence soudainement à lire est mis en sourdine dès qu'il émet un son.",
+  "fr8_t": "Privé et léger",
+  "fr8_d": "Aucun compte, aucun suivi, aucune requête réseau et un impact quasi nul sur la vitesse de navigation."
 }

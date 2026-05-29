@@ -5,10 +5,7 @@
   "hero_title": "Auto Mute Tab <br> pentru Safari",
   "hero_sub": "Automatizează mutarea tuturor tab-urilor de fundal, astfel încât să audă sunetul doar cel din tab-ul activ, eliminând zgomotele concurente de la tab-urile uitate.",
   "hero_cta": "Descarcă din App Store",
-  "hero_req": {
-    "text": "Pentru iPhone, iPad și Mac",
-    "context": "description"
-  },
+  "hero_req": "Pentru iPhone, iPad și Mac",
   "sec_features": "Funcții",
   "sec_features_title": "Concentrați-vă pe ce ascultați",
   "f1_t": "Auto-mutare inteligent",
@@ -21,21 +18,12 @@
   "f4_d": "Păstrați anumite site-uri neîncetate mereu, ideal pentru redatoarele de muzică, apelurile video sau orice site care ar trebui să aibă întotdeauna sunet.",
   "f5_t": "Închidere sunet interferență",
   "f5_d": "Comutarea între ferestrele Safari mută automat tab-urile ferestrei anterioare, iar sunetul urmează focusul oriunde.",
-  "f6_t": {
-    "text": "33 Limbi",
-    "context": "label"
-  },
-  "f6_d": {
-    "text": "Complet localizat în 33 de limbi, astfel încât Auto Mute Tab să vorbească limba ta.",
-    "context": "description"
-  },
+  "f6_t": "33 Limbi",
+  "f6_d": "Complet localizat în 33 de limbi, astfel încât Auto Mute Tab să vorbească limba ta.",
   "sec_how": "Cum funcționează",
   "sec_how_title": "Setați și uitat",
   "s1_t": "Instalare din App Store",
-  "s1_d": {
-    "text": "Descărcați Auto Mute Tab din App Store. Este o extensie ușoară pentru Safari.",
-    "context": "description"
-  },
+  "s1_d": "Descărcați Auto Mute Tab din App Store. Este o extensie ușoară pentru Safari.",
   "s2_t": "Activați în Safari",
   "s2_d": "Deschideți Setările Safari, mergeți la Extensii și activați Auto Mute Tab. Acordați permisiunea pentru toate site-urile web.",
   "s3_t": "Navigați liniștit",
@@ -48,85 +36,28 @@
   "w2_d": "Gestionează videoclipuri și sunete HTML5, API-ul Web Audio, videoclipurile cu redare automată, cadrele încorporate (iframes) și media încărcată dinamic; dacă produce sunet, funcția „Auto Mute Tab\" controlează volumul.",
   "w3_t": "Colectare zero date",
   "w3_d": "Fără analitică, fără urmărire, fără conturi și fără servere; totul rulează local în Safari, iar navigarea dumneavoastră rămâne complet privată.",
-  "req": {
-    "text": "Cere iOS 15, iPadOS 15 sau macOS 14 sau mai nou, cu Safari. Disponibil în 33 de limbi.",
-    "context": "description"
-  },
+  "req": "Cere iOS 15, iPadOS 15 sau macOS 14 sau mai nou, cu Safari. Disponibil în 33 de limbi.",
   "f_brand": "Studiu de software pentru macOS independent.<br>Construiește instrumente concentrate pe confidențialitate.",
   "f_legal": "Legal",
   "f_privacy": "Politica de confidențialitate",
   "f_terms": "Termeni și condiții",
   "f_connect": "Conectează-te",
-  "carousel_title": {
-    "text": "Mai multe de la CorvusDevs",
-    "context": "label"
-  },
-  "carousel_sub": {
-    "text": "Aplicații cu prioritate la confidențialitate pentru macOS, iOS și Safari.",
-    "context": "description"
-  },
-  "fr1_t": {
-    "text": "Silențele pe care le-ați ratat cu butonul de mutare",
-    "context": "label"
-  },
-  "fr1_d": {
-    "text": "Site-uri precum YouTube, Twitch și X direcționează audio prin Web Audio API, care ocolește mutarea normală a tab-ului. Auto Mute Tab le mută totuși.",
-    "context": "description"
-  },
-  "fr2_t": {
-    "text": "Pinați un tab pentru a continua redarea",
-    "context": "label"
-  },
-  "fr2_d": {
-    "text": "Păstrați un singur fundal de tab vizibil și audibil, în timp ce tot restul rămâne mutat, perfect pentru muzică sau o apel.",
-    "context": "description"
-  },
-  "fr3_t": {
-    "text": "Puteți muta tab-ul activ la cerere",
-    "context": "label"
-  },
-  "fr3_d": {
-    "text": "Tăcește tab-ul în care te afli cu un singur tap, fără a părăsi pagina.",
-    "context": "description"
-  },
-  "fr4_t": {
-    "text": "Vedeți tot ce este mutat",
-    "context": "label"
-  },
-  "fr4_d": {
-    "text": "O pagină dedicată listează toate tab-urile pe care Auto Mute le mută, cu dezmutare într-un singur clic.",
-    "context": "description"
-  },
-  "fr5_t": {
-    "text": "Listă cu permisiune permanentă",
-    "context": "label"
-  },
-  "fr5_d": {
-    "text": "Adăugați redatoarele de muzică, apelurile video sau orice site care nu ar trebui niciodată să fie mutat.",
-    "context": "description"
-  },
-  "fr6_t": {
-    "text": "Se recuperează după somn",
-    "context": "label"
-  },
-  "fr6_d": {
-    "text": "Sunetul se reia corect după ce Mac-ul sau dispozitivul se trezesc din somn, un caz pe care mulți muteri de tab-uri îl ratează.",
-    "context": "description"
-  },
-  "fr7_t": {
-    "text": "Întrerupe redarea automată surpriză",
-    "context": "label"
-  },
-  "fr7_d": {
-    "text": "Un tab în fundal care începe brusc să redare este mutat instantaneu la primul sunet.",
-    "context": "description"
-  },
-  "fr8_t": {
-    "text": "Privat și ușor",
-    "context": "label"
-  },
-  "fr8_d": {
-    "text": "Fără conturi, fără urmărire, fără cereri de rețea și un impact aproape nul asupra vitezei navigării.",
-    "context": "description"
-  }
+  "carousel_title": "Mai multe de la CorvusDevs",
+  "carousel_sub": "Aplicații cu prioritate la confidențialitate pentru macOS, iOS și Safari.",
+  "fr1_t": "Silențele pe care le-ați ratat cu butonul de mutare",
+  "fr1_d": "Site-uri precum YouTube, Twitch și X direcționează audio prin Web Audio API, care ocolește mutarea normală a tab-ului. Auto Mute Tab le mută totuși.",
+  "fr2_t": "Pinați un tab pentru a continua redarea",
+  "fr2_d": "Păstrați un singur fundal de tab vizibil și audibil, în timp ce tot restul rămâne mutat, perfect pentru muzică sau o apel.",
+  "fr3_t": "Puteți muta tab-ul activ la cerere",
+  "fr3_d": "Tăcește tab-ul în care te afli cu un singur tap, fără a părăsi pagina.",
+  "fr4_t": "Vedeți tot ce este mutat",
+  "fr4_d": "O pagină dedicată listează toate tab-urile pe care Auto Mute le mută, cu dezmutare într-un singur clic.",
+  "fr5_t": "Listă cu permisiune permanentă",
+  "fr5_d": "Adăugați redatoarele de muzică, apelurile video sau orice site care nu ar trebui niciodată să fie mutat.",
+  "fr6_t": "Se recuperează după somn",
+  "fr6_d": "Sunetul se reia corect după ce Mac-ul sau dispozitivul se trezesc din somn, un caz pe care mulți muteri de tab-uri îl ratează.",
+  "fr7_t": "Întrerupe redarea automată surpriză",
+  "fr7_d": "Un tab în fundal care începe brusc să redare este mutat instantaneu la primul sunet.",
+  "fr8_t": "Privat și ușor",
+  "fr8_d": "Fără conturi, fără urmărire, fără cereri de rețea și un impact aproape nul asupra vitezei navigării."
 }

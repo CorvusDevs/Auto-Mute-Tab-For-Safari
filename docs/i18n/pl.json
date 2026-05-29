@@ -5,10 +5,7 @@
   "hero_title": "Automatyczne wyciszanie karty Safari",
   "hero_sub": "Automatycznie wycisza wszystkie karty w tle, odtwarzając dźwięk tylko z tej, na której aktualnie pracujesz, eliminując tym samym niechciane dźwięki z zapomnianych kart.",
   "hero_cta": "Pobierz w App Store",
-  "hero_req": {
-    "text": "Dla iPhone'a, iPad'a i Maca",
-    "context": "description"
-  },
+  "hero_req": "Dla iPhone'a, iPad'a i Maca",
   "sec_features": "Funkcje",
   "sec_features_title": "Skup się na odtwarzanej muzyce",
   "f1_t": "Automatyczne wyciszanie",
@@ -21,21 +18,12 @@
   "f4_d": "Utrzymuj konkretne strony zawsze na pełnej głośności. Idealne dla odtwarzaczy muzyki, rozmów wideo lub dowolnych stron, które zawsze powinny mieć dźwięk.",
   "f5_t": "Wyciszanie między oknami",
   "f5_d": "Przełączanie się między oknami Safari automatycznie wycisza zakładki w poprzednim oknie, a dźwięk towarzyszy Ci w każdym miejscu.",
-  "f6_t": {
-    "text": "33 języki",
-    "context": "label"
-  },
-  "f6_d": {
-    "text": "W pełni zlokalizowany w 33 językach, dzięki czemu Auto Mute Tab mówi Twoim językiem.",
-    "context": "description"
-  },
+  "f6_t": "33 języki",
+  "f6_d": "W pełni zlokalizowany w 33 językach, dzięki czemu Auto Mute Tab mówi Twoim językiem.",
   "sec_how": "Jak to działa",
   "sec_how_title": "Ustaw i zapomnij",
   "s1_t": "Zainstaluj ze sklepu App Store",
-  "s1_d": {
-    "text": "Pobierz Auto Mute Tab ze sklepu App Store. Jest to lekka rozszerzenie do Safari.",
-    "context": "description"
-  },
+  "s1_d": "Pobierz Auto Mute Tab ze sklepu App Store. Jest to lekka rozszerzenie do Safari.",
   "s2_t": "Włącz w Safari",
   "s2_d": "Otwórz Ustawienia Safari, przejdź do Rozszerzeń i włącz Auto Mute Tab, przyznając uprawnienia dla wszystkich stron.",
   "s3_t": "Przeglądaj w spokoju",
@@ -48,85 +36,28 @@
   "w2_d": "Obsługuje wideo i audio HTML5, Web Audio API, odtwarzanie na autoplay, ramki iframe oraz dynamicznie ładowane media; jeśli generują dźwięk, funkcja Auto Mute Tab automatycznie je uczy.",
   "w3_t": "Zero zbierania danych",
   "w3_d": "Brak analiz, śledzenia, kont ani serwerów – wszystko działa lokalnie w Safari, zapewniając całkowitą prywatność przeglądania.",
-  "req": {
-    "text": "Wymaga iOS 15, iPadOS 15 lub macOS 14 lub nowszego, z Safari. Dostępny w 33 językach.",
-    "context": "description"
-  },
+  "req": "Wymaga iOS 15, iPadOS 15 lub macOS 14 lub nowszego, z Safari. Dostępny w 33 językach.",
   "f_brand": "Studio indie macOS",
   "f_legal": "Prawne",
   "f_privacy": "Polityka Prywatności",
   "f_terms": "Warunki usługi",
   "f_connect": "Połącz",
-  "carousel_title": {
-    "text": "Więcej od CorvusDevs",
-    "context": "label"
-  },
-  "carousel_sub": {
-    "text": "Aplikacje priorytetem prywatności dla macOS, iOS i Safari.",
-    "context": "description"
-  },
-  "fr1_t": {
-    "text": "Milczenia to to, czego przycisk wyciszenia nie dostrzega",
-    "context": "label"
-  },
-  "fr1_d": {
-    "text": "Strony takie jak YouTube, Twitch i X kierują dźwięk przez Web Audio API, który omija zwykłe wyciszenie karty. Auto Mute Tab wycisza je jednakże.",
-    "context": "description"
-  },
-  "fr2_t": {
-    "text": "Przypnij zakładkę, aby kontynuować odtwarzanie",
-    "context": "label"
-  },
-  "fr2_d": {
-    "text": "Utrzymuj jeden tło tab aktywny, podczas gdy wszystko inne pozostaje wyciszone, idealnie do muzyki lub rozmowy.",
-    "context": "description"
-  },
-  "fr3_t": {
-    "text": "Wycisz aktywną zakładkę na żądanie",
-    "context": "label"
-  },
-  "fr3_d": {
-    "text": "Wycisz zakładkę, na którą patrzysz, jednym dotknięciem, bez opuszczania strony.",
-    "context": "description"
-  },
-  "fr4_t": {
-    "text": "Zobacz wszystko, co jest wyciszone",
-    "context": "label"
-  },
-  "fr4_d": {
-    "text": "Dedykowana strona wyświetla wszystkie karty, które Auto Mute wycisza, z opcją wyciszenia jednym kliknięciem.",
-    "context": "description"
-  },
-  "fr5_t": {
-    "text": "Zawsze dozwolona lista",
-    "context": "label"
-  },
-  "fr5_d": {
-    "text": "Dodaj odtwarzacze muzyki, wideorozmowy lub dowolną stronę, która nigdy nie powinna być wyciszona.",
-    "context": "description"
-  },
-  "fr6_t": {
-    "text": "Przywraca po przebudzeniu",
-    "context": "label"
-  },
-  "fr6_d": {
-    "text": "Audio jest odtwarzane poprawnie po przebudzeniu Maca lub urządzenia z trybu uśpienia, co jest problemem, którego wiele osób wyłączających zakładki nie dostrzega.",
-    "context": "description"
-  },
-  "fr7_t": {
-    "text": "Zatrzymuje niespodziewane odtwarzanie automatyczne",
-    "context": "label"
-  },
-  "fr7_d": {
-    "text": "Wstawa w tle, która nagle zaczyna odtwarzać, jest natychmiast cichnięta w momencie, gdy zaczyna się dźwięk.",
-    "context": "description"
-  },
-  "fr8_t": {
-    "text": "Prywatne i lekkie",
-    "context": "label"
-  },
-  "fr8_d": {
-    "text": "Bez konta, bez śledzenia, bez zapytań sieciowych oraz z niemal zerowym wpływem na szybkość przeglądania.",
-    "context": "description"
-  }
+  "carousel_title": "Więcej od CorvusDevs",
+  "carousel_sub": "Aplikacje priorytetem prywatności dla macOS, iOS i Safari.",
+  "fr1_t": "Milczenia to to, czego przycisk wyciszenia nie dostrzega",
+  "fr1_d": "Strony takie jak YouTube, Twitch i X kierują dźwięk przez Web Audio API, który omija zwykłe wyciszenie karty. Auto Mute Tab wycisza je jednakże.",
+  "fr2_t": "Przypnij zakładkę, aby kontynuować odtwarzanie",
+  "fr2_d": "Utrzymuj jeden tło tab aktywny, podczas gdy wszystko inne pozostaje wyciszone, idealnie do muzyki lub rozmowy.",
+  "fr3_t": "Wycisz aktywną zakładkę na żądanie",
+  "fr3_d": "Wycisz zakładkę, na którą patrzysz, jednym dotknięciem, bez opuszczania strony.",
+  "fr4_t": "Zobacz wszystko, co jest wyciszone",
+  "fr4_d": "Dedykowana strona wyświetla wszystkie karty, które Auto Mute wycisza, z opcją wyciszenia jednym kliknięciem.",
+  "fr5_t": "Zawsze dozwolona lista",
+  "fr5_d": "Dodaj odtwarzacze muzyki, wideorozmowy lub dowolną stronę, która nigdy nie powinna być wyciszona.",
+  "fr6_t": "Przywraca po przebudzeniu",
+  "fr6_d": "Audio jest odtwarzane poprawnie po przebudzeniu Maca lub urządzenia z trybu uśpienia, co jest problemem, którego wiele osób wyłączających zakładki nie dostrzega.",
+  "fr7_t": "Zatrzymuje niespodziewane odtwarzanie automatyczne",
+  "fr7_d": "Wstawa w tle, która nagle zaczyna odtwarzać, jest natychmiast cichnięta w momencie, gdy zaczyna się dźwięk.",
+  "fr8_t": "Prywatne i lekkie",
+  "fr8_d": "Bez konta, bez śledzenia, bez zapytań sieciowych oraz z niemal zerowym wpływem na szybkość przeglądania."
 }

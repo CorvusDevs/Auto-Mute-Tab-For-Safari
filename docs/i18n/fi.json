@@ -5,10 +5,7 @@
   "hero_title": "Safari-välilehden automaattinen hiljennys",
   "hero_sub": "Automaattisesti hiljennetään taustalla olevat välilehdet, jolloin ääni soittaa vain siihen välilehteen, johon olet keskittynyt.",
   "hero_cta": "Lataa App Storesta",
-  "hero_req": {
-    "text": "iPhone, iPad ja Macille",
-    "context": "description"
-  },
+  "hero_req": "iPhone, iPad ja Macille",
   "sec_features": "Ominaisuudet",
   "sec_features_title": "Kuuntelemasi musiikki",
   "f1_t": "Älykäs automaattinen hiljentäminen",
@@ -21,21 +18,12 @@
   "f4_d": "Pidä tietyt sivut aina äänetönä; täydellinen musiikkisoittimille, videokutsuille tai kaikille sivuille, joissa ääni on aina päällä.",
   "f5_t": "Ikkunoiden välisen hiljentämisen",
   "f5_d": "Safari-ikkunoiden vaihtaminen hiljentää automaattisesti edellisen ikkunan välilehdet; ääni seuraa keskittymistäsi aina.",
-  "f6_t": {
-    "text": "33 kieltä",
-    "context": "label"
-  },
-  "f6_d": {
-    "text": "Kokoasi paikallistettu 33 kielelle, joten Auto Mute Tab puhuu juuri sinun kieltäsi.",
-    "context": "description"
-  },
+  "f6_t": "33 kieltä",
+  "f6_d": "Kokoasi paikallistettu 33 kielelle, joten Auto Mute Tab puhuu juuri sinun kieltäsi.",
   "sec_how": "Toimintaperiaate",
   "sec_how_title": "Aseta ja unohda",
   "s1_t": "Asenna App Storesta",
-  "s1_d": {
-    "text": "Lataa Auto Mute Tab App Storesta. Se on kevytsafari-laajennus.",
-    "context": "description"
-  },
+  "s1_d": "Lataa Auto Mute Tab App Storesta. Se on kevytsafari-laajennus.",
   "s2_t": "Safari päälle",
   "s2_d": "Avaa Safari-asetukset, siirry Laajennukset -osioon ja aktivoi Auto Mute Tab -toiminto. Myönnä lupa kaikille verkkosivustoille.",
   "s3_t": "Selailu rauhallisesti",
@@ -48,85 +36,28 @@
   "w2_d": "Käsittelee HTML5 -videota ja ääntä, Web Audio API -rajapinnan, automaattisia videoita, iframe-elementtejä sekä dynaamisesti ladataista mediata. Jos media tuottaa ääntä, Auto Mute Tab -toiminto hallitsee sitä.",
   "w3_t": "Zero data collection",
   "w3_d": "Ei analytiikkaa, ei seurannetta, ei tiliä eikä palvelimia; kaikki toimii paikallisesti Safarissa, joten selaamisesi pysyy täysin yksityisenä.",
-  "req": {
-    "text": "Vaatii iOS 15, iPadOS 15 tai macOS 14 tai myöhemmän version sekä Safari-selain. Saatavilla 33 kielellä.",
-    "context": "description"
-  },
+  "req": "Vaatii iOS 15, iPadOS 15 tai macOS 14 tai myöhemmän version sekä Safari-selain. Saatavilla 33 kielellä.",
   "f_brand": "<br> on itsivahvistoinen macOS-ohjelmistostudio, joka kehittää yksityisyyden kunnioittavia työkaluja.",
   "f_legal": "Lainmukainen",
   "f_privacy": "Tietosuojakäytäntö",
   "f_terms": "Käyttöehdot",
   "f_connect": "Yhdistä",
-  "carousel_title": {
-    "text": "Lisää CorvusDevs -sovelluksia",
-    "context": "label"
-  },
-  "carousel_sub": {
-    "text": "Yksityisyyteen keskittyvät sovellukset macOS-, iOS- ja Safari-käyttöjärjestelmille.",
-    "context": "description"
-  },
-  "fr1_t": {
-    "text": "Tyyntä kuulee, vaikka hiljentänapinalla ei ole onnistuttu.",
-    "context": "label"
-  },
-  "fr1_d": {
-    "text": "YouTube, Twitch ja X -kaltaiset sivustot ohjaavat äänen Web Audio API:n kautta, joka pääsee ohi normaalin välilehden hiljennuksen. Auto Mute Tab hiljentää ne silti.",
-    "context": "description"
-  },
-  "fr2_t": {
-    "text": "Tarrat välilehden jatkaaksesi toistoa myöhemmin.",
-    "context": "label"
-  },
-  "fr2_d": {
-    "text": "Pidä yksi taustasovellus kuultavana, kun kaikki muut pysyvät hiljaisina, täydellinen musiikille tai puheluille.",
-    "context": "description"
-  },
-  "fr3_t": {
-    "text": "Tilaa aktiivinen välilehti tarvittaessa hiljaiseksi",
-    "context": "label"
-  },
-  "fr3_d": {
-    "text": "Tyydentä näytössäsi oleva välilehti yhdellä napautuksella ilman sivun jättämistä.",
-    "context": "description"
-  },
-  "fr4_t": {
-    "text": "Näytä kaikki hiljennetut <ph id=\"0\"/>.",
-    "context": "label"
-  },
-  "fr4_d": {
-    "text": "Erillinen sivu listaa kaikki Auto Mute -toiminnolla hiljennetut välilehdet, ja voit palauttaa äänen yhdellä napsautuksella.",
-    "context": "description"
-  },
-  "fr5_t": {
-    "text": "Varmista listat",
-    "context": "label"
-  },
-  "fr5_d": {
-    "text": "Lisää musiikkisoittimet, videopuhelut tai mikä tahansa verkkosivusto, jota ei koskaan tulisi hiljentää.",
-    "context": "description"
-  },
-  "fr6_t": {
-    "text": "Palautuu nukkumisen jälkeen",
-    "context": "label"
-  },
-  "fr6_d": {
-    "text": "Ääni palautuu oikein, kun Mac tai laite herää unesta, mikä on monen välilehtien hiljentäjien unohtama tapaus.",
-    "context": "description"
-  },
-  "fr7_t": {
-    "text": "Estää yllättävän automaattisen toiston",
-    "context": "label"
-  },
-  "fr7_d": {
-    "text": "Taustavälilehti, joka alkaa äkillisesti soimaan, hiljennetaan heti, kun se tuottaa ääntä.",
-    "context": "description"
-  },
-  "fr8_t": {
-    "text": "Yksityinen ja kevyt",
-    "context": "label"
-  },
-  "fr8_d": {
-    "text": "Tilaa ei tarvita, seuranta on poissa, verkkoyhteyksiä ei tehdä ja selaimen nopeus ei hidastu lähes ollenkaan.",
-    "context": "description"
-  }
+  "carousel_title": "Lisää CorvusDevs -sovelluksia",
+  "carousel_sub": "Yksityisyyteen keskittyvät sovellukset macOS-, iOS- ja Safari-käyttöjärjestelmille.",
+  "fr1_t": "Tyyntä kuulee, vaikka hiljentänapinalla ei ole onnistuttu.",
+  "fr1_d": "YouTube, Twitch ja X -kaltaiset sivustot ohjaavat äänen Web Audio API:n kautta, joka pääsee ohi normaalin välilehden hiljennuksen. Auto Mute Tab hiljentää ne silti.",
+  "fr2_t": "Tarrat välilehden jatkaaksesi toistoa myöhemmin.",
+  "fr2_d": "Pidä yksi taustasovellus kuultavana, kun kaikki muut pysyvät hiljaisina, täydellinen musiikille tai puheluille.",
+  "fr3_t": "Tilaa aktiivinen välilehti tarvittaessa hiljaiseksi",
+  "fr3_d": "Tyydentä näytössäsi oleva välilehti yhdellä napautuksella ilman sivun jättämistä.",
+  "fr4_t": "Näytä kaikki hiljennetut <ph id=\"0\"/>.",
+  "fr4_d": "Erillinen sivu listaa kaikki Auto Mute -toiminnolla hiljennetut välilehdet, ja voit palauttaa äänen yhdellä napsautuksella.",
+  "fr5_t": "Varmista listat",
+  "fr5_d": "Lisää musiikkisoittimet, videopuhelut tai mikä tahansa verkkosivusto, jota ei koskaan tulisi hiljentää.",
+  "fr6_t": "Palautuu nukkumisen jälkeen",
+  "fr6_d": "Ääni palautuu oikein, kun Mac tai laite herää unesta, mikä on monen välilehtien hiljentäjien unohtama tapaus.",
+  "fr7_t": "Estää yllättävän automaattisen toiston",
+  "fr7_d": "Taustavälilehti, joka alkaa äkillisesti soimaan, hiljennetaan heti, kun se tuottaa ääntä.",
+  "fr8_t": "Yksityinen ja kevyt",
+  "fr8_d": "Tilaa ei tarvita, seuranta on poissa, verkkoyhteyksiä ei tehdä ja selaimen nopeus ei hidastu lähes ollenkaan."
 }

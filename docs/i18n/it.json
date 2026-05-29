@@ -5,10 +5,7 @@
   "hero_title": "Auto Mute Tab<br>per Safari",
   "hero_sub": "Silenzia automaticamente tutte le schede in background. Solo la scheda attiva riproduce audio.",
   "hero_cta": "Scarica dall'App Store",
-  "hero_req": {
-    "text": "Per iPhone, iPad e Mac",
-    "context": "description"
-  },
+  "hero_req": "Per iPhone, iPad e Mac",
   "sec_features": "Funzioni",
   "sec_features_title": "Concentrati su ciò che ascolti",
   "f1_t": "Silenziamento automatico",
@@ -21,21 +18,12 @@
   "f4_d": "Mantieni specifici siti sempre con audio.",
   "f5_t": "Silenziamento tra finestre",
   "f5_d": "Cambiando finestra, le schede precedenti vengono silenziate.",
-  "f6_t": {
-    "text": "33 Lingue",
-    "context": "label"
-  },
-  "f6_d": {
-    "text": "Completamente localizzato in 33 lingue, quindi Auto Mute Tab parla la tua.",
-    "context": "description"
-  },
+  "f6_t": "33 Lingue",
+  "f6_d": "Completamente localizzato in 33 lingue, quindi Auto Mute Tab parla la tua.",
   "sec_how": "Come funziona",
   "sec_how_title": "Imposta e dimentica",
   "s1_t": "Installa dall'App Store",
-  "s1_d": {
-    "text": "Scarica Auto Mute Tab dall'App Store. È un'estensione leggera per Safari.",
-    "context": "description"
-  },
+  "s1_d": "Scarica Auto Mute Tab dall'App Store. È un'estensione leggera per Safari.",
   "s2_t": "Attiva in Safari",
   "s2_d": "Apri Impostazioni Safari e attiva Auto Mute Tab.",
   "s3_t": "Naviga in pace",
@@ -48,85 +36,28 @@
   "w2_d": "Gestisce HTML5, Web Audio API, autoplay, iframe e media dinamici.",
   "w3_t": "Zero raccolta dati",
   "w3_d": "Nessuna analitica, nessun tracciamento. Tutto funziona localmente.",
-  "req": {
-    "text": "Richiede iOS 15, iPadOS 15 o macOS 14 o versioni successive, con Safari. Disponibile in 33 lingue.",
-    "context": "description"
-  },
+  "req": "Richiede iOS 15, iPadOS 15 o macOS 14 o versioni successive, con Safari. Disponibile in 33 lingue.",
   "f_brand": "Studio indie di software macOS.<br>Strumenti mirati e rispettosi della privacy.",
   "f_legal": "Legale",
   "f_privacy": "Privacy",
   "f_terms": "Termini",
   "f_connect": "Contatto",
-  "carousel_title": {
-    "text": "Altri prodotti di CorvusDevs",
-    "context": "label"
-  },
-  "carousel_sub": {
-    "text": "App a privacy-first per macOS, iOS e Safari.",
-    "context": "description"
-  },
-  "fr1_t": {
-    "text": "I silenzi sono quelli che il tasto di disattivazione dell'audio non coglie",
-    "context": "label"
-  },
-  "fr1_d": {
-    "text": "Siti come YouTube, Twitch e X instradano l'audio tramite l'API Web Audio, che supera il normale silenziamento della scheda. Auto Mute Tab li silenzia comunque.",
-    "context": "description"
-  },
-  "fr2_t": {
-    "text": "Fissa una scheda per continuare a riprodurre",
-    "context": "label"
-  },
-  "fr2_d": {
-    "text": "Mantenete attivo un'unica scheda di sfondo con l'audio, mentre tutto il resto rimane in silenzio, perfetto per la musica o le chiamate.",
-    "context": "description"
-  },
-  "fr3_t": {
-    "text": "Muta la scheda attiva su richiesta",
-    "context": "label"
-  },
-  "fr3_d": {
-    "text": "Silenzia la scheda che stai guardando con un tocco, senza lasciare la pagina.",
-    "context": "description"
-  },
-  "fr4_t": {
-    "text": "Vedi tutto ciò che è silenziato",
-    "context": "label"
-  },
-  "fr4_d": {
-    "text": "Una pagina dedicata elenca tutte le schede che Auto Mute sta silenziando, con la possibilità di desilenziarle con un clic.",
-    "context": "description"
-  },
-  "fr5_t": {
-    "text": "Elenco di sempre consentito",
-    "context": "label"
-  },
-  "fr5_d": {
-    "text": "Aggiungi lettori musicali, videochiamate o qualsiasi sito che non dovrebbe mai essere silenziato.",
-    "context": "description"
-  },
-  "fr6_t": {
-    "text": "Recupera dopo il riposo",
-    "context": "label"
-  },
-  "fr6_d": {
-    "text": "L'audio viene ripristinato correttamente dopo che il Mac o il dispositivo si sveglia dal sonno, un caso che molti mutatori di schede trascurano.",
-    "context": "description"
-  },
-  "fr7_t": {
-    "text": "Blocca la riproduzione automatica a sorpresa",
-    "context": "label"
-  },
-  "fr7_d": {
-    "text": "Una scheda di sfondo che inizia improvvisamente a riprodurre viene silenziata non appena produce suoni.",
-    "context": "description"
-  },
-  "fr8_t": {
-    "text": "Privato e leggero",
-    "context": "label"
-  },
-  "fr8_d": {
-    "text": "Nessun account, nessun tracciamento, nessuna richiesta di rete e un impatto quasi nullo sulla velocità di navigazione.",
-    "context": "description"
-  }
+  "carousel_title": "Altri prodotti di CorvusDevs",
+  "carousel_sub": "App a privacy-first per macOS, iOS e Safari.",
+  "fr1_t": "I silenzi sono quelli che il tasto di disattivazione dell'audio non coglie",
+  "fr1_d": "Siti come YouTube, Twitch e X instradano l'audio tramite l'API Web Audio, che supera il normale silenziamento della scheda. Auto Mute Tab li silenzia comunque.",
+  "fr2_t": "Fissa una scheda per continuare a riprodurre",
+  "fr2_d": "Mantenete attivo un'unica scheda di sfondo con l'audio, mentre tutto il resto rimane in silenzio, perfetto per la musica o le chiamate.",
+  "fr3_t": "Muta la scheda attiva su richiesta",
+  "fr3_d": "Silenzia la scheda che stai guardando con un tocco, senza lasciare la pagina.",
+  "fr4_t": "Vedi tutto ciò che è silenziato",
+  "fr4_d": "Una pagina dedicata elenca tutte le schede che Auto Mute sta silenziando, con la possibilità di desilenziarle con un clic.",
+  "fr5_t": "Elenco di sempre consentito",
+  "fr5_d": "Aggiungi lettori musicali, videochiamate o qualsiasi sito che non dovrebbe mai essere silenziato.",
+  "fr6_t": "Recupera dopo il riposo",
+  "fr6_d": "L'audio viene ripristinato correttamente dopo che il Mac o il dispositivo si sveglia dal sonno, un caso che molti mutatori di schede trascurano.",
+  "fr7_t": "Blocca la riproduzione automatica a sorpresa",
+  "fr7_d": "Una scheda di sfondo che inizia improvvisamente a riprodurre viene silenziata non appena produce suoni.",
+  "fr8_t": "Privato e leggero",
+  "fr8_d": "Nessun account, nessun tracciamento, nessuna richiesta di rete e un impatto quasi nullo sulla velocità di navigazione."
 }

@@ -5,10 +5,7 @@
   "hero_title": "Auto Mute Tab<br>for Safari",
   "hero_sub": "バックグラウンドタブを自動でミュート。アクティブなタブだけが音声を再生。",
   "hero_cta": "App Storeでダウンロード",
-  "hero_req": {
-    "text": "iPhone、iPad、および Mac 向け",
-    "context": "description"
-  },
+  "hero_req": "iPhone、iPad、および Mac 向け",
   "sec_features": "機能",
   "sec_features_title": "聞いているものに集中",
   "f1_t": "スマート自動ミュート",
@@ -21,21 +18,12 @@
   "f4_d": "特定のサイトを常に音声有りに。",
   "f5_t": "ウィンドウ間ミュート",
   "f5_d": "ウィンドウ切り替えで前のウィンドウが自動ミュート。",
-  "f6_t": {
-    "text": "33 カ国語に対応",
-    "context": "label"
-  },
-  "f6_d": {
-    "text": "世界中の 33 カ国語に対応しており、Auto Mute Tab はあなたの言語を話します。",
-    "context": "description"
-  },
+  "f6_t": "33 カ国語に対応",
+  "f6_d": "世界中の 33 カ国語に対応しており、Auto Mute Tab はあなたの言語を話します。",
   "sec_how": "使い方",
   "sec_how_title": "設定して忘れるだけ",
   "s1_t": "App Storeからインストール",
-  "s1_d": {
-    "text": "App Store から Auto Mute Tab をダウンロード。軽量な Safari 拡張機能です。",
-    "context": "description"
-  },
+  "s1_d": "App Store から Auto Mute Tab をダウンロード。軽量な Safari 拡張機能です。",
   "s2_t": "Safariで有効化",
   "s2_d": "Safari設定の機能拡張から有効に。",
   "s3_t": "快適にブラウズ",
@@ -48,85 +36,28 @@
   "w2_d": "HTML5、Web Audio API、自動再生、iframeに対応。",
   "w3_t": "データ収集なし",
   "w3_d": "分析も追跡もなし。すべてSafari内でローカルに動作。",
-  "req": {
-    "text": "iOS 15、iPadOS 15、または macOS 14 以降を搭載した Safari を必要とします。33 の言語に対応しています。",
-    "context": "description"
-  },
+  "req": "iOS 15、iPadOS 15、または macOS 14 以降を搭載した Safari を必要とします。33 の言語に対応しています。",
   "f_brand": "インディーmacOSソフトウェアスタジオ。",
   "f_legal": "法的情報",
   "f_privacy": "プライバシー",
   "f_terms": "利用規約",
   "f_connect": "お問い合わせ",
-  "carousel_title": {
-    "text": "CorvusDevs の他のアプリもチェック",
-    "context": "label"
-  },
-  "carousel_sub": {
-    "text": "Apple 製 macOS、iOS、Safari でプライバシーを最優先にしたアプリ。",
-    "context": "description"
-  },
-  "fr1_t": {
-    "text": "Silence はミュートボタンが捉えきれない音を指します。",
-    "context": "label"
-  },
-  "fr1_d": {
-    "text": "YouTube、Twitch、X などのサイトは Web Audio API を経由してオーディオを伝送するため、通常のタブミュートの回避策を講じます。Auto Mute Tab はそれらのサイトを強制的にミュートします。",
-    "context": "description"
-  },
-  "fr2_t": {
-    "text": "タブをピン留めして再生を続けます",
-    "context": "label"
-  },
-  "fr2_d": {
-    "text": "バックグラウンドのタブを 1 つだけ音声として再生し、残りのタブはすべてミュートにすることで、音楽や通話に最適です。",
-    "context": "description"
-  },
-  "fr3_t": {
-    "text": "アクティブなタブをオンデマンドでミュートします",
-    "context": "label"
-  },
-  "fr3_d": {
-    "text": "見ているタブをタップするだけで静かにし、ページから離れることなく操作できます。",
-    "context": "description"
-  },
-  "fr4_t": {
-    "text": "ミュートされているものをすべて表示",
-    "context": "label"
-  },
-  "fr4_d": {
-    "text": "すべてのタブがミュートされている状態をリスト表示する専用ページがあり、ワンクリックでミュートを解除できます。",
-    "context": "description"
-  },
-  "fr5_t": {
-    "text": "常時許可リスト",
-    "context": "label"
-  },
-  "fr5_d": {
-    "text": "音楽プレイヤー、ビデオ通話、またはミュートしてはいけないサイトなどを追加できます。",
-    "context": "description"
-  },
-  "fr6_t": {
-    "text": "スリープから復帰すると復元されます",
-    "context": "label"
-  },
-  "fr6_d": {
-    "text": "Mac またはデバイスがスリープから目覚めた後、音が正しく復元されます。これは多くのタブミュッターが見過ごすケースです。",
-    "context": "description"
-  },
-  "fr7_t": {
-    "text": "予期せぬ自動再生を停止します",
-    "context": "label"
-  },
-  "fr7_d": {
-    "text": "バックグラウンドのタブが突然再生を開始すると、音が鳴り出す瞬間にミュートされます。",
-    "context": "description"
-  },
-  "fr8_t": {
-    "text": "プライベートで軽量な",
-    "context": "label"
-  },
-  "fr8_d": {
-    "text": "アカウント不要、トラッキングなし、ネットワークリクエストなし、閲覧速度への影響はほぼゼロ。",
-    "context": "description"
-  }
+  "carousel_title": "CorvusDevs の他のアプリもチェック",
+  "carousel_sub": "Apple 製 macOS、iOS、Safari でプライバシーを最優先にしたアプリ。",
+  "fr1_t": "Silence はミュートボタンが捉えきれない音を指します。",
+  "fr1_d": "YouTube、Twitch、X などのサイトは Web Audio API を経由してオーディオを伝送するため、通常のタブミュートの回避策を講じます。Auto Mute Tab はそれらのサイトを強制的にミュートします。",
+  "fr2_t": "タブをピン留めして再生を続けます",
+  "fr2_d": "バックグラウンドのタブを 1 つだけ音声として再生し、残りのタブはすべてミュートにすることで、音楽や通話に最適です。",
+  "fr3_t": "アクティブなタブをオンデマンドでミュートします",
+  "fr3_d": "見ているタブをタップするだけで静かにし、ページから離れることなく操作できます。",
+  "fr4_t": "ミュートされているものをすべて表示",
+  "fr4_d": "すべてのタブがミュートされている状態をリスト表示する専用ページがあり、ワンクリックでミュートを解除できます。",
+  "fr5_t": "常時許可リスト",
+  "fr5_d": "音楽プレイヤー、ビデオ通話、またはミュートしてはいけないサイトなどを追加できます。",
+  "fr6_t": "スリープから復帰すると復元されます",
+  "fr6_d": "Mac またはデバイスがスリープから目覚めた後、音が正しく復元されます。これは多くのタブミュッターが見過ごすケースです。",
+  "fr7_t": "予期せぬ自動再生を停止します",
+  "fr7_d": "バックグラウンドのタブが突然再生を開始すると、音が鳴り出す瞬間にミュートされます。",
+  "fr8_t": "プライベートで軽量な",
+  "fr8_d": "アカウント不要、トラッキングなし、ネットワークリクエストなし、閲覧速度への影響はほぼゼロ。"
 }

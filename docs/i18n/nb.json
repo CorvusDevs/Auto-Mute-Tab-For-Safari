@@ -5,10 +5,7 @@
   "hero_title": "Auto Tyst Tab <br> for Safari",
   "hero_sub": "Automatisk å dempe alle bakgrunnsfaner slik at bare den du fokuserer på spiller lyd.",
   "hero_cta": "Last ned på App Store",
-  "hero_req": {
-    "text": "For iPhone, iPad og Mac",
-    "context": "description"
-  },
+  "hero_req": "For iPhone, iPad og Mac",
   "sec_features": "Funksjoner",
   "sec_features_title": "Fokuser på hva du lytter til",
   "f1_t": "Smart automatisk lyddemping",
@@ -21,21 +18,12 @@
   "f4_d": "Hold spesifikke nettsteder alltid på høyttaleren. Perfekt for musikkspillere, videoopptak eller nettsteder som alltid bør ha lyd.",
   "f5_t": "Tilfeldig vindusstille",
   "f5_d": "Ved å bytte mellom Safari-vinduer blir fanebladene i det tidligere vinduet automatisk dempet. Lyden følger fokuset ditt overalt.",
-  "f6_t": {
-    "text": "33 språk",
-    "context": "label"
-  },
-  "f6_d": {
-    "text": "Fullstendig lokalisert på 33 språk, så Auto Mute Tab snakker ditt språk.",
-    "context": "description"
-  },
+  "f6_t": "33 språk",
+  "f6_d": "Fullstendig lokalisert på 33 språk, så Auto Mute Tab snakker ditt språk.",
   "sec_how": "Hvordan det fungerer",
   "sec_how_title": "Set det og glem det",
   "s1_t": "Installer fra App Store",
-  "s1_d": {
-    "text": "Last ned Auto Mute Tab fra App Store. Det er en lettvektet Safari-utvidelse.",
-    "context": "description"
-  },
+  "s1_d": "Last ned Auto Mute Tab fra App Store. Det er en lettvektet Safari-utvidelse.",
   "s2_t": "Aktiver i Safari",
   "s2_d": "Åpne Safari-Innstillinger, gå til Utvidelser og aktiver Auto Mute Tab. Gi tillatelse for alle nettsider.",
   "s3_t": "Blås i ro",
@@ -48,85 +36,28 @@
   "w2_d": "Behandler HTML5-video og lyd, Web Audio API, autoplay-videoer, iframes og dynamisk lastet medier. Hvis det lager lyd, kontrollerer Auto Mute Tab lyden.",
   "w3_t": "Innsamling av null data",
   "w3_d": "Ingen analyser, ingen sporing, ingen kontoer, ingen servere. Alt kjører lokalt i Safari. Din nettsurfing forblir helt privat.",
-  "req": {
-    "text": "Krever iOS 15, iPadOS 15 eller macOS 14 eller senere, med Safari. Tilgjengelig på 33 språk.",
-    "context": "description"
-  },
+  "req": "Krever iOS 15, iPadOS 15 eller macOS 14 eller senere, med Safari. Tilgjengelig på 33 språk.",
   "f_brand": "Indie macOS-studio som fokuserer på verktøy med prioritet på personvern. <br>",
   "f_legal": "Rettslig",
   "f_privacy": "Personvernreglement",
   "f_terms": "Vilkår for tjenesten",
   "f_connect": "Koble til",
-  "carousel_title": {
-    "text": "Mer fra CorvusDevs",
-    "context": "label"
-  },
-  "carousel_sub": {
-    "text": "Privatfirst-apps for macOS, iOS og Safari.",
-    "context": "description"
-  },
-  "fr1_t": {
-    "text": "Tystinger lyden som tittelknappen ikke hører",
-    "context": "label"
-  },
-  "fr1_d": {
-    "text": "Nettsider som YouTube, Twitch og X sender lyd gjennom Web Audio API, som slipper unna vanlig fane-stumming. Auto Mute Tab stummer dem likevel.",
-    "context": "description"
-  },
-  "fr2_t": {
-    "text": "Fest et fanesymbol for å fortsette å spille",
-    "context": "label"
-  },
-  "fr2_d": {
-    "text": "Hold én bakgrunnsfane hørbær mens alt annet er dempet, perfekt for musikk eller et samtaleopplegg.",
-    "context": "description"
-  },
-  "fr3_t": {
-    "text": "Tyst den aktive fanen etter behov",
-    "context": "label"
-  },
-  "fr3_d": {
-    "text": "Tyst tabben du ser på med ett trykk, uten å forlate siden.",
-    "context": "description"
-  },
-  "fr4_t": {
-    "text": "Se alt som er dempet",
-    "context": "label"
-  },
-  "fr4_d": {
-    "text": "En dedikert side viser alle faner som Auto Mute demper, med en-klikk-avdempe.",
-    "context": "description"
-  },
-  "fr5_t": {
-    "text": "Always-allow-list",
-    "context": "label"
-  },
-  "fr5_d": {
-    "text": "Legg til musikkspillere, videooppringninger eller nettsider som aldri bør være dempet.",
-    "context": "description"
-  },
-  "fr6_t": {
-    "text": "Gjenopprettes etter hvilemodus",
-    "context": "label"
-  },
-  "fr6_d": {
-    "text": "Lyden kommer tilbake korrekt etter at Mac-en eller enheten våkner fra hvilemodus, noe mange som deaktiverer faner ofte overser.",
-    "context": "description"
-  },
-  "fr7_t": {
-    "text": "Stopp overraskende autoplay",
-    "context": "label"
-  },
-  "fr7_d": {
-    "text": "Et bakgrunnsfanne som plutselig begynner å spille av blir demmet øyeblikkelig når det lager lyd.",
-    "context": "description"
-  },
-  "fr8_t": {
-    "text": "Privat og lettvektig",
-    "context": "label"
-  },
-  "fr8_d": {
-    "text": "Ingen kontoer, ingen sporing, ingen nettverksforespørsler og nesten null påvirkning på nettleserhastighet.",
-    "context": "description"
-  }
+  "carousel_title": "Mer fra CorvusDevs",
+  "carousel_sub": "Privatfirst-apps for macOS, iOS og Safari.",
+  "fr1_t": "Tystinger lyden som tittelknappen ikke hører",
+  "fr1_d": "Nettsider som YouTube, Twitch og X sender lyd gjennom Web Audio API, som slipper unna vanlig fane-stumming. Auto Mute Tab stummer dem likevel.",
+  "fr2_t": "Fest et fanesymbol for å fortsette å spille",
+  "fr2_d": "Hold én bakgrunnsfane hørbær mens alt annet er dempet, perfekt for musikk eller et samtaleopplegg.",
+  "fr3_t": "Tyst den aktive fanen etter behov",
+  "fr3_d": "Tyst tabben du ser på med ett trykk, uten å forlate siden.",
+  "fr4_t": "Se alt som er dempet",
+  "fr4_d": "En dedikert side viser alle faner som Auto Mute demper, med en-klikk-avdempe.",
+  "fr5_t": "Always-allow-list",
+  "fr5_d": "Legg til musikkspillere, videooppringninger eller nettsider som aldri bør være dempet.",
+  "fr6_t": "Gjenopprettes etter hvilemodus",
+  "fr6_d": "Lyden kommer tilbake korrekt etter at Mac-en eller enheten våkner fra hvilemodus, noe mange som deaktiverer faner ofte overser.",
+  "fr7_t": "Stopp overraskende autoplay",
+  "fr7_d": "Et bakgrunnsfanne som plutselig begynner å spille av blir demmet øyeblikkelig når det lager lyd.",
+  "fr8_t": "Privat og lettvektig",
+  "fr8_d": "Ingen kontoer, ingen sporing, ingen nettverksforespørsler og nesten null påvirkning på nettleserhastighet."
 }
