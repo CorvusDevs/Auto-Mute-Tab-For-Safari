@@ -59,5 +59,7 @@
   "fr7_t": "Sürpriz otomatik oynatmayı durdurur",
   "fr7_d": "Sesi aniden başlamaya başladığı anda, aniden sesli hale gelen arka plan sekmeleri otomatik olarak susturulur.",
   "fr8_t": "Özel ve hafif",
-  "fr8_d": "Hesap yok, takip yok, ağ isteği yok ve tarayma hızına neredeyse sıfır etkisi var."
+  "fr8_d": "Hesap yok, takip yok, ağ isteği yok ve tarayma hızına neredeyse sıfır etkisi var.",
+  "hero_cta_ios": "iPhone ve iPad için İndir",
+  "hero_cta_mac": "Mac için İndir"
 }

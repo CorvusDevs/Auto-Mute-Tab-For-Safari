@@ -59,5 +59,7 @@
   "fr7_t": "Evita a reprodução automática surpresa",
   "fr7_d": "Uma aba de fundo que começa a tocar de repente é silenciada no instante em que emite som.",
   "fr8_t": "Privado e leve",
-  "fr8_d": "Sem contas, sem rastreamento, sem requisições de rede e impacto quase nulo na velocidade de navegação."
+  "fr8_d": "Sem contas, sem rastreamento, sem requisições de rede e impacto quase nulo na velocidade de navegação.",
+  "hero_cta_ios": "Baixar para iPhone e iPad",
+  "hero_cta_mac": "Baixar para o Mac"
 }

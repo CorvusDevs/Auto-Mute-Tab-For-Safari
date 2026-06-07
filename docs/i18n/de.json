@@ -59,5 +59,7 @@
   "fr7_t": "Stoppt unerwartetes Autoplay",
   "fr7_d": "Ein Hintergrundtab, das plötzlich startet, wird sofort stummgeschaltet, sobald es Sound erzeugt.",
   "fr8_t": "Privat und leichtgewichtig",
-  "fr8_d": "Keine Konten, keine Nachverfolgung, keine Netzwerkabfragen und nahezu null Auswirkung auf die Surfgeschwindigkeit."
+  "fr8_d": "Keine Konten, keine Nachverfolgung, keine Netzwerkabfragen und nahezu null Auswirkung auf die Surfgeschwindigkeit.",
+  "hero_cta_ios": "Herunterladen für iPhone & iPad",
+  "hero_cta_mac": "Für Mac herunterladen"
 }

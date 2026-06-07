@@ -59,5 +59,7 @@
   "fr7_t": "Arrête l'autoplay surprise",
   "fr7_d": "Un onglet en arrière-plan qui commence soudainement à lire est mis en sourdine dès qu'il émet un son.",
   "fr8_t": "Privé et léger",
-  "fr8_d": "Aucun compte, aucun suivi, aucune requête réseau et un impact quasi nul sur la vitesse de navigation."
+  "fr8_d": "Aucun compte, aucun suivi, aucune requête réseau et un impact quasi nul sur la vitesse de navigation.",
+  "hero_cta_ios": "Télécharger pour iPhone et iPad",
+  "hero_cta_mac": "Télécharger pour Mac"
 }

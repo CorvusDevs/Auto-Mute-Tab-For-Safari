@@ -59,5 +59,7 @@
   "fr7_t": "Stop overraskelses-autospil",
   "fr7_d": "En baggrundsfane, der pludselig begynder at spille, bliver straks dæmpet, øjeblikket den starter med lyd.",
   "fr8_t": "Privat og letvægts",
-  "fr8_d": "Ingen kontoer, ingen tracking, ingen netværksforespørgsler og næsten nul indvirkning på browsespeed."
+  "fr8_d": "Ingen kontoer, ingen tracking, ingen netværksforespørgsler og næsten nul indvirkning på browsespeed.",
+  "hero_cta_ios": "Download til iPhone og iPad",
+  "hero_cta_mac": "Download til Mac"
 }

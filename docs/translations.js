@@ -9,6 +9,8 @@ var T = {
     "hero_sub": "Automatically mutes every background tab so only the one you're focused on plays audio. No more competing sounds from forgotten tabs.",
     "hero_cta": "Download on the App Store",
     "hero_req": "For iPhone, iPad, and Mac",
+    "hero_cta_ios": "Download for iPhone & iPad",
+    "hero_cta_mac": "Download for Mac",
     "sec_features": "Features",
     "sec_features_title": "Focus on what you're listening to",
     "f1_t": "Smart Auto-Muting",
@@ -125,7 +127,9 @@ var T = {
     "fr7_t": "يمنع التشغيل التلقائي المفاجئ",
     "fr7_d": "يتم إسكات التبويب الخلفي فورًا في اللحظة التي يبدأ فيها في تشغيل الصوت.",
     "fr8_t": "خاص وخفيف",
-    "fr8_d": "لا توجد حسابات، ولا تتبع، ولا طلبات للشبكة، مع تأثير شبه معدوم على سرعة التصفح."
+    "fr8_d": "لا توجد حسابات، ولا تتبع، ولا طلبات للشبكة، مع تأثير شبه معدوم على سرعة التصفح.",
+    "hero_cta_ios": "تحميل لـ iPhone و iPad",
+    "hero_cta_mac": "تحميل لـ ماك"
   },
   "cs": {
     "nav_features": "Funkce",
@@ -188,7 +192,9 @@ var T = {
     "fr7_t": "Zastavuje překvapivé automatické přehrávání",
     "fr7_d": "Kontejner pro pozadí, který náhle začne přehrávat, je okamžitě ztišen, jakmile vydá zvuk.",
     "fr8_t": "Soukromé a lehké",
-    "fr8_d": "Žádné účty, žádné sledování, žádné síťové požadavky a téměř nulový dopad na rychlost prohlížení."
+    "fr8_d": "Žádné účty, žádné sledování, žádné síťové požadavky a téměř nulový dopad na rychlost prohlížení.",
+    "hero_cta_ios": "Stáhnout pro iPhone a iPad",
+    "hero_cta_mac": "Stáhnout pro Mac"
   },
   "da": {
     "nav_features": "Funktioner",
@@ -251,7 +257,9 @@ var T = {
     "fr7_t": "Stop overraskelses-autospil",
     "fr7_d": "En baggrundsfane, der pludselig begynder at spille, bliver straks dæmpet, øjeblikket den starter med lyd.",
     "fr8_t": "Privat og letvægts",
-    "fr8_d": "Ingen kontoer, ingen tracking, ingen netværksforespørgsler og næsten nul indvirkning på browsespeed."
+    "fr8_d": "Ingen kontoer, ingen tracking, ingen netværksforespørgsler og næsten nul indvirkning på browsespeed.",
+    "hero_cta_ios": "Download til iPhone og iPad",
+    "hero_cta_mac": "Download til Mac"
   },
   "de": {
     "nav_features": "Funktionen",
@@ -314,7 +322,9 @@ var T = {
     "fr7_t": "Stoppt unerwartetes Autoplay",
     "fr7_d": "Ein Hintergrundtab, das plötzlich startet, wird sofort stummgeschaltet, sobald es Sound erzeugt.",
     "fr8_t": "Privat und leichtgewichtig",
-    "fr8_d": "Keine Konten, keine Nachverfolgung, keine Netzwerkabfragen und nahezu null Auswirkung auf die Surfgeschwindigkeit."
+    "fr8_d": "Keine Konten, keine Nachverfolgung, keine Netzwerkabfragen und nahezu null Auswirkung auf die Surfgeschwindigkeit.",
+    "hero_cta_ios": "Herunterladen für iPhone & iPad",
+    "hero_cta_mac": "Für Mac herunterladen"
   },
   "el": {
     "nav_features": "Λειτουργίες",
@@ -377,7 +387,9 @@ var T = {
     "fr7_t": "Διακόπτει την εκπλήξιμη αυτόματη αναπαραγωγή",
     "fr7_d": "Ένα φόντο tab που ξαφνικά αρχίζει να παίζει κρύβεται ακαριαία μόλις κάνει ήχο.",
     "fr8_t": "Ιδιωτικό και ελαφρύ",
-    "fr8_d": "Χωρίς λογαριασμούς, χωρίς παρακολούθηση, χωρίς αιτήματα δικτύου και σχεδόν μηδενική επίδραση στην ταχύτητα περιήγησης."
+    "fr8_d": "Χωρίς λογαριασμούς, χωρίς παρακολούθηση, χωρίς αιτήματα δικτύου και σχεδόν μηδενική επίδραση στην ταχύτητα περιήγησης.",
+    "hero_cta_ios": "Λήψη για iPhone & iPad",
+    "hero_cta_mac": "Λήψη για Mac"
   },
   "es": {
     "nav_features": "Funciones",
@@ -440,7 +452,9 @@ var T = {
     "fr7_t": "Detiene la reproducción automática sorpresa",
     "fr7_d": "Una pestaña de fondo que comienza a reproducirse de repente se silencia en el instante en que emite sonido.",
     "fr8_t": "Privado y ligero",
-    "fr8_d": "Sin cuentas, sin seguimiento, sin solicitudes de red y un impacto casi nulo en la velocidad de navegación."
+    "fr8_d": "Sin cuentas, sin seguimiento, sin solicitudes de red y un impacto casi nulo en la velocidad de navegación.",
+    "hero_cta_ios": "Descargar para iPhone y iPad",
+    "hero_cta_mac": "Descargar para Mac"
   },
   "es-MX": {
     "nav_features": "Características",
@@ -503,7 +517,9 @@ var T = {
     "fr7_t": "Detiene la reproducción automática inesperada",
     "fr7_d": "Una pestaña de fondo que comienza a reproducirse de repente se silencia en el instante en que emite sonido.",
     "fr8_t": "Privado y ligero",
-    "fr8_d": "Sin cuentas, sin rastreo, sin solicitudes de red y un impacto casi nulo en la velocidad de navegación."
+    "fr8_d": "Sin cuentas, sin rastreo, sin solicitudes de red y un impacto casi nulo en la velocidad de navegación.",
+    "hero_cta_ios": "Descargar para iPhone e iPad",
+    "hero_cta_mac": "Descargar para Mac"
   },
   "es_MX": {
     "nav_features": "Características",
@@ -566,7 +582,9 @@ var T = {
     "fr7_t": "Detiene la reproducción automática inesperada",
     "fr7_d": "Una pestaña de fondo que comienza a reproducirse de repente se silencia en el instante en que emite sonido.",
     "fr8_t": "Privado y ligero",
-    "fr8_d": "Sin cuentas, sin rastreo, sin solicitudes de red y un impacto casi nulo en la velocidad de navegación."
+    "fr8_d": "Sin cuentas, sin rastreo, sin solicitudes de red y un impacto casi nulo en la velocidad de navegación.",
+    "hero_cta_ios": "Descargar para iPhone e iPad",
+    "hero_cta_mac": "Descargar para Mac"
   },
   "fi": {
     "nav_features": "Ominaisuudet",
@@ -629,7 +647,9 @@ var T = {
     "fr7_t": "Estää yllättävän automaattisen toiston",
     "fr7_d": "Taustavälilehti, joka alkaa äkillisesti soimaan, hiljennetaan heti, kun se tuottaa ääntä.",
     "fr8_t": "Yksityinen ja kevyt",
-    "fr8_d": "Tilaa ei tarvita, seuranta on poissa, verkkoyhteyksiä ei tehdä ja selaimen nopeus ei hidastu lähes ollenkaan."
+    "fr8_d": "Tilaa ei tarvita, seuranta on poissa, verkkoyhteyksiä ei tehdä ja selaimen nopeus ei hidastu lähes ollenkaan.",
+    "hero_cta_ios": "Lataa iPhone & iPadille",
+    "hero_cta_mac": "Lataa Macille"
   },
   "fr": {
     "nav_features": "Fonctions",
@@ -692,7 +712,9 @@ var T = {
     "fr7_t": "Arrête l'autoplay surprise",
     "fr7_d": "Un onglet en arrière-plan qui commence soudainement à lire est mis en sourdine dès qu'il émet un son.",
     "fr8_t": "Privé et léger",
-    "fr8_d": "Aucun compte, aucun suivi, aucune requête réseau et un impact quasi nul sur la vitesse de navigation."
+    "fr8_d": "Aucun compte, aucun suivi, aucune requête réseau et un impact quasi nul sur la vitesse de navigation.",
+    "hero_cta_ios": "Télécharger pour iPhone et iPad",
+    "hero_cta_mac": "Télécharger pour Mac"
   },
   "he": {
     "nav_features": "תכונות",
@@ -755,7 +777,9 @@ var T = {
     "fr7_t": "מבטל הפעלה אוטומטית מפתיעה",
     "fr7_d": "מטאבג (אב) ברקע שמתחיל להפעיל בפתאומיות מושתק מיד ברגע שמופק קול.",
     "fr8_t": "פרטי וקל משקל",
-    "fr8_d": "ללא חשבונות, ללא מעקב, ללא בקשות רשת, ובהשפעה קרובה לאפס על מהירות הגלישה."
+    "fr8_d": "ללא חשבונות, ללא מעקב, ללא בקשות רשת, ובהשפעה קרובה לאפס על מהירות הגלישה.",
+    "hero_cta_ios": "הורד עבור איפון ואייפד",
+    "hero_cta_mac": "הורד למק"
   },
   "hi": {
     "nav_features": "विशेषताएं",
@@ -818,7 +842,9 @@ var T = {
     "fr7_t": "ऑटोप्ले को सताने वाली आश्चर्यजनक घटनाओं को रोकता है",
     "fr7_d": "ऐसा पृष्ठभूमि टैब है जो अचानक बजने लगता है, और जैसे ही वह आवाज़ निकालता है, उसे तुरंत म्यूट कर दिया जाता है।",
     "fr8_t": "सुरक्षित और हल्का",
-    "fr8_d": "कोई खाते, कोई ट्रैकिंग, कोई नेटवर्क अनुरोध नहीं, और ब्राउज़िंग स्पीड पर लगभग शून्य प्रभाव।"
+    "fr8_d": "कोई खाते, कोई ट्रैकिंग, कोई नेटवर्क अनुरोध नहीं, और ब्राउज़िंग स्पीड पर लगभग शून्य प्रभाव।",
+    "hero_cta_ios": "iPhone और iPad के लिए डाउनलोड करें",
+    "hero_cta_mac": "मैक के लिए डाउनलोड करें"
   },
   "hu": {
     "nav_features": "Funkciók",
@@ -881,7 +907,9 @@ var T = {
     "fr7_t": "Megaköti a meglepetés automatikus lejátszást",
     "fr7_d": "A háttérben lévő fülke hirtelen elindulása esetén azonnal némítva van, amint hangot ad.",
     "fr8_t": "Privát és könnyű",
-    "fr8_d": "Fiókok nélkül, nyomon követés nélkül, hálózati kérések nélkül, és a böngészési sebességre szinte nulla hatással."
+    "fr8_d": "Fiókok nélkül, nyomon követés nélkül, hálózati kérések nélkül, és a böngészési sebességre szinte nulla hatással.",
+    "hero_cta_ios": "iPhone és iPad letöltése",
+    "hero_cta_mac": "Macra letöltése"
   },
   "id": {
     "nav_features": "Fitur",
@@ -944,7 +972,9 @@ var T = {
     "fr7_t": "Menghentikan autoplay kejutan",
     "fr7_d": "Tab latar belakang yang tiba-tiba mulai memutar akan disetel ke mode diam segera saat mengeluarkan suara.",
     "fr8_t": "Privat dan ringan",
-    "fr8_d": "Tanpa akun, tanpa pelacakan, tanpa permintaan jaringan, dan dampak hampir nol terhadap kecepatan browsing."
+    "fr8_d": "Tanpa akun, tanpa pelacakan, tanpa permintaan jaringan, dan dampak hampir nol terhadap kecepatan browsing.",
+    "hero_cta_ios": "Unduh untuk iPhone & iPad",
+    "hero_cta_mac": "Unduh untuk Mac"
   },
   "it": {
     "nav_features": "Funzioni",
@@ -1007,7 +1037,9 @@ var T = {
     "fr7_t": "Blocca la riproduzione automatica a sorpresa",
     "fr7_d": "Una scheda di sfondo che inizia improvvisamente a riprodurre viene silenziata non appena produce suoni.",
     "fr8_t": "Privato e leggero",
-    "fr8_d": "Nessun account, nessun tracciamento, nessuna richiesta di rete e un impatto quasi nullo sulla velocità di navigazione."
+    "fr8_d": "Nessun account, nessun tracciamento, nessuna richiesta di rete e un impatto quasi nullo sulla velocità di navigazione.",
+    "hero_cta_ios": "Scarica per iPhone e iPad",
+    "hero_cta_mac": "Scarica per Mac"
   },
   "ja": {
     "nav_features": "機能",
@@ -1070,7 +1102,9 @@ var T = {
     "fr7_t": "予期せぬ自動再生を停止します",
     "fr7_d": "バックグラウンドのタブが突然再生を開始すると、音が鳴り出す瞬間にミュートされます。",
     "fr8_t": "プライベートで軽量な",
-    "fr8_d": "アカウント不要、トラッキングなし、ネットワークリクエストなし、閲覧速度への影響はほぼゼロ。"
+    "fr8_d": "アカウント不要、トラッキングなし、ネットワークリクエストなし、閲覧速度への影響はほぼゼロ。",
+    "hero_cta_ios": "iPhone および iPad 向けにダウンロード",
+    "hero_cta_mac": "Mac 用にダウンロード"
   },
   "ko": {
     "nav_features": "기능",
@@ -1133,7 +1167,9 @@ var T = {
     "fr7_t": "반응형 자동 재생을 중지합니다",
     "fr7_d": "갑자기 재생이 시작되는 백그라운드 탭은 소리가 나자마자 즉시 음소거됩니다.",
     "fr8_t": "사적이고 경량입니다",
-    "fr8_d": "계정 없음, 추적 없음, 네트워크 요청 없음, 그리고 브라우저 속도에 거의 영향을 미치지 않습니다."
+    "fr8_d": "계정 없음, 추적 없음, 네트워크 요청 없음, 그리고 브라우저 속도에 거의 영향을 미치지 않습니다.",
+    "hero_cta_ios": "iPhone 및 iPad 다운로드",
+    "hero_cta_mac": "Mac 다운로드"
   },
   "ms": {
     "nav_features": "Ciri-ciri",
@@ -1196,7 +1232,9 @@ var T = {
     "fr7_t": "Menghentikan autoplay kejutan",
     "fr7_d": "Tab latar belakang yang tiba-tiba memutar akan disenyapkan seketika setelah mengeluarkan suara.",
     "fr8_t": "Pribadi dan ringan",
-    "fr8_d": "Tiada akaun, tiada pemantauan, tiada permintaan rangkaian, dan impak hampir sifar terhadap kelajuan melayar."
+    "fr8_d": "Tiada akaun, tiada pemantauan, tiada permintaan rangkaian, dan impak hampir sifar terhadap kelajuan melayar.",
+    "hero_cta_ios": "Muat turun untuk iPhone & iPad",
+    "hero_cta_mac": "Muat turun untuk Mac"
   },
   "nb": {
     "nav_features": "Funksjoner",
@@ -1259,7 +1297,9 @@ var T = {
     "fr7_t": "Stopp overraskende autoplay",
     "fr7_d": "Et bakgrunnsfanne som plutselig begynner å spille av blir demmet øyeblikkelig når det lager lyd.",
     "fr8_t": "Privat og lettvektig",
-    "fr8_d": "Ingen kontoer, ingen sporing, ingen nettverksforespørsler og nesten null påvirkning på nettleserhastighet."
+    "fr8_d": "Ingen kontoer, ingen sporing, ingen nettverksforespørsler og nesten null påvirkning på nettleserhastighet.",
+    "hero_cta_ios": "Last ned til iPhone og iPad",
+    "hero_cta_mac": "Last ned for Mac"
   },
   "nl": {
     "nav_features": "Functies",
@@ -1322,7 +1362,9 @@ var T = {
     "fr7_t": "Stop onverwachte autoplay <ph id=\"0\"/>",
     "fr7_d": "Een achtergrondtabblad dat plotseling begint af te spelen, wordt direct zodra er geluid wordt gemaakt, gedempt.",
     "fr8_t": "Privé en lichtgewicht",
-    "fr8_d": "Geen accounts, geen tracking, geen netwerkverzoeken en een bijna nul-impact op de browsingsnelheid."
+    "fr8_d": "Geen accounts, geen tracking, geen netwerkverzoeken en een bijna nul-impact op de browsingsnelheid.",
+    "hero_cta_ios": "Downloaden voor iPhone en iPad",
+    "hero_cta_mac": "Downloaden voor Mac"
   },
   "pl": {
     "nav_features": "Funkcje",
@@ -1385,7 +1427,9 @@ var T = {
     "fr7_t": "Zatrzymuje niespodziewane odtwarzanie automatyczne",
     "fr7_d": "Wstawa w tle, która nagle zaczyna odtwarzać, jest natychmiast cichnięta w momencie, gdy zaczyna się dźwięk.",
     "fr8_t": "Prywatne i lekkie",
-    "fr8_d": "Bez konta, bez śledzenia, bez zapytań sieciowych oraz z niemal zerowym wpływem na szybkość przeglądania."
+    "fr8_d": "Bez konta, bez śledzenia, bez zapytań sieciowych oraz z niemal zerowym wpływem na szybkość przeglądania.",
+    "hero_cta_ios": "Pobierz na iPhone'a i iPad",
+    "hero_cta_mac": "Pobierz na Mac"
   },
   "pt-BR": {
     "nav_features": "Recursos",
@@ -1448,7 +1492,9 @@ var T = {
     "fr7_t": "Evita a reprodução automática surpresa",
     "fr7_d": "Uma aba de fundo que começa a tocar de repente é silenciada no instante em que emite som.",
     "fr8_t": "Privado e leve",
-    "fr8_d": "Sem contas, sem rastreamento, sem requisições de rede e impacto quase nulo na velocidade de navegação."
+    "fr8_d": "Sem contas, sem rastreamento, sem requisições de rede e impacto quase nulo na velocidade de navegação.",
+    "hero_cta_ios": "Baixar para iPhone e iPad",
+    "hero_cta_mac": "Baixar para o Mac"
   },
   "pt_BR": {
     "nav_features": "Recursos",
@@ -1511,7 +1557,9 @@ var T = {
     "fr7_t": "Evita a reprodução automática surpresa",
     "fr7_d": "Uma aba de fundo que começa a tocar de repente é silenciada no instante em que emite som.",
     "fr8_t": "Privado e leve",
-    "fr8_d": "Sem contas, sem rastreamento, sem requisições de rede e impacto quase nulo na velocidade de navegação."
+    "fr8_d": "Sem contas, sem rastreamento, sem requisições de rede e impacto quase nulo na velocidade de navegação.",
+    "hero_cta_ios": "Baixar para iPhone e iPad",
+    "hero_cta_mac": "Baixar para o Mac"
   },
   "pt-PT": {
     "nav_features": "Recursos",
@@ -1574,7 +1622,9 @@ var T = {
     "fr7_t": "Impede a reprodução automática surpresa",
     "fr7_d": "Uma aba de fundo que começa a tocar de repente é silenciada no instante em que emite som.",
     "fr8_t": "Privado e leve",
-    "fr8_d": "Sem contas, sem rastreamento, sem requisições de rede e com impacto quase nulo na velocidade de navegação."
+    "fr8_d": "Sem contas, sem rastreamento, sem requisições de rede e com impacto quase nulo na velocidade de navegação.",
+    "hero_cta_ios": "Baixar para iPhone e iPad",
+    "hero_cta_mac": "Baixar para o Mac"
   },
   "pt_PT": {
     "nav_features": "Recursos",
@@ -1637,7 +1687,9 @@ var T = {
     "fr7_t": "Impede a reprodução automática surpresa",
     "fr7_d": "Uma aba de fundo que começa a tocar de repente é silenciada no instante em que emite som.",
     "fr8_t": "Privado e leve",
-    "fr8_d": "Sem contas, sem rastreamento, sem requisições de rede e com impacto quase nulo na velocidade de navegação."
+    "fr8_d": "Sem contas, sem rastreamento, sem requisições de rede e com impacto quase nulo na velocidade de navegação.",
+    "hero_cta_ios": "Baixar para iPhone e iPad",
+    "hero_cta_mac": "Baixar para o Mac"
   },
   "ro": {
     "nav_features": "Funcții",
@@ -1700,7 +1752,9 @@ var T = {
     "fr7_t": "Întrerupe redarea automată surpriză",
     "fr7_d": "Un tab în fundal care începe brusc să redare este mutat instantaneu la primul sunet.",
     "fr8_t": "Privat și ușor",
-    "fr8_d": "Fără conturi, fără urmărire, fără cereri de rețea și un impact aproape nul asupra vitezei navigării."
+    "fr8_d": "Fără conturi, fără urmărire, fără cereri de rețea și un impact aproape nul asupra vitezei navigării.",
+    "hero_cta_ios": "Descarcă pentru iPhone și iPad",
+    "hero_cta_mac": "Descarcă pentru Mac"
   },
   "ru": {
     "nav_features": "Функции",
@@ -1763,7 +1817,9 @@ var T = {
     "fr7_t": "Останавливает неожиданное автоматическое воспроизведение",
     "fr7_d": "Фоновая вкладка, которая внезапно начинает воспроизведение, автоматически переводится в режим без звука в момент появления звука.",
     "fr8_t": "Приватный и легкий",
-    "fr8_d": "Никаких аккаунтов, никакого отслеживания, никаких сетевых запросов и почти нулевое влияние на скорость просмотра."
+    "fr8_d": "Никаких аккаунтов, никакого отслеживания, никаких сетевых запросов и почти нулевое влияние на скорость просмотра.",
+    "hero_cta_ios": "Скачать для iPhone и iPad",
+    "hero_cta_mac": "Скачать для Mac"
   },
   "sk": {
     "nav_features": "Funkcie",
@@ -1826,7 +1882,9 @@ var T = {
     "fr7_t": "Zastaví neočakávané autoplay",
     "fr7_d": "Podkladový záložka, ktorá náhle začne prehrať, je okamžite utišená v momente, keď začne vydávať zvuk.",
     "fr8_t": "Súkromné a ľahké",
-    "fr8_d": "Žiadne účty, žiadne sledovanie, žiadne sieťové požiadavky a takmer nulový vplyv na rýchlosť prehliadania."
+    "fr8_d": "Žiadne účty, žiadne sledovanie, žiadne sieťové požiadavky a takmer nulový vplyv na rýchlosť prehliadania.",
+    "hero_cta_ios": "Stiahnuť pre iPhone a iPad",
+    "hero_cta_mac": "Stiahnuť pre Mac"
   },
   "sv": {
     "nav_features": "Funktioner",
@@ -1889,7 +1947,9 @@ var T = {
     "fr7_t": "Stoppa överraskande autoplay",
     "fr7_d": "En bakgrundsflik som plötsligt börjar spela in är dämpad i det ögonblick den gör ljud.",
     "fr8_t": "Privat och lättviktig",
-    "fr8_d": "Inga konton, ingen spårning, inga nätverksförfråningar och nästan noll påverkan på surfhastigheten."
+    "fr8_d": "Inga konton, ingen spårning, inga nätverksförfråningar och nästan noll påverkan på surfhastigheten.",
+    "hero_cta_ios": "Ladda ner för iPhone & iPad",
+    "hero_cta_mac": "Ladda ner för Mac"
   },
   "th": {
     "nav_features": "คุณสมบัติ",
@@ -1952,7 +2012,9 @@ var T = {
     "fr7_t": "หยุดการเปิดอัตโนมัติแบบไม่คาดคิด",
     "fr7_d": "แท็บพื้นหลังที่เริ่มเล่นทันทีจะถูกปิดเสียงทันทีที่เริ่มส่งเสียง",
     "fr8_t": "เป็นส่วนตัวและเบาสบาย",
-    "fr8_d": "ไม่มีบัญชี ไม่ต้องติดตาม ไม่ต้องร้องขอข้อมูลจากเครือข่าย และแทบไม่กระทบความเร็วในการท่องเว็บเลย"
+    "fr8_d": "ไม่มีบัญชี ไม่ต้องติดตาม ไม่ต้องร้องขอข้อมูลจากเครือข่าย และแทบไม่กระทบความเร็วในการท่องเว็บเลย",
+    "hero_cta_ios": "ดาวน์โหลดสำหรับ iPhone และ iPad",
+    "hero_cta_mac": "ดาวน์โหลดสำหรับแมค"
   },
   "tr": {
     "nav_features": "Özellikler",
@@ -2015,7 +2077,9 @@ var T = {
     "fr7_t": "Sürpriz otomatik oynatmayı durdurur",
     "fr7_d": "Sesi aniden başlamaya başladığı anda, aniden sesli hale gelen arka plan sekmeleri otomatik olarak susturulur.",
     "fr8_t": "Özel ve hafif",
-    "fr8_d": "Hesap yok, takip yok, ağ isteği yok ve tarayma hızına neredeyse sıfır etkisi var."
+    "fr8_d": "Hesap yok, takip yok, ağ isteği yok ve tarayma hızına neredeyse sıfır etkisi var.",
+    "hero_cta_ios": "iPhone ve iPad için İndir",
+    "hero_cta_mac": "Mac için İndir"
   },
   "uk": {
     "nav_features": "Функції",
@@ -2078,7 +2142,9 @@ var T = {
     "fr7_t": "Припиняє несподіване автоматичне відтворення",
     "fr7_d": "Фонова вкладка, яка раптово починає відтворюватися, миттєво вимикає звук у момент, коли він починає звучати.",
     "fr8_t": "Приватний та легковисновний",
-    "fr8_d": "Ні рахунків, ні відстеження, ні запитів до мережі, і майже нульовий вплив на швидкість перегляду."
+    "fr8_d": "Ні рахунків, ні відстеження, ні запитів до мережі, і майже нульовий вплив на швидкість перегляду.",
+    "hero_cta_ios": "Завантажити для iPhone та iPad",
+    "hero_cta_mac": "Завантажити для Mac"
   },
   "vi": {
     "nav_features": "Tính năng",
@@ -2141,7 +2207,9 @@ var T = {
     "fr7_t": "Ngăn chặn phát tự động bất ngờ",
     "fr7_d": "Một tab nền bắt đầu phát nhạc sẽ bị tắt âm ngay lập tức khi có âm thanh phát ra.",
     "fr8_t": "Ri tư và nhẹ",
-    "fr8_d": "Không cần tài khoản, không theo dõi, không yêu cầu kết nối mạng, và gần như không ảnh hưởng đến tốc độ duyệt web."
+    "fr8_d": "Không cần tài khoản, không theo dõi, không yêu cầu kết nối mạng, và gần như không ảnh hưởng đến tốc độ duyệt web.",
+    "hero_cta_ios": "Tải xuống cho iPhone và iPad",
+    "hero_cta_mac": "Tải xuống cho Mac"
   },
   "zh-Hans": {
     "nav_features": "功能",
@@ -2204,7 +2272,9 @@ var T = {
     "fr7_t": "阻止意外自动播放",
     "fr7_d": "当后台标签页突然开始播放时，一旦发出声音就会立即静音。",
     "fr8_t": "私密且轻量级",
-    "fr8_d": "无需账号、无需追踪、无需网络请求，且对浏览速度几乎零影响。"
+    "fr8_d": "无需账号、无需追踪、无需网络请求，且对浏览速度几乎零影响。",
+    "hero_cta_ios": "iPhone 和 iPad 下载",
+    "hero_cta_mac": "Mac 下载"
   },
   "zh_CN": {
     "nav_features": "功能",
@@ -2267,7 +2337,9 @@ var T = {
     "fr7_t": "阻止意外自动播放",
     "fr7_d": "当后台标签页突然开始播放时，一旦发出声音就会立即静音。",
     "fr8_t": "私密且轻量级",
-    "fr8_d": "无需账号、无需追踪、无需网络请求，且对浏览速度几乎零影响。"
+    "fr8_d": "无需账号、无需追踪、无需网络请求，且对浏览速度几乎零影响。",
+    "hero_cta_ios": "iPhone 和 iPad 下载",
+    "hero_cta_mac": "Mac 下载"
   },
   "zh-Hant": {
     "nav_features": "功能",
@@ -2330,7 +2402,9 @@ var T = {
     "fr7_t": "阻止意外自動播放",
     "fr7_d": "突然開始播放的背景分頁在發出聲音時會立即靜音。",
     "fr8_t": "私密且輕量級",
-    "fr8_d": "無需帳號、無需追蹤、無需網路請求，且對瀏覽速度影響極小。"
+    "fr8_d": "無需帳號、無需追蹤、無需網路請求，且對瀏覽速度影響極小。",
+    "hero_cta_ios": "iPhone 與 iPad 下載",
+    "hero_cta_mac": "下載至 Mac"
   },
   "zh_TW": {
     "nav_features": "功能",
@@ -2393,6 +2467,8 @@ var T = {
     "fr7_t": "阻止意外自動播放",
     "fr7_d": "突然開始播放的背景分頁在發出聲音時會立即靜音。",
     "fr8_t": "私密且輕量級",
-    "fr8_d": "無需帳號、無需追蹤、無需網路請求，且對瀏覽速度影響極小。"
+    "fr8_d": "無需帳號、無需追蹤、無需網路請求，且對瀏覽速度影響極小。",
+    "hero_cta_ios": "iPhone 與 iPad 下載",
+    "hero_cta_mac": "下載至 Mac"
   }
 };

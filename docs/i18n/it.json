@@ -59,5 +59,7 @@
   "fr7_t": "Blocca la riproduzione automatica a sorpresa",
   "fr7_d": "Una scheda di sfondo che inizia improvvisamente a riprodurre viene silenziata non appena produce suoni.",
   "fr8_t": "Privato e leggero",
-  "fr8_d": "Nessun account, nessun tracciamento, nessuna richiesta di rete e un impatto quasi nullo sulla velocità di navigazione."
+  "fr8_d": "Nessun account, nessun tracciamento, nessuna richiesta di rete e un impatto quasi nullo sulla velocità di navigazione.",
+  "hero_cta_ios": "Scarica per iPhone e iPad",
+  "hero_cta_mac": "Scarica per Mac"
 }

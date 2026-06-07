@@ -15,7 +15,8 @@
 </p>
 
 <p>
-  <a href="https://apps.apple.com/app/id6761746627"><img src="https://img.shields.io/badge/%E2%AC%87%20Download%20on%20the%20App%20Store-0D96F6?style=for-the-badge&logoColor=white" alt="Download on the App Store" height="44"></a>
+  <a href="https://apps.apple.com/app/id6761746627"><img src="https://img.shields.io/badge/%E2%AC%87%20iPhone%20%26%20iPad-0D96F6?style=for-the-badge&logo=app-store&logoColor=white" alt="Download for iPhone and iPad" height="44"></a>
+  <a href="https://apps.apple.com/app/id6761746627"><img src="https://img.shields.io/badge/%E2%AC%87%20Mac-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Mac" height="44"></a>
 </p>
 
 <p>

@@ -59,5 +59,7 @@
   "fr7_t": "Detiene la reproducción automática sorpresa",
   "fr7_d": "Una pestaña de fondo que comienza a reproducirse de repente se silencia en el instante en que emite sonido.",
   "fr8_t": "Privado y ligero",
-  "fr8_d": "Sin cuentas, sin seguimiento, sin solicitudes de red y un impacto casi nulo en la velocidad de navegación."
+  "fr8_d": "Sin cuentas, sin seguimiento, sin solicitudes de red y un impacto casi nulo en la velocidad de navegación.",
+  "hero_cta_ios": "Descargar para iPhone y iPad",
+  "hero_cta_mac": "Descargar para Mac"
 }

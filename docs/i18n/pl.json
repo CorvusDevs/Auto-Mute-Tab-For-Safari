@@ -59,5 +59,7 @@
   "fr7_t": "Zatrzymuje niespodziewane odtwarzanie automatyczne",
   "fr7_d": "Wstawa w tle, która nagle zaczyna odtwarzać, jest natychmiast cichnięta w momencie, gdy zaczyna się dźwięk.",
   "fr8_t": "Prywatne i lekkie",
-  "fr8_d": "Bez konta, bez śledzenia, bez zapytań sieciowych oraz z niemal zerowym wpływem na szybkość przeglądania."
+  "fr8_d": "Bez konta, bez śledzenia, bez zapytań sieciowych oraz z niemal zerowym wpływem na szybkość przeglądania.",
+  "hero_cta_ios": "Pobierz na iPhone'a i iPad",
+  "hero_cta_mac": "Pobierz na Mac"
 }

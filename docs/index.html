@@ -209,6 +209,9 @@
         }
         .hero-cta:hover { filter: brightness(1.15); transform: translateY(-1px); box-shadow: 0 8px 32px rgba(255,59,48,0.3); }
         .hero-cta svg { width: 20px; height: 20px; }
+        .hero-cta-group { display: inline-flex; gap: 14px; flex-wrap: wrap; align-items: center; justify-content: center; }
+        .hero-cta-alt { background: rgba(255,59,48,0.10); color: var(--accent); border: 1.5px solid var(--accent); }
+        .hero-cta-alt:hover { filter: none; background: rgba(255,59,48,0.18); transform: translateY(-1px); box-shadow: 0 8px 32px rgba(255,59,48,0.22); }
         .hero-req { display: block; margin-top: 14px; font-size: 14px; color: var(--text-secondary); }
 
         /* GRADIENT TEXT utility */
@@ -551,11 +554,16 @@
         <img src="icon.png" alt="Auto Mute Tab" class="hero-icon">
         <h1 data-i18n-html="hero_title">Auto Mute Tab<br>for Safari</h1>
         <p class="subtitle" data-i18n="hero_sub">Automatically mutes every background tab so only the one you're focused on plays audio. No more competing sounds from forgotten tabs.</p>
-        <a href="https://apps.apple.com/app/id6761746627" class="hero-cta" id="storeBtn">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
-            <span data-i18n="hero_cta">Download on the App Store</span>
-        </a>
-        <span class="hero-req" data-i18n="hero_req">For iPhone, iPad, and Mac</span>
+        <div class="hero-cta-group">
+            <a href="https://apps.apple.com/app/id6761746627" class="hero-cta" id="storeBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                <span data-i18n="hero_cta_ios">Download for iPhone &amp; iPad</span>
+            </a>
+            <a href="https://apps.apple.com/app/id6761746627" class="hero-cta hero-cta-alt" id="storeBtnMac">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+                <span data-i18n="hero_cta_mac">Download for Mac</span>
+            </a>
+        </div>
     </section>
 
     <section class="features" id="features">

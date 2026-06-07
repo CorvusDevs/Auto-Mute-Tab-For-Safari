@@ -4,7 +4,10 @@
   <p><strong>Automatically mute background tabs, only the focused tab plays audio</strong></p>
   <p>
     <a href="https://apps.apple.com/app/id6761746627">
-      <img src="https://img.shields.io/badge/Download_on_the-App_Store-0D96F6?style=for-the-badge&logo=app-store&logoColor=white" alt="Download on the App Store">
+      <img src="https://img.shields.io/badge/Download_for-iPhone_%26_iPad-0D96F6?style=for-the-badge&logo=app-store&logoColor=white" alt="Download for iPhone and iPad">
+    </a>
+    <a href="https://apps.apple.com/app/id6761746627">
+      <img src="https://img.shields.io/badge/Download_for-Mac-000000?style=for-the-badge&logo=apple&logoColor=white" alt="Download for Mac">
     </a>
   </p>
   <p>

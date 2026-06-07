@@ -59,5 +59,7 @@
   "fr7_t": "Zastaví neočakávané autoplay",
   "fr7_d": "Podkladový záložka, ktorá náhle začne prehrať, je okamžite utišená v momente, keď začne vydávať zvuk.",
   "fr8_t": "Súkromné a ľahké",
-  "fr8_d": "Žiadne účty, žiadne sledovanie, žiadne sieťové požiadavky a takmer nulový vplyv na rýchlosť prehliadania."
+  "fr8_d": "Žiadne účty, žiadne sledovanie, žiadne sieťové požiadavky a takmer nulový vplyv na rýchlosť prehliadania.",
+  "hero_cta_ios": "Stiahnuť pre iPhone a iPad",
+  "hero_cta_mac": "Stiahnuť pre Mac"
 }

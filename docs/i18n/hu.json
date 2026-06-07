@@ -59,5 +59,7 @@
   "fr7_t": "Megaköti a meglepetés automatikus lejátszást",
   "fr7_d": "A háttérben lévő fülke hirtelen elindulása esetén azonnal némítva van, amint hangot ad.",
   "fr8_t": "Privát és könnyű",
-  "fr8_d": "Fiókok nélkül, nyomon követés nélkül, hálózati kérések nélkül, és a böngészési sebességre szinte nulla hatással."
+  "fr8_d": "Fiókok nélkül, nyomon követés nélkül, hálózati kérések nélkül, és a böngészési sebességre szinte nulla hatással.",
+  "hero_cta_ios": "iPhone és iPad letöltése",
+  "hero_cta_mac": "Macra letöltése"
 }

@@ -27,6 +27,14 @@
     "text": "For iPhone, iPad, and Mac",
     "context": "description"
   },
+  "hero_cta_ios": {
+    "text": "Download for iPhone & iPad",
+    "context": "label"
+  },
+  "hero_cta_mac": {
+    "text": "Download for Mac",
+    "context": "label"
+  },
   "sec_features": {
     "text": "Features",
     "context": "label"

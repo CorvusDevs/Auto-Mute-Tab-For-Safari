@@ -59,5 +59,7 @@
   "fr7_t": "Estää yllättävän automaattisen toiston",
   "fr7_d": "Taustavälilehti, joka alkaa äkillisesti soimaan, hiljennetaan heti, kun se tuottaa ääntä.",
   "fr8_t": "Yksityinen ja kevyt",
-  "fr8_d": "Tilaa ei tarvita, seuranta on poissa, verkkoyhteyksiä ei tehdä ja selaimen nopeus ei hidastu lähes ollenkaan."
+  "fr8_d": "Tilaa ei tarvita, seuranta on poissa, verkkoyhteyksiä ei tehdä ja selaimen nopeus ei hidastu lähes ollenkaan.",
+  "hero_cta_ios": "Lataa iPhone & iPadille",
+  "hero_cta_mac": "Lataa Macille"
 }

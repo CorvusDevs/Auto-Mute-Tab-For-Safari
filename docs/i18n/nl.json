@@ -59,5 +59,7 @@
   "fr7_t": "Stop onverwachte autoplay <ph id=\"0\"/>",
   "fr7_d": "Een achtergrondtabblad dat plotseling begint af te spelen, wordt direct zodra er geluid wordt gemaakt, gedempt.",
   "fr8_t": "Privé en lichtgewicht",
-  "fr8_d": "Geen accounts, geen tracking, geen netwerkverzoeken en een bijna nul-impact op de browsingsnelheid."
+  "fr8_d": "Geen accounts, geen tracking, geen netwerkverzoeken en een bijna nul-impact op de browsingsnelheid.",
+  "hero_cta_ios": "Downloaden voor iPhone en iPad",
+  "hero_cta_mac": "Downloaden voor Mac"
 }

@@ -59,5 +59,7 @@
   "fr7_t": "Zastavuje překvapivé automatické přehrávání",
   "fr7_d": "Kontejner pro pozadí, který náhle začne přehrávat, je okamžitě ztišen, jakmile vydá zvuk.",
   "fr8_t": "Soukromé a lehké",
-  "fr8_d": "Žádné účty, žádné sledování, žádné síťové požadavky a téměř nulový dopad na rychlost prohlížení."
+  "fr8_d": "Žádné účty, žádné sledování, žádné síťové požadavky a téměř nulový dopad na rychlost prohlížení.",
+  "hero_cta_ios": "Stáhnout pro iPhone a iPad",
+  "hero_cta_mac": "Stáhnout pro Mac"
 }
